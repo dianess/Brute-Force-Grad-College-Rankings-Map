@@ -153,16 +153,15 @@ var icons = {
   })
 };
 
-// Perform an API call to the Citi Bike Station Information endpoint
-d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_information.json", function(infoRes) {
+// Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
+d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeData) {
+    // Put data into a variable
+    var collegeInfo = collegeData.features;
+    console.log(collegeInfo);
+    // var stationStatus = statusRes.data.stations;
+    // var stationInfo = infoRes.data.stations;
 
-  // When the first API call is complete, perform another call to the Citi Bike Station Status endpoint
-  d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_status.json", function(statusRes) {
-    var updatedAt = infoRes.last_updated;
-    var stationStatus = statusRes.data.stations;
-    var stationInfo = infoRes.data.stations;
-
-    // Create an object to keep of the number of markers in each layer
+    // Create an object to keep track of the number of markers in each layer
     var stationCount = {
       MBA_Business: 0,
       Law: 0,
@@ -181,11 +180,23 @@ d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_information.json", functio
     // Initialize a stationStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
     var stationStatusCode;
 
-    // Loop through the stations (they're the same size and have partially matching data)
-    for (var i = 0; i < stationInfo.length; i++) {
+    // Loop through the colleges
+    for (var i = 0; i < collegeInfo.length; i++) {
+
+      var college = collegeInfo[i].properties;
+      console.log(college);
+      var collegeName = college.INSTNM;
+      console.log(collegeName);
+      var collegeLat = college.LAT;
+      var collegeLon = college.LON;
+      console.log(collegeLat, collegeLon);
+      var collegeStreet = college.STREET;
+      var collegeCityState = college.NMCBSA;
+      var collegeZip = college.ZIP;
+      console.log(collegeStreet, collegeCityState, collegeZip);
 
       // Create a new station object with properties of both station objects
-      var station = Object.assign({}, stationInfo[i], stationStatus[i]);
+      var college = Object.assign({}, collegeInfo[i]); //, stationStatus[i]);
       // If a station is listed but not installed, it's coming soon
       if (!station.is_installed) {
         stationStatusCode = "MBA Business";
@@ -238,21 +249,20 @@ d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_information.json", functio
       // Update the station count
       stationCount[stationStatusCode]++;
       // Create a new marker with the appropriate icon and coordinates
-      var newMarker = L.marker([station.lat, station.lon], {
+      var newMarker = L.marker([college.lat, station.lon], {
         icon: icons[stationStatusCode]
-      });
+      });  // ends newMarker
 
       // Add the new marker to the appropriate layer
       newMarker.addTo(layers[stationStatusCode]);
 
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
       newMarker.bindPopup(station.name + "<br> Capacity: " + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
-    }
+    }  // ends for loop
 
     // Call the updateLegend function, which will... update the legend!
     updateLegend(updatedAt, stationCount);
-  });
-});
+  });  // ends d3.json
 
 // Update the legend's innerHTML with the last updated time and station count
 function updateLegend(time, stationCount) {
