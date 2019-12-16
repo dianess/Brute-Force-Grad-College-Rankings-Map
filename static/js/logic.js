@@ -92,65 +92,71 @@ var icons = {
     shape: "circle"
   }),
   Medicine: L.ExtraMarkers.icon({
-    icon: "ion-minus-circled",
+    icon: "ion-medkit",   // medkit
     iconColor: "white",
     markerColor: "blue-dark",
     shape: "penta"
   }),
   Engineering: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-calculator",  // calculator
     iconColor: "white",
-    markerColor: "orange",
+    markerColor: "brown",
     shape: "circle"
   }),
   Nursing: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-pulse",  // pulse
     iconColor: "white",
     markerColor: "green",
     shape: "circle"
   }),
   Education: L.ExtraMarkers.icon({
-    icon: "ion-settings",
+    icon: "ion-paper",   // paper
     iconColor: "white",
     markerColor: "yellow",
     shape: "star"
   }),
   Fine_Arts: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-photos",  // check how to use "md-photos"
     iconColor: "white",
     markerColor: "red",
     shape: "circle"
   }),
   Health: L.ExtraMarkers.icon({
-    icon: "ion-minus-circled",
+    icon: "ion-nutrition",   // nutrition (carrot)
     iconColor: "white",
     markerColor: "blue-dark",
     shape: "penta"
   }),
   Library_Information_Studies: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-information-circle",   // information symbol
     iconColor: "white",
     markerColor: "orange",
     shape: "circle"
   }),
   Public_Affairs: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-megaphone",    // megaphone
     iconColor: "white",
     markerColor: "green",
     shape: "circle"
   }),
   Science: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-flask",  // flask
     iconColor: "white",
-    markerColor: "orange",
+    markerColor: "green",
     shape: "circle"
   }),
   Social_Sciences_Humanities: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-people",  // people
     iconColor: "white",
     markerColor: "green",
     shape: "circle"
   })
+  // All: L.ExtraMarkers.icon({
+  //   icon: "ion-school",  // school (grad cap)
+  //   iconColor: "white",
+  //   markerColor: "green",
+  //   shape: "circle"
+  // })
 };
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
@@ -195,61 +201,61 @@ d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeDat
       var collegeZip = college.ZIP;
       console.log(collegeStreet, collegeCityState, collegeZip);
 
-      // Create a new station object with properties of both station objects
-      var college = Object.assign({}, collegeInfo[i]); //, stationStatus[i]);
-      // If a station is listed but not installed, it's coming soon
-      if (!station.is_installed) {
-        stationStatusCode = "MBA Business";
-      }
-      // If a station has no bikes available, it's empty
-      else if (!station.num_bikes_available) {
-        stationStatusCode = "Law";
-      }
-      // If a station is installed but isn't renting, it's out of order
-      else if (station.is_installed && !station.is_renting) {
-        stationStatusCode = "Medicine";
-      }
-      // If a station has less than 5 bikes, it's status is low
-      else if (station.num_bikes_available < 5) {
-        stationStatusCode = "Engineering";
-      }
-      // Otherwise the station is normal
-      else if (!station.num_bikes_available) {
-        stationStatusCode = "Nursing";
-      }  
-      // If a station has no bikes available, it's empty
-      else if (!station.num_bikes_available) {
-        stationStatusCode = "Education";
-      }
-      // If a station is installed but isn't renting, it's out of order
-      else if (station.is_installed && !station.is_renting) {
-        stationStatusCode = "Fine Arts";
-      }
-      // If a station has less than 5 bikes, it's status is low
-      else if (station.num_bikes_available < 5) {
-        stationStatusCode = "Health";
-      }
-      // Otherwise the station is normal
-      else if (station.num_bikes_available < 5) {
-        stationStatusCode = "Library and Information Studies";  
-      }
-      // Otherwise the station is normal
-      else if (station.num_bikes_available < 5) {
-        stationStatusCode = "Public Affairs";  
-      }
-      // Otherwise the station is normal
-      else if (station.num_bikes_available < 5) {
-        stationStatusCode = "Science";  
-      }
-      // Otherwise the station is normal
-      else {
-        stationStatusCode = "Social Sciences and Humanities";  
-      }
+      // // Create a new station object with properties of both station objects
+      // var college = Object.assign({}, collegeInfo[i]); //, stationStatus[i]);
+      // // If a station is listed but not installed, it's coming soon
+      // if (!station.is_installed) {
+      //   stationStatusCode = "MBA Business";
+      // }
+      // // If a station has no bikes available, it's empty
+      // else if (!station.num_bikes_available) {
+      //   stationStatusCode = "Law";
+      // }
+      // // If a station is installed but isn't renting, it's out of order
+      // else if (station.is_installed && !station.is_renting) {
+      //   stationStatusCode = "Medicine";
+      // }
+      // // If a station has less than 5 bikes, it's status is low
+      // else if (station.num_bikes_available < 5) {
+      //   stationStatusCode = "Engineering";
+      // }
+      // // Otherwise the station is normal
+      // else if (!station.num_bikes_available) {
+      //   stationStatusCode = "Nursing";
+      // }  
+      // // If a station has no bikes available, it's empty
+      // else if (!station.num_bikes_available) {
+      //   stationStatusCode = "Education";
+      // }
+      // // If a station is installed but isn't renting, it's out of order
+      // else if (station.is_installed && !station.is_renting) {
+      //   stationStatusCode = "Fine Arts";
+      // }
+      // // If a station has less than 5 bikes, it's status is low
+      // else if (station.num_bikes_available < 5) {
+      //   stationStatusCode = "Health";
+      // }
+      // // Otherwise the station is normal
+      // else if (station.num_bikes_available < 5) {
+      //   stationStatusCode = "Library and Information Studies";  
+      // }
+      // // Otherwise the station is normal
+      // else if (station.num_bikes_available < 5) {
+      //   stationStatusCode = "Public Affairs";  
+      // }
+      // // Otherwise the station is normal
+      // else if (station.num_bikes_available < 5) {
+      //   stationStatusCode = "Science";  
+      // }
+      // // Otherwise the station is normal
+      // else {
+      //   stationStatusCode = "Social Sciences and Humanities";  
+      // }
 
       // Update the station count
       stationCount[stationStatusCode]++;
       // Create a new marker with the appropriate icon and coordinates
-      var newMarker = L.marker([college.lat, station.lon], {
+      var newMarker = L.marker([collegeLat, collegeLon], {
         icon: icons[stationStatusCode]
       });  // ends newMarker
 
