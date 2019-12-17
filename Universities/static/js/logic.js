@@ -160,12 +160,12 @@ var icons = {
 };
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
-d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeData) {
+d3.json("data/Universities.geojson", function(collegeData) {
     // Put data into a variable
-    collegeFeatures(collegeData.features);
+    //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
-    console.log(collegeInfo);
-    
+    // console.log(collegeInfo);
+    // var markers = L.markerClusterGroup(); // error L.markerClusterGroup not a function
 
     // ? Create an object to keep track of the number of markers in each layer
     var gradSchoolCount = {
@@ -189,16 +189,33 @@ d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeDat
       var college = collegeInfo[i].properties;
       //console.log(college);
       var collegeName = college.INSTNM;
-      console.log(collegeName);
-      var collegeLat = college.LAT;
-      var collegeLon = college.LON;
-      //console.log(collegeLat, collegeLon);
+      // console.log(collegeName);
+      var collegeLat = parseFloat(college.Y);
+      var collegeLon = parseFloat(college.X);
+      // console.log(collegeLat, collegeLon);
       var collegeStreet = college.STREET;
       var collegeCityState = college.NMCBSA;
       var collegeZip = college.ZIP;
       //console.log(collegeStreet, collegeCityState, collegeZip);
       var totalNumberColleges = collegeInfo.length
       //console.log(totalNumberColleges);   // = 7521
+
+      // Set the data location property to a variable
+      var location = collegeCityState;   // Given how we use this below, might want to us CollegeLat, CollegeLon
+      // console.log(location);
+
+      // Check for location property
+      if (location) {
+
+        // Add a new marker to the cluster group and bind a pop-up
+        // markers.addLayer(L.marker([collegeLat, collegeLon])    // ** have to fix L.markerClusterGroup first
+        //   .bindPopup(collegeName)); // + "<hr>" + GradProgram + "<p>Ranked: " + degreeRank + "</p>"));
+      }  // ends if (location)
+
+    //}  // ends for-loop
+
+    // Add our marker cluster layer to the map
+    // myMap.addLayer(markers);  // ** have to fix "markers first"
 
       function collegeFeatures(collegeInfo) {
 
@@ -246,10 +263,10 @@ d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeDat
 // function updateLegend(time, stationCount) {
 //   document.querySelector(".legend").innerHTML = [
 //     "<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
-//     "<p class='out-of-order'>Out of Order Stations: " + stationCount.OUT_OF_ORDER + "</p>",
-//     "<p class='coming-soon'>Stations Coming Soon: " + stationCount.COMING_SOON + "</p>",
-//     "<p class='empty'>Empty Stations: " + stationCount.EMPTY + "</p>",
-//     "<p class='low'>Low Stations: " + stationCount.LOW + "</p>",
-//     "<p class='healthy'>Healthy Stations: " + stationCount.NORMAL + "</p>"
+//    "<p class='business'>MBA Business: " + stationCount.OUT_OF_ORDER + "</p>",
+//     "<p class='law'>Law: " + stationCount.COMING_SOON + "</p>",
+//     "<p class='medicine'>Medicine: " + stationCount.EMPTY + "</p>",
+//     "<p class='engineering'>Engineering: " + stationCount.LOW + "</p>",
+//     "<p class='nursing'>Nursing: " + stationCount.NORMAL + "</p>"
 //   ].join("");
 // }

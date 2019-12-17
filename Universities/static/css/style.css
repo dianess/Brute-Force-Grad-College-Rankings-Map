@@ -18,22 +18,22 @@ body,
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.legend .low {
+.legend .business {
   color: #ec8a2e;
 }
 
-.legend .empty {
+.legend .law {
   color: #a0353a;
 }
 
-.legend .coming-soon {
+.legend .medicine {
   color: #f4ba48;
 }
 
-.legend .healthy {
+.legend .engineering {
   color: #1b904f;
 }
 
-.legend .out-of-order {
+.legend .nursing {
   color: #007dff;
 }

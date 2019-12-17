@@ -51,7 +51,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
       // console.log(degreeRank);
 
     // Set the data location property to a variable
-    var location = collegeCityState;
+    var location = collegeCityState;   // Given how we use this below, might want to us CollegeLat, CollegeLon
     // console.log(location);
 
     // Check for location property
