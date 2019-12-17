@@ -24,12 +24,10 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 // // Grab the data with d3
 // d3.json(url, function(response) {
 
-console.log("working to here");
-
  // Read geoJSON
  d3.json("data/test_data.geojson", function(collegeData) {  
   var collegeInfo = collegeData.features;
-  console.log(collegeInfo);
+  // console.log(collegeInfo);
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();
 
@@ -37,27 +35,31 @@ console.log("working to here");
   for (var i = 0; i < collegeInfo.length; i++) {
     var college = collegeInfo[i].properties;
     var collegeName = college.INSTNM;
-      console.log(collegeName);
+      // console.log(collegeName);
       var collegeLat = parseFloat(college.Y);
       var collegeLon = parseFloat(college.X);
-      console.log(collegeLat, collegeLon);
+      // console.log(collegeLat, collegeLon);
       var collegeStreet = college.STREET;
       var collegeCityState = college.NMCBSA;
       var collegeZip = college.ZIP;
       //console.log(collegeStreet, collegeCityState, collegeZip);
-      var totalNumberColleges = collegeInfo.length
-      console.log(totalNumberColleges);
+      var totalNumberColleges = collegeInfo.length;
+      // console.log(totalNumberColleges);
+      var GradProgram = college.Degree;
+      // console.log(GradProgram);
+      var degreeRank = parseFloat(college.Rank);
+      // console.log(degreeRank);
 
     // Set the data location property to a variable
     var location = collegeCityState;
-    console.log(location);
+    // console.log(location);
 
     // Check for location property
     if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([collegeLat, collegeLon])
-        .bindPopup(collegeName));
+        .bindPopup(collegeName + "<hr>" + GradProgram + "<p>Ranked: " + degreeRank + "</p>"));
     }  // ends if (location)
 
   }  // ends for-loop

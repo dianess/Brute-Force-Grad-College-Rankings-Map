@@ -32,7 +32,7 @@
     "SLDL":9094,
     "SLDU":9011,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":1
     }
   },
@@ -67,7 +67,7 @@
     "SLDL":6024,
     "SLDU":6013,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":2
     }
   },
@@ -102,7 +102,7 @@
     "SLDL":25142,
     "SLDU":25026,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":3
     }
   },
@@ -137,7 +137,7 @@
     "SLDL":17025,
     "SLDU":17013,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":4
     }
   },
@@ -172,7 +172,7 @@
     "SLDL":36069,
     "SLDU":36030,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":5
     }
   },
@@ -207,7 +207,7 @@
     "SLDL":36066,
     "SLDU":36027,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":6
     }
   },
@@ -242,7 +242,7 @@
     "SLDL":42188,
     "SLDU":42008,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":7
     }
   },
@@ -277,7 +277,7 @@
     "SLDL":51057,
     "SLDU":51025,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":8
     }
   },
@@ -312,7 +312,7 @@
     "SLDL":26053,
     "SLDU":26018,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":9
     }
   },
@@ -347,7 +347,7 @@
     "SLDL":37030,
     "SLDU":37022,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":10
     }
   },
@@ -382,7 +382,7 @@
     "SLDL":17018,
     "SLDU":17009,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":10
     }
   },
@@ -417,7 +417,7 @@
     "SLDL":6015,
     "SLDU":6009,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":10
     }
   },
@@ -452,7 +452,7 @@
     "SLDL":36125,
     "SLDU":36058,
     "SURVYEAR":2016,
-    "Grad Program":"Law",
+    "Degree":"Law",
     "Rank":13
     }
   },
@@ -487,7 +487,7 @@
     "SLDL":42188,
     "SLDU":42008,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":1
     }
   },
@@ -522,7 +522,7 @@
     "SLDL":6024,
     "SLDU":6013,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":2
     }
   },
@@ -557,7 +557,7 @@
     "SLDL":25142,
     "SLDU":25026,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":3
     }
   },
@@ -592,7 +592,7 @@
     "SLDL":25191,
     "SLDU":25027,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":3
     }
   },
@@ -627,7 +627,7 @@
     "SLDL":17025,
     "SLDU":17013,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":3
     }
   },
@@ -662,7 +662,7 @@
     "SLDL":36069,
     "SLDU":36030,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":6
     }
   },
@@ -697,7 +697,7 @@
     "SLDL":17018,
     "SLDU":17009,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":6
     }
   },
@@ -732,7 +732,7 @@
     "SLDL":6015,
     "SLDU":6009,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":6
     }
   },
@@ -767,7 +767,7 @@
     "SLDL":9094,
     "SLDU":9011,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":9
     }
   },
@@ -802,7 +802,7 @@
     "SLDL":37030,
     "SLDU":37022,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":10
     }
   },
@@ -837,7 +837,7 @@
     "SLDL":26053,
     "SLDU":26018,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":10
     }
   },
@@ -872,7 +872,7 @@
     "SLDL":33412,
     "SLDU":33005,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":12
     }
   },
@@ -907,7 +907,7 @@
     "SLDL":36066,
     "SLDU":36027,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":12
     }
   },
@@ -942,7 +942,7 @@
     "SLDL":51057,
     "SLDU":51025,
     "SURVYEAR":2016,
-    "Grad Program":"Business",
+    "Degree":"Business",
     "Rank":12
     }
   },
@@ -977,7 +977,7 @@
     "SLDL":25191,
     "SLDU":25027,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":1
     }
   },
@@ -1012,7 +1012,7 @@
     "SLDL":6024,
     "SLDU":6013,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":2
     }
   },
@@ -1047,7 +1047,7 @@
     "SLDL":6015,
     "SLDU":6009,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":3
     }
   },
@@ -1082,7 +1082,7 @@
     "SLDL":42023,
     "SLDU":42043,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":4
     }
   },
@@ -1117,7 +1117,7 @@
     "SLDL":6041,
     "SLDU":6025,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":5
     }
   },
@@ -1152,7 +1152,7 @@
     "SLDL":26053,
     "SLDU":26018,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":5
     }
   },
@@ -1187,7 +1187,7 @@
     "SLDL":13056,
     "SLDU":13039,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":7
     }
   },
@@ -1222,7 +1222,7 @@
     "SLDL":18026,
     "SLDU":18022,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":8
     }
   },
@@ -1257,7 +1257,7 @@
     "SLDL":6059,
     "SLDU":6030,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":9
     }
   },
@@ -1292,7 +1292,7 @@
     "SLDL":17103,
     "SLDU":17052,
     "SURVYEAR":2016,
-    "Grad Program":"Engineeering",
+    "Degree":"Engineering",
     "Rank":10
     }
   }
