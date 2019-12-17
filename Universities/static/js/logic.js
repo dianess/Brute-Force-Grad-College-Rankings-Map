@@ -162,13 +162,13 @@ var icons = {
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
 d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeData) {
     // Put data into a variable
+    collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
     console.log(collegeInfo);
-    // var stationStatus = statusRes.data.stations;
-    // var stationInfo = infoRes.data.stations;
+    
 
-    // Create an object to keep track of the number of markers in each layer
-    var stationCount = {
+    // ? Create an object to keep track of the number of markers in each layer
+    var gradSchoolCount = {
       MBA_Business: 0,
       Law: 0,
       Medicine: 0,
@@ -183,101 +183,73 @@ d3.json("data/Postsecondary_School_Location_201617.geojson", function(collegeDat
       Social_Sciences_Humanities: 0
     };
 
-    // Initialize a stationStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
-    var stationStatusCode;
-
     // Loop through the colleges
     for (var i = 0; i < collegeInfo.length; i++) {
 
       var college = collegeInfo[i].properties;
-      console.log(college);
+      //console.log(college);
       var collegeName = college.INSTNM;
       console.log(collegeName);
       var collegeLat = college.LAT;
       var collegeLon = college.LON;
-      console.log(collegeLat, collegeLon);
+      //console.log(collegeLat, collegeLon);
       var collegeStreet = college.STREET;
       var collegeCityState = college.NMCBSA;
       var collegeZip = college.ZIP;
-      console.log(collegeStreet, collegeCityState, collegeZip);
+      //console.log(collegeStreet, collegeCityState, collegeZip);
+      var totalNumberColleges = collegeInfo.length
+      //console.log(totalNumberColleges);   // = 7521
 
-      // // Create a new station object with properties of both station objects
-      // var college = Object.assign({}, collegeInfo[i]); //, stationStatus[i]);
-      // // If a station is listed but not installed, it's coming soon
-      // if (!station.is_installed) {
-      //   stationStatusCode = "MBA Business";
-      // }
-      // // If a station has no bikes available, it's empty
-      // else if (!station.num_bikes_available) {
-      //   stationStatusCode = "Law";
-      // }
-      // // If a station is installed but isn't renting, it's out of order
-      // else if (station.is_installed && !station.is_renting) {
-      //   stationStatusCode = "Medicine";
-      // }
-      // // If a station has less than 5 bikes, it's status is low
-      // else if (station.num_bikes_available < 5) {
-      //   stationStatusCode = "Engineering";
-      // }
-      // // Otherwise the station is normal
-      // else if (!station.num_bikes_available) {
-      //   stationStatusCode = "Nursing";
-      // }  
-      // // If a station has no bikes available, it's empty
-      // else if (!station.num_bikes_available) {
-      //   stationStatusCode = "Education";
-      // }
-      // // If a station is installed but isn't renting, it's out of order
-      // else if (station.is_installed && !station.is_renting) {
-      //   stationStatusCode = "Fine Arts";
-      // }
-      // // If a station has less than 5 bikes, it's status is low
-      // else if (station.num_bikes_available < 5) {
-      //   stationStatusCode = "Health";
-      // }
-      // // Otherwise the station is normal
-      // else if (station.num_bikes_available < 5) {
-      //   stationStatusCode = "Library and Information Studies";  
-      // }
-      // // Otherwise the station is normal
-      // else if (station.num_bikes_available < 5) {
-      //   stationStatusCode = "Public Affairs";  
-      // }
-      // // Otherwise the station is normal
-      // else if (station.num_bikes_available < 5) {
-      //   stationStatusCode = "Science";  
-      // }
-      // // Otherwise the station is normal
-      // else {
-      //   stationStatusCode = "Social Sciences and Humanities";  
-      // }
+      function collegeFeatures(collegeInfo) {
 
-      // Update the station count
-      stationCount[stationStatusCode]++;
+        // Define a function to run once for each feature in the features array
+        // Give each feature a pop-up box describing the name & address of each college
+        function onEachFeature(feature, layer) {
+          layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
+            "<p>" + collegeCityState + "</p>" + "<p>" + collegeZip + "</p></div>");
+        }  //ends function onEachFeature
+        
+        // Create a GeoJSON layer containing the features array on the collegeInfo object
+        // Run the onEachFeature function once for each piece of data in the array
+        var collegeStuff = L.geoJSON(collegeInfo, {
+          onEachFeature: onEachFeature,
+      
+          // Works with the function style above and to change the default markers to circles
+          // with specific colors
+          pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, style(feature));
+          },  // ends pointToLayer
+      
+        });  //ends var collegeStuff
+      
+        // Sending our collegeStuff layer to the createMap function
+        createMap(collegeStuff);
+      
       // Create a new marker with the appropriate icon and coordinates
       var newMarker = L.marker([collegeLat, collegeLon], {
-        icon: icons[stationStatusCode]
+        icon: icons[gradSchoolCount]
       });  // ends newMarker
 
       // Add the new marker to the appropriate layer
-      newMarker.addTo(layers[stationStatusCode]);
+      newMarker.addTo(layers[gradSchoolCount]);
 
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      newMarker.bindPopup(station.name + "<br> Capacity: " + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
-    }  // ends for loop
+      newMarker.bindPopup(collegeName + "<br> Ranking: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
+    }      // ends collegeFeatures
+    };  // ends for-loop
 
     // Call the updateLegend function, which will... update the legend!
-    updateLegend(updatedAt, stationCount);
+    //updateLegend(updatedAt, stationCount);
   });  // ends d3.json
 
-// Update the legend's innerHTML with the last updated time and station count
-function updateLegend(time, stationCount) {
-  document.querySelector(".legend").innerHTML = [
-    "<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
-    "<p class='out-of-order'>Out of Order Stations: " + stationCount.OUT_OF_ORDER + "</p>",
-    "<p class='coming-soon'>Stations Coming Soon: " + stationCount.COMING_SOON + "</p>",
-    "<p class='empty'>Empty Stations: " + stationCount.EMPTY + "</p>",
-    "<p class='low'>Low Stations: " + stationCount.LOW + "</p>",
-    "<p class='healthy'>Healthy Stations: " + stationCount.NORMAL + "</p>"
-  ].join("");
-}
+// // Update the legend's innerHTML with the last updated time and station count
+// function updateLegend(time, stationCount) {
+//   document.querySelector(".legend").innerHTML = [
+//     "<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
+//     "<p class='out-of-order'>Out of Order Stations: " + stationCount.OUT_OF_ORDER + "</p>",
+//     "<p class='coming-soon'>Stations Coming Soon: " + stationCount.COMING_SOON + "</p>",
+//     "<p class='empty'>Empty Stations: " + stationCount.EMPTY + "</p>",
+//     "<p class='low'>Low Stations: " + stationCount.LOW + "</p>",
+//     "<p class='healthy'>Healthy Stations: " + stationCount.NORMAL + "</p>"
+//   ].join("");
+// }
