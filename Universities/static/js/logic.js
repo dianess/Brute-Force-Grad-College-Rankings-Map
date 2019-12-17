@@ -24,7 +24,7 @@ var layers = {
 
 // Create the map with our layers
 var map = L.map("map-id", {
-  center: [38.8283, -95.5795], // Geographic Center of the U.S.
+  center: [38.8283, -96.5795], // Geographic Center of the U.S.
   zoom: 5,
   layers: [
     layers.MBA_Business,
