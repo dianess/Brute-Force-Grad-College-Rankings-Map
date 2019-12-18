@@ -82,73 +82,73 @@ var icons = {
   MBA_Business: L.ExtraMarkers.icon({
     icon: "ion-settings",
     iconColor: "white",
-    markerColor: "yellow",
+    markerColor: "brown",  // graduation tassle color is drab (light brown)
     shape: "star"
   }),
   Law: L.ExtraMarkers.icon({
     icon: "ion-android-bicycle",
     iconColor: "white",
-    markerColor: "red",
+    markerColor: "purple", // graduation tassle color
     shape: "circle"
   }),
   Medicine: L.ExtraMarkers.icon({
     icon: "ion-medkit",   // medkit
     iconColor: "white",
-    markerColor: "blue-dark",
+    markerColor: "green",  // graduation tassle color is kelly green
     shape: "penta"
   }),
   Engineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
     iconColor: "white",
-    markerColor: "brown",
+    markerColor: "orange",  // graduation tassle color
     shape: "circle"
   }),
   Nursing: L.ExtraMarkers.icon({
     icon: "ion-pulse",  // pulse
     iconColor: "white",
-    markerColor: "green",
+    markerColor: "apricot", // graduation tassle color
     shape: "circle"
   }),
   Education: L.ExtraMarkers.icon({
     icon: "ion-paper",   // paper
     iconColor: "white",
-    markerColor: "yellow",
+    markerColor: "blue", // graduation tassle color is light blue
     shape: "star"
   }),
   Fine_Arts: L.ExtraMarkers.icon({
     icon: "ion-photos",  // check how to use "md-photos"
     iconColor: "white",
-    markerColor: "red",
+    markerColor: "brown",  // graduation tassle color
     shape: "circle"
   }),
   Health: L.ExtraMarkers.icon({
     icon: "ion-nutrition",   // nutrition (carrot)
     iconColor: "white",
-    markerColor: "blue-dark",
+    markerColor: "salmon", // graduation tassle color for public health
     shape: "penta"
   }),
   Library_Information_Studies: L.ExtraMarkers.icon({
     icon: "ion-information-circle",   // information symbol
     iconColor: "white",
-    markerColor: "orange",
+    markerColor: "lemon",   // graduation tassle color
     shape: "circle"
   }),
   Public_Affairs: L.ExtraMarkers.icon({
     icon: "ion-megaphone",    // megaphone
     iconColor: "white",
-    markerColor: "green",
+    markerColor: "blue",  // graduation tassle color is peacock blue
     shape: "circle"
   }),
   Science: L.ExtraMarkers.icon({
     icon: "ion-flask",  // flask
     iconColor: "white",
-    markerColor: "green",
+    markerColor: "yellow",  // graduation tassle color is golden yellow
     shape: "circle"
   }),
   Social_Sciences_Humanities: L.ExtraMarkers.icon({
     icon: "ion-people",  // people
     iconColor: "white",
-    markerColor: "green",
+    markerColor: "white",  // graduation tassle color for humanities
     shape: "circle"
   })
   // All: L.ExtraMarkers.icon({
@@ -160,12 +160,12 @@ var icons = {
 };
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
-d3.json("data/Universities.geojson", function(collegeData) {
+//d3.json("data/Universities.geojson", function(collegeData) {
+d3.json("data/test_data.geojson", function(collegeData) {  
     // Put data into a variable
-    //collegeFeatures(collegeData.features);
+        //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
-    // console.log(collegeInfo);
-    // var markers = L.markerClusterGroup(); // error L.markerClusterGroup not a function
+        // console.log(collegeInfo);
 
     // ? Create an object to keep track of the number of markers in each layer
     var gradSchoolCount = {
@@ -182,40 +182,54 @@ d3.json("data/Universities.geojson", function(collegeData) {
       Science: 0,
       Social_Sciences_Humanities: 0
     };
+    // console.log(gradSchoolCount.MBA_Business);  // returns 0 (zero)
 
-    // Loop through the colleges
+    // Loop through the colleges and put key data into variables to be used later
     for (var i = 0; i < collegeInfo.length; i++) {
 
       var college = collegeInfo[i].properties;
-      //console.log(college);
+          //console.log(college);
       var collegeName = college.INSTNM;
-      // console.log(collegeName);
+          // console.log(collegeName);
       var collegeLat = parseFloat(college.Y);
       var collegeLon = parseFloat(college.X);
-      // console.log(collegeLat, collegeLon);
+          // console.log(collegeLat, collegeLon);
       var collegeStreet = college.STREET;
       var collegeCityState = college.NMCBSA;
       var collegeZip = college.ZIP;
-      //console.log(collegeStreet, collegeCityState, collegeZip);
-      var totalNumberColleges = collegeInfo.length
-      //console.log(totalNumberColleges);   // = 7521
+          //console.log(collegeStreet, collegeCityState, collegeZip);
+      //var totalNumberColleges = collegeInfo.length
+          //console.log(totalNumberColleges); 
+      var gradProgram = college.Degree;  
+      var degreeRank = college.Rank;
+      
+      // Filter the data for each layer where each layer is a particular Graduate Program
+        // Business
+      var filteredBusiness = {}
+      console.log(college.Degree);  // logged Law 13 times, Business 14, Engineering 10
+      if (gradProgram == "Business") {
+          //console.log(collegeName);  // logs all the universities who are ranked in business
+        filteredBusiness = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        console.log(filteredBusiness);
+      };  // ends filter for business 
 
-      // Set the data location property to a variable
-      var location = collegeCityState;   // Given how we use this below, might want to us CollegeLat, CollegeLon
-      // console.log(location);
+        // Law
+      var filteredLaw = {}
+      if (gradProgram == "Law") {
+      filteredLaw = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      console.log(filteredLaw);
+      };  // ends filter for Law
 
-      // Check for location property
-      if (location) {
-
-        // Add a new marker to the cluster group and bind a pop-up
-        // markers.addLayer(L.marker([collegeLat, collegeLon])    // ** have to fix L.markerClusterGroup first
-        //   .bindPopup(collegeName)); // + "<hr>" + GradProgram + "<p>Ranked: " + degreeRank + "</p>"));
-      }  // ends if (location)
-
-    //}  // ends for-loop
-
-    // Add our marker cluster layer to the map
-    // myMap.addLayer(markers);  // ** have to fix "markers first"
+        // Engineering
+      var filteredEngineering = {}
+      if (gradProgram == "Engineering") {
+        filteredEngineering = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      console.log(filteredEngineering);
+      };  // ends filter for Engineering
+      
+      // var filteredArray = filteredBusiness[0]
+      //var filteredLaw = college.Degree.filter(item => item == Law);
+      
 
       function collegeFeatures(collegeInfo) {
 
@@ -224,6 +238,7 @@ d3.json("data/Universities.geojson", function(collegeData) {
         function onEachFeature(feature, layer) {
           layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
             "<p>" + collegeCityState + "</p>" + "<p>" + collegeZip + "</p></div>");
+            console.log(collegeName);
         }  //ends function onEachFeature
         
         // Create a GeoJSON layer containing the features array on the collegeInfo object
@@ -251,22 +266,30 @@ d3.json("data/Universities.geojson", function(collegeData) {
       newMarker.addTo(layers[gradSchoolCount]);
 
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      newMarker.bindPopup(collegeName + "<br> Ranking: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
+      newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
     }      // ends collegeFeatures
     };  // ends for-loop
 
     // Call the updateLegend function, which will... update the legend!
-    //updateLegend(updatedAt, stationCount);
+    // updateLegend(gradProgram);  // goes with section below
   });  // ends d3.json
 
-// // Update the legend's innerHTML with the last updated time and station count
-// function updateLegend(time, stationCount) {
+// // // Update the legend's innerHTML with the information for each grad program chosen
+// function updateLegend(gradProgram) {
+//   //console.log(gradProgram);  // undefined until we get the right data
 //   document.querySelector(".legend").innerHTML = [
-//     "<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
-//    "<p class='business'>MBA Business: " + stationCount.OUT_OF_ORDER + "</p>",
-//     "<p class='law'>Law: " + stationCount.COMING_SOON + "</p>",
-//     "<p class='medicine'>Medicine: " + stationCount.EMPTY + "</p>",
-//     "<p class='engineering'>Engineering: " + stationCount.LOW + "</p>",
-//     "<p class='nursing'>Nursing: " + stationCount.NORMAL + "</p>"
+//     //"<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
+//     "<p class='business'>MBA Business: " + gradSchoolCount.MBA_business + "</p>",
+//     "<p class='law'>Law: " + gradSchoolCount.Law + "</p>",
+//     "<p class='medicine'>Medicine: " + gradSchoolCount.Medicine + "</p>",
+//     "<p class='engineering'>Engineering: " + gradSchoolCount.Engineering + "</p>",
+//     "<p class='nursing'>Nursing: " + gradSchoolCount.Nursing + "</p>",
+//     "<p class='education'>Education: " + gradSchoolCount.Education + "</p>",
+//     "<p class='fineArts'>Fine Arts: " + gradSchoolCount.Fine_Arts + "</p>",
+//     "<p class='health'>Health: " + gradSchoolCount.Health + "</p>",
+//     "<p class='information'>Library and Information Studies: " + gradSchoolCount.Library_Information_Studies + "</p>",
+//     "<p class='publicAffairs'>Public Affairs: " + gradSchoolCount.Public_Affairs + "</p>",
+//     "<p class='science'>Science: " + gradSchoolCount.Science + "</p>",
+//     "<p class='humanities'>Social Studies and Humanities: " + gradSchoolCount.Social_Sciences_Humanities + "</p>"
 //   ].join("");
-// }
+// }  // ends function updateLegend
