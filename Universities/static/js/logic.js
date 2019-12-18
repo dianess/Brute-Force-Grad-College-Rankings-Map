@@ -79,79 +79,79 @@ info.addTo(map);
 
 // Initialize an object containing icons for each layer group
 var icons = {
-  MBA_Business: L.ExtraMarkers.icon({
+  iMBA_Business: L.ExtraMarkers.icon({
     icon: "ion-settings",
     iconColor: "white",
     markerColor: "brown",  // graduation tassle color is drab (light brown)
     shape: "star"
   }),
-  Law: L.ExtraMarkers.icon({
+  iLaw: L.ExtraMarkers.icon({
     icon: "ion-android-bicycle",
     iconColor: "white",
     markerColor: "purple", // graduation tassle color
     shape: "circle"
   }),
-  Medicine: L.ExtraMarkers.icon({
+  iMedicine: L.ExtraMarkers.icon({
     icon: "ion-medkit",   // medkit
     iconColor: "white",
     markerColor: "green",  // graduation tassle color is kelly green
     shape: "penta"
   }),
-  Engineering: L.ExtraMarkers.icon({
+  iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
     iconColor: "white",
     markerColor: "orange",  // graduation tassle color
     shape: "circle"
   }),
-  Nursing: L.ExtraMarkers.icon({
+  iNursing: L.ExtraMarkers.icon({
     icon: "ion-pulse",  // pulse
     iconColor: "white",
     markerColor: "apricot", // graduation tassle color
     shape: "circle"
   }),
-  Education: L.ExtraMarkers.icon({
+  iEducation: L.ExtraMarkers.icon({
     icon: "ion-paper",   // paper
     iconColor: "white",
     markerColor: "blue", // graduation tassle color is light blue
     shape: "star"
   }),
-  Fine_Arts: L.ExtraMarkers.icon({
+  iFine_Arts: L.ExtraMarkers.icon({
     icon: "ion-photos",  // check how to use "md-photos"
     iconColor: "white",
     markerColor: "brown",  // graduation tassle color
     shape: "circle"
   }),
-  Health: L.ExtraMarkers.icon({
+  iHealth: L.ExtraMarkers.icon({
     icon: "ion-nutrition",   // nutrition (carrot)
     iconColor: "white",
     markerColor: "salmon", // graduation tassle color for public health
     shape: "penta"
   }),
-  Library_Information_Studies: L.ExtraMarkers.icon({
+  iLibrary_Information_Studies: L.ExtraMarkers.icon({
     icon: "ion-information-circle",   // information symbol
     iconColor: "white",
     markerColor: "lemon",   // graduation tassle color
     shape: "circle"
   }),
-  Public_Affairs: L.ExtraMarkers.icon({
+  iPublic_Affairs: L.ExtraMarkers.icon({
     icon: "ion-megaphone",    // megaphone
     iconColor: "white",
     markerColor: "blue",  // graduation tassle color is peacock blue
     shape: "circle"
   }),
-  Science: L.ExtraMarkers.icon({
+  iScience: L.ExtraMarkers.icon({
     icon: "ion-flask",  // flask
     iconColor: "white",
     markerColor: "yellow",  // graduation tassle color is golden yellow
     shape: "circle"
   }),
-  Social_Sciences_Humanities: L.ExtraMarkers.icon({
+  iSocial_Sciences_Humanities: L.ExtraMarkers.icon({
     icon: "ion-people",  // people
     iconColor: "white",
     markerColor: "white",  // graduation tassle color for humanities
     shape: "circle"
   })
-  // All: L.ExtraMarkers.icon({
+  // iAll: L.ExtraMarkers.icon({
   //   icon: "ion-school",  // school (grad cap)
   //   iconColor: "white",
   //   markerColor: "green",
@@ -203,35 +203,119 @@ d3.json("data/test_data.geojson", function(collegeData) {
       var gradProgram = college.Degree;  
       var degreeRank = college.Rank;
       
-      // Filter the data for each layer where each layer is a particular Graduate Program
+      // Filter the data for each Graduate Program layer
         // Business
-      var filteredBusiness = {}
       console.log(college.Degree);  // logged Law 13 times, Business 14, Engineering 10
       if (gradProgram == "Business") {
-          //console.log(collegeName);  // logs all the universities who are ranked in business
+            //console.log(collegeName);  // logs all the universities who are ranked in business
         filteredBusiness = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-          // console.log(filteredBusiness); // see comment on Law below
-      };  // ends filter for business 
+            //console.log(filteredBusiness);
+        L.marker(([collegeLat, collegeLon]), {
+            icons:icons.iMBA_Business
+        })
+        .addTo(layers.MBA_Business)
+      };  // ends filter for Business 
 
         // Law
-      var filteredLaw = {}
-      if (gradProgram == "Law") {
-      filteredLaw = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        //console.log(filteredLaw); prints relative info but each in separate list
-      // *** next line is what I want to do, but it doesn't work as written  
-      //filteredLaw = filteredLaw.append[collegeName, collegeLat, collegeLon, gradProgram, degreeRank];  
+        if (gradProgram == "Law") {
+        filteredLaw = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        L.marker(([collegeLat, collegeLon]), {
+          icons:icons.iLaw
+        })
+        .addTo(layers.Law) 
       };  // ends filter for Law
 
+      // Medicine
+      if (gradProgram == "Medicine") {
+        filteredMedicine = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        L.marker(([collegeLat, collegeLon]), {
+          icons:icons.iMedicine
+        })
+        .addTo(layers.Medicine)
+      };  // ends filter for Medicine
+
         // Engineering
-      var filteredEngineering = {}
       if (gradProgram == "Engineering") {
         filteredEngineering = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        L.marker(([collegeLat, collegeLon]), {
+          icons:icons.iEngineering
+        })
+        .addTo(layers.Engineering)
         // console.log(filteredEngineering); //see comment on Law above
       };  // ends filter for Engineering
 
-      // var filteredArray = filteredBusiness[0]
-      //var filteredLaw = college.Degree.filter(item => item == Law);
-      
+       // Nursing
+      if (gradProgram == "Nursing") {
+        filteredNursing = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        L.marker(([collegeLat, collegeLon]), {
+          icons:icons.iNursing
+        })
+        .addTo(layers.Nursing)
+      };  // ends filter for Nursing
+
+        // Education
+      if (gradProgram == "Education") {
+        filteredEducation = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        L.marker(([collegeLat, collegeLon]), {
+          icons:icons.iEducation
+        })
+        .addTo(layers.Education)
+      };  // ends filter for Education
+
+        // Fine Arts
+      if (gradProgram == "Fine Arts") {
+      filteredFineArts = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      L.marker(([collegeLat, collegeLon]), {
+        icons:icons.iFine_Arts
+      })
+      .addTo(layers.Fine_Arts)
+    };  // ends filter for Fine Arts
+
+      // Health
+    if (gradProgram == "Health") {
+      filteredHealth = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      L.marker(([collegeLat, collegeLon]), {
+        icons:icons.iHealth
+      })
+      .addTo(layers.Health)
+    };  // ends filter for Health
+
+      // Library and Information Studies
+    if (gradProgram == "Library and Information Studies") {
+      filteredLibraryInformationStudies = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      L.marker(([collegeLat, collegeLon]), {
+        icons:icons.iLibrary_Information_Studies
+      })
+      .addTo(layers.Library_Information_Studies)
+    };  // ends filter for Library and Information Studies
+
+       // Public_Affairs
+    if (gradProgram == "Public Affairs") {
+    filteredPublicAffairs = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+    L.marker(([collegeLat, collegeLon]), {
+      icons:icons.iPublic_Affairs
+    })
+    .addTo(layers.Public_Affairs)
+    };  // ends filter for Public Affairs
+
+     // Science
+    if (gradProgram == "Science") {
+    filteredScience = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+    L.marker(([collegeLat, collegeLon]), {
+      icons:icons.iScience
+    })
+    .addTo(layers.Science)
+    };  // ends filter for Science
+
+      // Social Sciences and Humanities
+    if (gradProgram == "Social Sciences and Humanities") {
+      filteredSocialSciencesHumanities = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+      L.marker(([collegeLat, collegeLon]), {
+        icons:icons.iSocial_Sciences_Humanities
+      })
+      .addTo(layers.Social_Sciences_Humanities)
+    };  // ends filter for Social Sciences and Humanities
+
 
       function collegeFeatures(collegeInfo) {
 
