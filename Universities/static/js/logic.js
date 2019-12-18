@@ -210,23 +210,25 @@ d3.json("data/test_data.geojson", function(collegeData) {
       if (gradProgram == "Business") {
           //console.log(collegeName);  // logs all the universities who are ranked in business
         filteredBusiness = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        console.log(filteredBusiness);
+          // console.log(filteredBusiness); // see comment on Law below
       };  // ends filter for business 
 
         // Law
       var filteredLaw = {}
       if (gradProgram == "Law") {
       filteredLaw = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      console.log(filteredLaw);
+        //console.log(filteredLaw); prints relative info but each in separate list
+      // *** next line is what I want to do, but it doesn't work as written  
+      //filteredLaw = filteredLaw.append[collegeName, collegeLat, collegeLon, gradProgram, degreeRank];  
       };  // ends filter for Law
 
         // Engineering
       var filteredEngineering = {}
       if (gradProgram == "Engineering") {
         filteredEngineering = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      console.log(filteredEngineering);
+        // console.log(filteredEngineering); //see comment on Law above
       };  // ends filter for Engineering
-      
+
       // var filteredArray = filteredBusiness[0]
       //var filteredLaw = college.Degree.filter(item => item == Law);
       
@@ -235,7 +237,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
 
         // Define a function to run once for each feature in the features array
         // Give each feature a pop-up box describing the name & address of each college
-        function onEachFeature(feature, layer) {
+        function onEachFeature(college, layer) {
           layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
             "<p>" + collegeCityState + "</p>" + "<p>" + collegeZip + "</p></div>");
             console.log(collegeName);
@@ -248,7 +250,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
       
           // Works with the function style above and to change the default markers to circles
           // with specific colors
-          pointToLayer: function (feature, latlng) {
+          pointToLayer: function (layer, latlng) {
             return L.circleMarker(latlng, style(feature));
           },  // ends pointToLayer
       
