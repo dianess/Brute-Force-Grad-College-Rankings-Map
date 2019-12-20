@@ -77,6 +77,7 @@ info.onAdd = function() {
 // Add the info legend to the map
 info.addTo(map);
 
+// ** Marker color is not working right now ** 12/20/19 4:30 PM
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
@@ -99,7 +100,7 @@ var icons = {
   }),
   iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "orange",  // graduation tassle color
     shape: "circle"
   }),
@@ -190,7 +191,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
       var college = collegeInfo[i].properties;
           //console.log(college);
       var collegeName = college.INSTNM;
-          // console.log(collegeName);
+        // console.log(collegeName); prints each college name without needing [i] b'c in the loop
       var collegeLat = parseFloat(college.Y);
       var collegeLon = parseFloat(college.X);
           // console.log(collegeLat, collegeLon);
@@ -236,12 +237,9 @@ d3.json("data/test_data.geojson", function(collegeData) {
 
         // Engineering
       if (gradProgram == "Engineering") {
-        filteredEngineering = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        L.marker(([collegeLat, collegeLon]), {
-          icons:icons.iEngineering
-        })
-        .addTo(layers.Engineering)
-        // console.log(filteredEngineering); //see comment on Law above
+        filteredEngineering = [collegeName + " Ranked: " + degreeRank]
+        console.log(filteredEngineering);
+        L.marker([collegeLat, collegeLon], {icon: icons.iEngineering}).addTo(layers.Engineering).bindPopup("Engineering: " + filteredEngineering)
       };  // ends filter for Engineering
 
        // Nursing
@@ -316,43 +314,31 @@ d3.json("data/test_data.geojson", function(collegeData) {
       .addTo(layers.Social_Sciences_Humanities)
     };  // ends filter for Social Sciences and Humanities
 
+    //collegeFeatures(collegeData.features);
 
-      function collegeFeatures(collegeInfo) {
+      function collegeFeatures(collegeList) {
 
         // Define a function to run once for each feature in the features array
         // Give each feature a pop-up box describing the name & address of each college
-        function onEachFeature(college, layer) {
+        function onEachFeature(feature, layer) {
           layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
             "<p>" + collegeCityState + "</p>" + "<p>" + collegeZip + "</p></div>");
             console.log(collegeName);
         }  //ends function onEachFeature
-        
-        // Create a GeoJSON layer containing the features array on the collegeInfo object
-        // Run the onEachFeature function once for each piece of data in the array
-        var collegeStuff = L.geoJSON(collegeInfo, {
-          onEachFeature: onEachFeature,
-      
-          // Works with the function style above and to change the default markers to circles
-          // with specific colors
-          pointToLayer: function (layer, latlng) {
-            return L.circleMarker(latlng, style(feature));
-          },  // ends pointToLayer
-      
-        });  //ends var collegeStuff
-      
-        // Sending our collegeStuff layer to the createMap function
-        createMap(collegeStuff);
       
       // Create a new marker with the appropriate icon and coordinates
       var newMarker = L.marker([collegeLat, collegeLon], {
         icon: icons[gradSchoolCount]
       });  // ends newMarker
+      console.log("added a new marker??");  //this line does not run in the code!!! I think because collegeFeatures is never called
 
       // Add the new marker to the appropriate layer
-      newMarker.addTo(layers[gradSchoolCount]);
+      newMarker.addTo(layers[gradSchoolCount])   // throws error - Cannot read property 'addLayer' of undefined (ie fix gradSchoolcount)
+      .bindPopup(collegeName + "Graduate Program: ");
 
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
+      //newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
+ 
     }      // ends collegeFeatures
     };  // ends for-loop
 

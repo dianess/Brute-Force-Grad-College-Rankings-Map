@@ -21,6 +21,14 @@ var limit = "&$limit=10000";
 // Assemble API query URL
 var url = baseURL + date + complaint + limit;
 
+// var icons =  {
+// iEngineering: L.ExtraMarkers.icon({
+//   icon: "ion-calculator",  // calculator
+//   iconColor: "white",
+//   markerColor: "orange",  // graduation tassle color
+//   shape: "circle"
+// }  
+
 // Grab the data with d3
 d3.json(url, function(response) {
 
@@ -37,7 +45,7 @@ d3.json(url, function(response) {
     if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
+      markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0])), //{icon: iBusiness}])
         .bindPopup(response[i].descriptor));
     }
 
