@@ -12,23 +12,6 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-// Store API query variables
-var baseURL = "https://data.cityofnewyork.us/resource/fhrw-4uyv.json?";
-var date = "$where=created_date between'2016-01-10T12:00:00' and '2017-01-01T14:00:00'";
-var complaint = "&complaint_type=Rodent";
-var limit = "&$limit=10000";
-
-// Assemble API query URL
-var url = baseURL + date + complaint + limit;
-
-// var icons =  {
-// iEngineering: L.ExtraMarkers.icon({
-//   icon: "ion-calculator",  // calculator
-//   iconColor: "white",
-//   markerColor: "orange",  // graduation tassle color
-//   shape: "circle"
-// }  
-
 // Grab the data with d3
 d3.json(url, function(response) {
 
@@ -47,11 +30,10 @@ d3.json(url, function(response) {
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0])), //{icon: iBusiness}])
         .bindPopup(response[i].descriptor));
-    }
-
-  }
+    }  //ends if (location)
+  }  // ends for loop
 
   // Add our marker cluster layer to the map
   myMap.addLayer(markers);
 
-});
+}); //ends d3.json
