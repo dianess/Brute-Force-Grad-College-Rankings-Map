@@ -15,11 +15,9 @@ var layers = {
   Nursing: new L.LayerGroup(),
   Education: new L.LayerGroup(),
   Fine_Arts: new L.LayerGroup(),
-  Health: new L.LayerGroup(),
   Library_Information_Studies: new L.LayerGroup(),
   Public_Affairs: new L.LayerGroup(),
   Science: new L.LayerGroup(),
-  Social_Sciences_Humanities: new L.LayerGroup()
 };
 
 // Create the map with our layers
@@ -34,11 +32,9 @@ var map = L.map("map-id", {
     layers.Nursing,
     layers.Education,
     layers.Fine_Arts,
-    layers.Health,
     layers.Library_Information_Studies,
     layers.Public_Affairs,
     layers.Science,
-    layers.Social_Sciences_Humanities
   ]
 });
 
@@ -54,11 +50,9 @@ var overlays = {
   "Nursing": layers.Nursing,
   "Education": layers.Education,
   "Fine Arts": layers.Fine_Arts,
-  "Health": layers.Health,
   "Library and Information Studies": layers.Library_Information_Studies,
   "Public Affairs": layers.Public_Affairs,
   "Science": layers.Science,
-  "Social Sciences and Humanities": layers.Social_Sciences_Humanities
 };
 
 // Create a control for our layers, add our overlay layers to it
@@ -81,7 +75,7 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
-    icon: "ion-stats",
+    icon: "ios-stats",
     iconColor: "black",
     markerColor: "brown",  // graduation tassle color is drab (light brown)
     shape: "star"
@@ -94,7 +88,7 @@ var icons = {
   }),
   iMedicine: L.ExtraMarkers.icon({
     icon: "ion-medkit",   // medkit
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "green",  // graduation tassle color is kelly green
     shape: "penta"
   }),
@@ -106,50 +100,38 @@ var icons = {
   }),
   iNursing: L.ExtraMarkers.icon({
     icon: "ion-pulse",  // pulse
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "apricot", // graduation tassle color
     shape: "circle"
   }),
   iEducation: L.ExtraMarkers.icon({
     icon: "ion-paper",   // paper
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "blue", // graduation tassle color is light blue
     shape: "star"
   }),
   iFine_Arts: L.ExtraMarkers.icon({
     icon: "ion-photos",  // check how to use "md-photos"
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "brown",  // graduation tassle color
     shape: "circle"
   }),
-  iHealth: L.ExtraMarkers.icon({
-    icon: "ion-nutrition",   // nutrition (carrot)
-    iconColor: "white",
-    markerColor: "salmon", // graduation tassle color for public health
-    shape: "penta"
-  }),
   iLibrary_Information_Studies: L.ExtraMarkers.icon({
     icon: "ion-information-circle",   // information symbol
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "lemon",   // graduation tassle color
     shape: "circle"
   }),
   iPublic_Affairs: L.ExtraMarkers.icon({
     icon: "ion-megaphone",    // megaphone
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "blue",  // graduation tassle color is peacock blue
     shape: "circle"
   }),
   iScience: L.ExtraMarkers.icon({
-    icon: "ion-flask",  // flask
-    iconColor: "white",
+    icon: "ion-flask-outline",  // flask
+    iconColor: "black",
     markerColor: "yellow",  // graduation tassle color is golden yellow
-    shape: "circle"
-  }),
-  iSocial_Sciences_Humanities: L.ExtraMarkers.icon({
-    icon: "ion-people",  // people
-    iconColor: "white",
-    markerColor: "white",  // graduation tassle color for humanities
     shape: "circle"
   })
   // iAll: L.ExtraMarkers.icon({
@@ -177,11 +159,9 @@ d3.json("data/test_data.geojson", function(collegeData) {
       Nursing: 0,
       Education: 0,
       Fine_Arts: 0,
-      Health: 0,
       Library_Information_Studies: 0,
       Public_Affairs: 0,
-      Science: 0,
-      Social_Sciences_Humanities: 0
+      Science: 0
     };
     // console.log(gradSchoolCount.MBA_Business);  // returns 0 (zero)
 
@@ -196,7 +176,9 @@ d3.json("data/test_data.geojson", function(collegeData) {
       var collegeLon = parseFloat(college.X);
           // console.log(collegeLat, collegeLon);
       var collegeStreet = college.STREET;
-      var collegeCityState = college.NMCBSA;
+      var collegeCity = college.CITY;
+      var collegeState = college.STATE;
+      //var collegeCityState = college.NMCBSA;
       var collegeZip = college.ZIP;
           //console.log(collegeStreet, collegeCityState, collegeZip);
       //var totalNumberColleges = collegeInfo.length
@@ -220,7 +202,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
         L.marker([collegeLat, collegeLon], {icon: icons.iLaw}).addTo(layers.Law).bindPopup("Law<hr>" + filteredLaw)
       };  // ends filter for Law
 
-      // Medicine
+        // Medicine   (Note that we're using the Primary Care program, not Research)
       if (gradProgram == "Medicine") {
         filteredMedicine = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
         L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicine: " + filteredMedicine)
@@ -251,12 +233,6 @@ d3.json("data/test_data.geojson", function(collegeData) {
       L.marker([collegeLat, collegeLon], {icon: icons.iFine_Arts}).addTo(layers.Fine_Arts).bindPopup("Fine Arts<hr>" + filteredFineArts)
     };  // ends filter for Fine Arts
 
-      // Health
-    if (gradProgram == "Health") {
-      filteredHealth = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-      L.marker([collegeLat, collegeLon], {icon: icons.iHealth}).addTo(layers.Health).bindPopup("Health<hr>" + filteredHealth)
-    };  // ends filter for Health
-
       // Library and Information Studies
     if (gradProgram == "Library and Information Studies") {
       filteredLibraryInformationStudies = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
@@ -266,7 +242,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
        // Public Affairs
     if (gradProgram == "Public Affairs") {
     filteredPublicAffairs = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-    L.marker([collegeLat, collegeLon], {icon: icons.iPublic_Affairs}).addTo(layers.Public_Affairs).bindPopup("Public Affairs<hr>" + filteredPublic_Affairs)
+    L.marker([collegeLat, collegeLon], {icon: icons.iPublic_Affairs}).addTo(layers.Public_Affairs).bindPopup("Public Affairs<hr>" + filteredPublicAffairs)
     };  // ends filter for Public Affairs
 
      // Science
@@ -274,12 +250,6 @@ d3.json("data/test_data.geojson", function(collegeData) {
     filteredScience = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
     L.marker([collegeLat, collegeLon], {icon: icons.iScience}).addTo(layers.Science).bindPopup("Science<hr>" + filteredScience)
     };  // ends filter for Science
-
-      // Social Sciences and Humanities
-    if (gradProgram == "Social Sciences and Humanities") {
-      filteredSocialSciencesHumanities = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-      L.marker([collegeLat, collegeLon], {icon: icons.iSocial_Sciences_Humanities}).addTo(layers.Social_Sciences_Humanities).bindPopup("Social Sciences and Humanities<hr>" + filteredSocialSciencesHumanities)
-    };  // ends filter for Social Sciences and Humanities
 
     //collegeFeatures(collegeData.features);
 
@@ -289,7 +259,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
         // Give each feature a pop-up box describing the name & address of each college
         function onEachFeature(feature, layer) {
           layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
-            "<p>" + collegeCityState + "</p>" + "<p>" + collegeZip + "</p></div>");
+            "<p>" + collegeCity + ", " + collegeState + "</p>" + "<p>" + collegeZip + "</p></div>");
             console.log(collegeName);
         }  //ends function onEachFeature
       
@@ -325,10 +295,8 @@ d3.json("data/test_data.geojson", function(collegeData) {
 //     "<p class='nursing'>Nursing: " + gradSchoolCount.Nursing + "</p>",
 //     "<p class='education'>Education: " + gradSchoolCount.Education + "</p>",
 //     "<p class='fineArts'>Fine Arts: " + gradSchoolCount.Fine_Arts + "</p>",
-//     "<p class='health'>Health: " + gradSchoolCount.Health + "</p>",
 //     "<p class='information'>Library and Information Studies: " + gradSchoolCount.Library_Information_Studies + "</p>",
 //     "<p class='publicAffairs'>Public Affairs: " + gradSchoolCount.Public_Affairs + "</p>",
-//     "<p class='science'>Science: " + gradSchoolCount.Science + "</p>",
-//     "<p class='humanities'>Social Studies and Humanities: " + gradSchoolCount.Social_Sciences_Humanities + "</p>"
+//     "<p class='science'>Science: " + gradSchoolCount.Science + "</p>"
 //   ].join("");
 // }  // ends function updateLegend
