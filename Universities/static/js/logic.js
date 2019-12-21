@@ -81,14 +81,14 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
-    icon: "ion-settings",
-    iconColor: "white",
+    icon: "ion-stats",
+    iconColor: "black",
     markerColor: "brown",  // graduation tassle color is drab (light brown)
     shape: "star"
   }),
   iLaw: L.ExtraMarkers.icon({
     icon: "ion-android-bicycle",
-    iconColor: "white",
+    iconColor: "black",
     markerColor: "purple", // graduation tassle color
     shape: "circle"
   }),
@@ -209,109 +209,76 @@ d3.json("data/test_data.geojson", function(collegeData) {
       console.log(college.Degree);  // logged Law 13 times, Business 14, Engineering 10
       if (gradProgram == "Business") {
             //console.log(collegeName);  // logs all the universities who are ranked in business
-        filteredBusiness = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
+        filteredBusiness = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
             //console.log(filteredBusiness);
-        L.marker(([collegeLat, collegeLon]), {
-            icons:icons.iMBA_Business
-        })
-        .addTo(layers.MBA_Business)
+        L.marker([collegeLat, collegeLon], {icon: icons.iMBA_Business}).addTo(layers.MBA_Business).bindPopup("Business<hr>" + filteredBusiness)
       };  // ends filter for Business 
 
         // Law
         if (gradProgram == "Law") {
-        filteredLaw = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        L.marker(([collegeLat, collegeLon]), {
-          icons:icons.iLaw
-        })
-        .addTo(layers.Law) 
+        filteredLaw = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+        L.marker([collegeLat, collegeLon], {icon: icons.iLaw}).addTo(layers.Law).bindPopup("Law<hr>" + filteredLaw)
       };  // ends filter for Law
 
       // Medicine
       if (gradProgram == "Medicine") {
-        filteredMedicine = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        L.marker(([collegeLat, collegeLon]), {
-          icons:icons.iMedicine
-        })
-        .addTo(layers.Medicine)
+        filteredMedicine = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+        L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicine: " + filteredMedicine)
       };  // ends filter for Medicine
 
         // Engineering
       if (gradProgram == "Engineering") {
-        filteredEngineering = [collegeName + " Ranked: " + degreeRank]
-        console.log(filteredEngineering);
-        L.marker([collegeLat, collegeLon], {icon: icons.iEngineering}).addTo(layers.Engineering).bindPopup("Engineering: " + filteredEngineering)
+        filteredEngineering = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+          //console.log(filteredEngineering);
+        L.marker([collegeLat, collegeLon], {icon: icons.iEngineering}).addTo(layers.Engineering).bindPopup("Engineering<hr>" + filteredEngineering)
       };  // ends filter for Engineering
 
        // Nursing
       if (gradProgram == "Nursing") {
-        filteredNursing = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        L.marker(([collegeLat, collegeLon]), {
-          icons:icons.iNursing
-        })
-        .addTo(layers.Nursing)
+        filteredNursing = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+        L.marker([collegeLat, collegeLon], {icon: icons.iNursing}).addTo(layers.Nursing).bindPopup("Nursing<hr>" + filteredNursing)
       };  // ends filter for Nursing
 
         // Education
       if (gradProgram == "Education") {
-        filteredEducation = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-        L.marker(([collegeLat, collegeLon]), {
-          icons:icons.iEducation
-        })
-        .addTo(layers.Education)
+        filteredEducation = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+        L.marker([collegeLat, collegeLon], {icon: icons.iEducation}).addTo(layers.Education).bindPopup("Education<hr>" + filteredEducation)
       };  // ends filter for Education
 
         // Fine Arts
       if (gradProgram == "Fine Arts") {
-      filteredFineArts = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      L.marker(([collegeLat, collegeLon]), {
-        icons:icons.iFine_Arts
-      })
-      .addTo(layers.Fine_Arts)
+      filteredFineArts = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+      L.marker([collegeLat, collegeLon], {icon: icons.iFine_Arts}).addTo(layers.Fine_Arts).bindPopup("Fine Arts<hr>" + filteredFineArts)
     };  // ends filter for Fine Arts
 
       // Health
     if (gradProgram == "Health") {
-      filteredHealth = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      L.marker(([collegeLat, collegeLon]), {
-        icons:icons.iHealth
-      })
-      .addTo(layers.Health)
+      filteredHealth = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+      L.marker([collegeLat, collegeLon], {icon: icons.iHealth}).addTo(layers.Health).bindPopup("Health<hr>" + filteredHealth)
     };  // ends filter for Health
 
       // Library and Information Studies
     if (gradProgram == "Library and Information Studies") {
-      filteredLibraryInformationStudies = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      L.marker(([collegeLat, collegeLon]), {
-        icons:icons.iLibrary_Information_Studies
-      })
-      .addTo(layers.Library_Information_Studies)
+      filteredLibraryInformationStudies = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+      L.marker([collegeLat, collegeLon], {icon: icons.iLibrary_Information_Studies}).addTo(layers.Library_Information_Studies).bindPopup("Library and Information Studies<hr>" + filteredLibraryInformationStudies)
     };  // ends filter for Library and Information Studies
 
-       // Public_Affairs
+       // Public Affairs
     if (gradProgram == "Public Affairs") {
-    filteredPublicAffairs = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-    L.marker(([collegeLat, collegeLon]), {
-      icons:icons.iPublic_Affairs
-    })
-    .addTo(layers.Public_Affairs)
+    filteredPublicAffairs = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+    L.marker([collegeLat, collegeLon], {icon: icons.iPublic_Affairs}).addTo(layers.Public_Affairs).bindPopup("Public Affairs<hr>" + filteredPublic_Affairs)
     };  // ends filter for Public Affairs
 
      // Science
     if (gradProgram == "Science") {
-    filteredScience = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-    L.marker(([collegeLat, collegeLon]), {
-      icons:icons.iScience
-    })
-    .addTo(layers.Science)
+    filteredScience = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+    L.marker([collegeLat, collegeLon], {icon: icons.iScience}).addTo(layers.Science).bindPopup("Science<hr>" + filteredScience)
     };  // ends filter for Science
 
       // Social Sciences and Humanities
     if (gradProgram == "Social Sciences and Humanities") {
-      filteredSocialSciencesHumanities = [collegeName, collegeLat, collegeLon, gradProgram, degreeRank]
-      L.marker(([collegeLat, collegeLon]), {
-        icons:icons.iSocial_Sciences_Humanities
-      })
-      .addTo(layers.Social_Sciences_Humanities)
+      filteredSocialSciencesHumanities = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
+      L.marker([collegeLat, collegeLon], {icon: icons.iSocial_Sciences_Humanities}).addTo(layers.Social_Sciences_Humanities).bindPopup("Social Sciences and Humanities<hr>" + filteredSocialSciencesHumanities)
     };  // ends filter for Social Sciences and Humanities
 
     //collegeFeatures(collegeData.features);
