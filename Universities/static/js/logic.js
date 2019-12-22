@@ -75,13 +75,13 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
-    icon: "ios-stats",
+    icon: "ion-stats-bars",  //want to use ion-stats
     iconColor: "black",
-    markerColor: "brown",  // graduation tassle color is drab (light brown)
+    markerColor: "darkred",  // graduation tassle color is drab (light brown)
     shape: "star"
   }),
   iLaw: L.ExtraMarkers.icon({
-    icon: "ion-android-bicycle",
+    icon: "ion-clipboard",
     iconColor: "black",
     markerColor: "purple", // graduation tassle color
     shape: "circle"
@@ -99,39 +99,40 @@ var icons = {
     shape: "circle"
   }),
   iNursing: L.ExtraMarkers.icon({
-    icon: "ion-pulse",  // pulse
+    icon: "ion-thermometer",
     iconColor: "black",
-    markerColor: "apricot", // graduation tassle color
+    markerColor: "red", // graduation tassle color
     shape: "circle"
   }),
   iEducation: L.ExtraMarkers.icon({
-    icon: "ion-paper",   // paper
+    icon: "ion-university",
     iconColor: "black",
-    markerColor: "blue", // graduation tassle color is light blue
-    shape: "star"
+    markerColor: 'blue', // graduation tassle color is light blue
+    shape: 'star'
   }),
   iFine_Arts: L.ExtraMarkers.icon({
-    icon: "ion-photos",  // check how to use "md-photos"
+    icon: "ion-paintbrush",
     iconColor: "black",
-    markerColor: "brown",  // graduation tassle color
+    markerColor: "darkpurple",  // graduation tassle color
     shape: "circle"
   }),
   iLibrary_Information_Studies: L.ExtraMarkers.icon({
-    icon: "ion-information-circle",   // information symbol
+    icon: "ion-information-circled",   // information symbol
     iconColor: "black",
-    markerColor: "lemon",   // graduation tassle color
+    markerColor: "darkgreen",   // graduation tassle color
     shape: "circle"
   }),
   iPublic_Affairs: L.ExtraMarkers.icon({
-    icon: "ion-megaphone",    // megaphone
+    icon: "ion-person-stalker",
+    //icon: "ion-megaphone",    // megaphone
     iconColor: "black",
-    markerColor: "blue",  // graduation tassle color is peacock blue
+    markerColor: "cadetblue",  // graduation tassle color is peacock blue
     shape: "circle"
   }),
   iScience: L.ExtraMarkers.icon({
-    icon: "ion-flask-outline",  // flask
+    icon: "ion-beaker",
     iconColor: "black",
-    markerColor: "yellow",  // graduation tassle color is golden yellow
+    markerColor: "darkblue",  // graduation tassle color is golden yellow
     shape: "circle"
   })
   // iAll: L.ExtraMarkers.icon({
@@ -191,10 +192,12 @@ d3.json("data/test_data.geojson", function(collegeData) {
       console.log(college.Degree);  // logged Law 13 times, Business 14, Engineering 10
       if (gradProgram == "Business") {
             //console.log(collegeName);  // logs all the universities who are ranked in business
+          //Option 2 //filteredBusiness = [collegeName + "<p>" + collegeCity + ", " + collegeState + "</p>"]
         filteredBusiness = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
             //console.log(filteredBusiness);
-        L.marker([collegeLat, collegeLon], {icon: icons.iMBA_Business}).addTo(layers.MBA_Business).bindPopup("Business<hr>" + filteredBusiness)
-      };  // ends filter for Business 
+          // Option 2 //L.marker([collegeLat, collegeLon], {icon: icons.iMBA_Business}).addTo(layers.MBA_Business).bindPopup("Business: " + "Ranked " + degreeRank + "<hr>" + filteredBusiness)
+          L.marker([collegeLat, collegeLon], {icon: icons.iMBA_Business}).addTo(layers.MBA_Business).bindPopup("Business<hr>" + filteredBusiness)
+        };  // ends filter for Business 
 
         // Law
         if (gradProgram == "Law") {
@@ -251,37 +254,39 @@ d3.json("data/test_data.geojson", function(collegeData) {
     L.marker([collegeLat, collegeLon], {icon: icons.iScience}).addTo(layers.Science).bindPopup("Science<hr>" + filteredScience)
     };  // ends filter for Science
 
+    };  // ends for-loop
+});  // ends d3.json
+
     //collegeFeatures(collegeData.features);
 
-      function collegeFeatures(collegeList) {
+      //function collegeFeatures(collegeList) {
 
         // Define a function to run once for each feature in the features array
         // Give each feature a pop-up box describing the name & address of each college
-        function onEachFeature(feature, layer) {
-          layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
-            "<p>" + collegeCity + ", " + collegeState + "</p>" + "<p>" + collegeZip + "</p></div>");
-            console.log(collegeName);
-        }  //ends function onEachFeature
+        // function onEachFeature(feature, layer) {
+        //   layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
+        //     "<p>" + collegeCity + ", " + collegeState + "</p>" + "<p>" + collegeZip + "</p></div>");
+        //     console.log(collegeName);
+        // }  //ends function onEachFeature
       
       // Create a new marker with the appropriate icon and coordinates
-      var newMarker = L.marker([collegeLat, collegeLon], {
-        icon: icons[gradSchoolCount]
-      });  // ends newMarker
-      console.log("added a new marker??");  //this line does not run in the code!!! I think because collegeFeatures is never called
+      // var newMarker = L.marker([collegeLat, collegeLon], {
+      //   icon: icons[gradSchoolCount]
+      // });  // ends newMarker
+      // console.log("added a new marker??");  //this line does not run in the code!!! I think because collegeFeatures is never called
 
       // Add the new marker to the appropriate layer
-      newMarker.addTo(layers[gradSchoolCount])   // throws error - Cannot read property 'addLayer' of undefined (ie fix gradSchoolcount)
-      .bindPopup(collegeName + "Graduate Program: ");
+      // newMarker.addTo(layers[gradSchoolCount])   // throws error - Cannot read property 'addLayer' of undefined (ie fix gradSchoolcount)
+      // .bindPopup(collegeName + "Graduate Program: ");
 
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
       //newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
  
-    }      // ends collegeFeatures
-    };  // ends for-loop
+    //}      // ends collegeFeatures
 
     // Call the updateLegend function, which will... update the legend!
     // updateLegend(gradProgram);  // goes with section below
-  });  // ends d3.json
+ 
 
 // // // Update the legend's innerHTML with the information for each grad program chosen
 // function updateLegend(gradProgram) {

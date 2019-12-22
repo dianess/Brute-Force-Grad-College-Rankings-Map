@@ -1,0 +1,181 @@
+,INSTNM,firstcity,CITY,Degree,Rank,STATE,S
+0,Yale University,"New Haven, CT",New Haven,Law,1,CT,CT
+1,Stanford University,"Stanford, CA",Stanford,Law,2,CA,CA
+2,Harvard University,"Cambridge, MA",Cambridge,Law,3,MA,MA
+3,University of Chicago,"Chicago, IL",Chicago,Law,4,IL,IL
+4,Columbia University,"New York, NY",New York,Law,5,NY,NY
+5,New York University,"New York, NY",New York,Law,6,NY,NY
+6,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Law,7,PA,PA
+7,University of Virginia,"Charlottesville, VA",Charlottesville,Law,8,VA,VA
+8,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Law,9,MI,MI
+9,Duke University,"Durham, NC",Durham,Law,10,NC,NC
+10,Northwestern University,"Chicago, IL",Chicago,Law,10,IL,IL
+11,University of California-Berkeley,"Berkeley, CA",Berkeley,Law,10,CA,CA
+12,Cornell University,"Ithaca, NY",Ithaca,Law,13,NY,NY
+13,Georgetown University,"Washington, DC",Washington,Law,14,DC,DC
+14,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Law,15,CA,CA
+15,University of Texas at Austin,"Austin, TX",Austin,Law,16,TX,TX
+16,University of Southern California,"Los Angeles, CA",Los Angeles,Law,17,CA,CA
+17,Vanderbilt University,"Nashville, TN",Nashville,Law,18,TN,TN
+18,Washington University in St. Louis,"St. Louis, MO",St. Louis,Law,18,MO,MO
+19,University of Minnesota,"Minneapolis, MN",Minneapolis,Law,20,MN,MN
+20,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Business,1,PA,PA
+21,Stanford University,"Stanford, CA",Stanford,Business,2,CA,CA
+22,Harvard University,"Boston, MA",Boston,Business,3,MA,MA
+23,Massachusetts Institute of Technology,"Cambridge, MA",Cambridge,Business,3,MA,MA
+24,University of Chicago,"Chicago, IL",Chicago,Business,3,IL,IL
+25,Columbia University,"New York, NY",New York,Business,6,NY,NY
+26,Northwestern University,"Evanston, IL",Evanston,Business,6,IL,IL
+27,University of California-Berkeley,"Berkeley, CA",Berkeley,Business,6,CA,CA
+28,Yale University,"New Haven, CT",New Haven,Business,9,CT,CT
+29,Duke University,"Durham, NC",Durham,Business,10,NC,NC
+30,University of Michigan--Ann Arbor,"Ann Arbor, MI",Ann Arbor,Business,10,MI,MI
+31,Dartmouth College,"Hanover, NH",Hanover,Business,12,NH,NH
+32,New York University,"New York, NY",New York,Business,12,NY,NY
+33,University of Virginia,"Charlottesville, VA",Charlottesville,Business,12,VA,VA
+34,Cornell University,"Ithaca, NY",Ithaca,Business,15,NY,NY
+35,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Business,16,CA,CA
+36,Carnegie Mellon University,"Pittsburgh, PA",Pittsburgh,Business,17,PA,PA
+37,University of Southern California,"Los Angeles, CA",Los Angeles,Business,17,CA,CA
+38,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chapel Hill,Business,19,NC,NC
+39,University of Texas at Austin,"Austin, TX",Austin,Business,19,TX,TX
+40,Harvard University,"Cambridge, MA",Cambridge,Education,1,MA,MA
+41,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Education,2,PA,PA
+42,Stanford University,"Stanford, CA",Stanford,Education,3,CA,CA
+43,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Education,3,CA,CA
+44,University of Wisconsin-Madison,"Madison, WI",Madison,Education,3,WI,WI
+45,Vanderbilt University,"Nashville, TN",Nashville,Education,6,TN,TN
+46,Johns Hopkins University,"Baltimore, MD",Baltimore,Education,7,MD,MD
+47,New York University,"New York, NY",New York,Education,7,NY,NY
+48,Columbia University,"New York, NY",New York,Education,7,NY,NY
+49,Northwestern University,"Evanston, IL",Evanston,Education,10,IL,IL
+50,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Education,11,MI,MI
+51,University of Southern California,"Los Angeles, CA",Los Angeles,Education,12,CA,CA
+52,University of Texas at Austin,"Austin, TX",Austin,Education,13,TX,TX
+53,University of Oregon,"Eugene, OR",Eugene,Education,14,OR,OR
+54,University of Washington,"Seattle, WA",Seattle,Education,14,WA,WA
+55,Arizona State University,"Phoenix, AZ",Phoenix,Education,16,AZ,AZ
+56,University of Virginia,VA,VA,Education,17,VA,VA
+57,University of California-Berkeley,"Berkeley, CA",Berkeley,Education,18,CA,CA
+58,University of Kansas,"Lawrence, KS",Lawrence,Education,18,KS,KS
+59,Virginia Commonwealth University,"Richmond, VA",Richmond,Education,20,VA,VA
+60,Massachusetts Institute of Technology,"Cambridge, MA",Cambridge,Engineering,1,MA,MA
+61,Stanford University,"Stanford, CA",Stanford,Engineering,2,CA,CA
+62,University of California-Berkeley,"Berkeley, CA",Berkeley,Engineering,3,CA,CA
+63,Carnegie Mellon University,"Pittsburgh, PA",Pittsburgh,Engineering,4,PA,PA
+64,California Institute of Technology,"Pasadena, CA",Pasadena,Engineering,5,CA,CA
+65,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Engineering,5,MI,MI
+66,Georgia Institute of Technology,"Atlanta, GA",Atlanta,Engineering,7,GA,GA
+67,Purdue University-Main Campus,"West Lafayette, IN",West Lafayette,Engineering,8,IN,IN
+68,University of Southern California,"Los Angeles, CA",Los Angeles,Engineering,9,CA,CA
+69,University of Illinois-Urbana-Champaign,"Urbana, IL",Urbana,Engineering,10,IL,IL
+70,Columbia University,"New York, NY",New York,Engineering,11,NY,NY
+71,University of California-San Diego ,"La Jolla, CA",La Jolla,Engineering,11,CA,CA
+72,University of Texas at Austin ,"Austin, TX",Austin,Engineering,11,TX,TX
+73,Cornell University,"Ithaca, NY",Ithaca,Engineering,14,NY,NY
+74,Texas A&M University-College Station,"College Station, TX",College Station,Engineering,15,TX,TX
+75,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Engineering,16,CA,CA
+76,Johns Hopkins University,"Baltimore, MD",Baltimore,Engineering,17,MD,MD
+77,Princeton University,"Princeton, NJ",Princeton,Engineering,17,NJ,NJ
+78,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Engineering,17,PA,PA
+79,Northwestern University,"Evanston, IL",Evanston,Engineering,20,IL,IL
+80,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chapel Hill,Medicine,1,NC,NC
+81,University of Washington,"Seattle, WA",Seattle,Medicine,2,WA,WA
+82,University of California-San Francisco,"San Francisco, CA",San Francisco,Medicine,3,CA,CA
+83,Baylor College of Medicine,"Houston, TX",Houston,Medicine,4,TX,TX
+84,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Medicine,5,CA,CA
+85,Oregon Health and Science University,"Portland, OR",Portland,Medicine,6,OR,OR
+86,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Medicine,6,MI,MI
+87,University of Nebraska Medical Center,"Omaha, NE",Omaha,Medicine,8,NE,NE
+88,University of California-Davis,"Sacramento, CA",Sacramento,Medicine,9,CA,CA
+89,University of Minnesota,"Minneapolis, MN",Minneapolis,Medicine,10,MN,MN
+90,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Medicine,10,PA,PA
+91,University of Colorado,"Aurora, CO",Aurora,Medicine,12,CO,CO
+92,Washington University in St. Louis,"St. Louis, MO",St. Louis,Medicine,12,MO,MO
+93,University of Pittsburgh,"Pittsburgh, PA",Pittsburgh,Medicine,14,PA,PA
+94,University of Massachusetts-Worcester,"Worcester, MA",Worcester,Medicine,15,MA,MA
+95,University of Wisconsin-Madison,"Madison, WI",Madison,Medicine,16,WI,WI
+96,Harvard University,"Boston, MA",Boston,Medicine,17,MA,MA
+97,Dartmouth College,"Hanover, NH",Hanover,Medicine,18,NH,NH
+98,University of Chicago,"Chicago, IL",Chicago,Medicine,18,IL,IL
+99,University of Texas Southwestern Medical Center,"Dallas, TX",Dallas,Medicine,18,TX,TX
+100,Johns Hopkins University,"Baltimore, MD",Baltimore,Nursing,1,MD,MD
+101,Duke University,"Durham, NC",Durham,Nursing,2,NC,NC
+102,University of Pennsylvania,"Philadelphia, PA",Philadelphia,Nursing,3,PA,PA
+103,Emory University,"Atlanta, GA",Atlanta,Nursing,4,GA,GA
+104,Columbia University,"New York, NY",New York,Nursing,5,NY,NY
+105,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chapel Hill,Nursing,5,NC,NC
+106,Yale University,"New Haven, CT",New Haven,Nursing,5,CT,CT
+107,Ohio State University,"Columbus, OH",Columbus,Nursing,8,OH,OH
+108,Rush University,"Chicago, IL",Chicago,Nursing,8,IL,IL
+109,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Nursing,8,MI,MI
+110,Vanderbilt University,"Nashville, TN",Nashville,Nursing,8,TN,TN
+111,New York University,"New York, NY",New York,Nursing,12,NY,NY
+112,University of Maryland-Baltimore,"Baltimore, MD",Baltimore,Nursing,12,MD,MD
+113,University of Pittsburgh,"Pittsburgh, PA",Pittsburgh,Nursing,12,PA,PA
+114,University of Washington,"Seattle, WA",Seattle,Nursing,12,WA,WA
+115,Case Western Reserve University,"Cleveland, OH",Cleveland,Nursing,16,OH,OH
+116,University of Illinois-Chicago,"Chicago, IL",Chicago,Nursing,16,IL,IL
+117,University of Alabama-Birmingham,"Birmingham, AL",Birmingham,Nursing,18,AL,AL
+118,University of California-San Francisco,"San Francisco, CA",San Francisco,Nursing,18,CA,CA
+119,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Nursing,20,CA,CA
+120,Yale University,"New Haven, CT",New Haven,Fine Arts,1,CT,CT
+121,Virginia Commonwealth University,"Richmond, VA",Richmond,Fine Arts,2,VA,VA
+122,School of the Art Institute of Chicago,"Chicago, IL",Chicago,Fine Arts,4,IL,IL
+123,Columbia University,"New York, NY",New York,Fine Arts,6,NY,NY
+124,Alfred University,"Alfred, NY",Alfred,Fine Arts,9,NY,NY
+125,Maryland Institute College of Art,"Baltimore, MD",Baltimore,Fine Arts,9,MD,MD
+126,Bard College,"Annandale-on-Hudson, NY",Annandale-on-Hudson,Fine Arts,13,NY,NY
+127,California College of the Arts,"San Francisco, CA",San Francisco,Fine Arts,15,CA,CA
+128,Stanford University,"Stanford, CA",Stanford,Fine Arts,15,CA,CA
+129,University of Wisconsin-Madison,"Madison, WI",Madison,Fine Arts,15,WI,WI
+130,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Fine Arts,2,CA,CA
+131,Rhode Island School of Design,"Providence, RI",Providence,Fine Arts,4,RI,RI
+132,Carnegie Mellon University,"Pittsburgh , PA",Pittsburgh ,Fine Arts,6,PA,PA
+133,Cranbrook Academy of Art,"Bloomfield Hills, MI",Bloomfield Hills,Fine Arts,6,MI,MI
+134,California Institute of the Arts,"Valencia, CA",Valencia,Fine Arts,9,CA,CA
+135,Washington University in St. Louis,"Saint Louis, MO",Saint Louis,Fine Arts,12,MO,MO
+136,University of California-San Diego,"La Jolla, CA",La Jolla,Fine Arts,13,CA,CA
+137,Pratt Institute,"Brooklyn, NY",Brooklyn,Fine Arts,15,NY,NY
+138,Temple University,"Philadelphia, PA",Philadelphia,Fine Arts,15,PA,PA
+139,Arizona State University,"Tempe, AZ",Tempe,Fine Arts,20,AZ,AZ
+140,University of Illinois-Urbana-Champaign,"Champaign, IL",Champaign,Library and Information Studies,1,IL,IL
+141,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chapel Hill,Library and Information Studies,3,NC,NC
+142,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Library and Information Studies,5,MI,MI
+143,Rutgers University-New Brunswick,"New Brunswick, NJ",New Brunswick,Library and Information Studies,7,NJ,NJ
+144,Indiana University-Bloomington,"Bloomington, IN",Bloomington,Library and Information Studies,9,IN,IN
+145,Drexel University,"Philadelphia, PA",Philadelphia,Library and Information Studies,11,PA,PA
+146,Simmons College,"Boston, MA",Boston,Library and Information Studies,12,MA,MA
+147,University of Wisconsin-Madison,"Madison, WI",Madison,Library and Information Studies,14,WI,WI
+148,University of Tennessee-Knoxville,"Knoxville, TN",Knoxville,Library and Information Studies,17,TN,TN
+149,Kent State University,"Kent, OH",Kent,Library and Information Studies,19,OH,OH
+150,University of Washington,"Seattle, WA",Seattle,Library and Information Studies,2,WA,WA
+151,Syracuse University,"Syracuse, NY",Syracuse,Library and Information Studies,4,NY,NY
+152,University of Texas at Austin,"Austin, TX",Austin,Library and Information Studies,5,TX,TX
+153,University of Maryland-College Park,"College Park, MD",College Park,Library and Information Studies,8,MD,MD
+154,University of Pittsburgh,"Pittsburgh, PA",Pittsburgh,Library and Information Studies,10,PA,PA
+155,Florida State University,"Tallahassee, FL",Tallahassee,Library and Information Studies,12,FL,FL
+156,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Library and Information Studies,14,CA,CA
+157,University of Wisconsin-Milwaukee,"Milwaukee, WI",Milwaukee,Library and Information Studies,14,WI,WI
+158,University of South Carolina,"Columbia, SC",Columbia,Library and Information Studies,18,SC,SC
+159,University of Kentucky,"Lexington, KY",Lexington,Library and Information Studies,20,KY,KY
+160,Indiana University-Bloomington,"Bloomington, IN",Bloomington,Public Affairs,1,IN,IN
+161,Harvard University,"Cambridge, MA",Cambridge,Public Affairs,3,MA,MA
+162,University of Georgia,"Athens, GA",Athens,Public Affairs,5,GA,GA
+163,New York University,"New York, NY",New York,Public Affairs,7,NY,NY
+164,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Public Affairs,7,MI,MI
+165,University of Chicago,"Chicago, IL",Chicago,Public Affairs,10,IL,IL
+166,University of Texas at Austin,"Austin, TX",Austin,Public Affairs,10,TX,TX
+167,Arizona State University,"Phoenix, AZ",Phoenix,Public Affairs,14,AZ,AZ
+168,George Washington University,"Washington, DC",Washington,Public Affairs,14,DC,DC
+169,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Public Affairs,14,CA,CA
+170,Syracuse University,"Syracuse, NY",Syracuse,Public Affairs,1,NY,NY
+171,University of Southern California,"Los Angeles, CA",Los Angeles,Public Affairs,3,CA,CA
+172,University of Washington,"Seattle, WA",Seattle,Public Affairs,5,WA,WA
+173,University of California-Berkeley,"Berkeley, CA",Berkeley,Public Affairs,7,CA,CA
+174,Princeton University,"Princeton, NJ",Princeton,Public Affairs,10,NJ,NJ
+175,University of Minnesota-Twin Cities,"Minneapolis, MN",Minneapolis,Public Affairs,10,MN,MN
+176,American University,"Washington, DC",Washington,Public Affairs,14,DC,DC
+177,Carnegie Mellon University,"Pittsburgh, PA",Pittsburgh,Public Affairs,14,PA,PA
+178,Ohio State University,"Columbus, OH",Columbus,Public Affairs,14,OH,OH
+179,University of Kansas,"Lawrence, KS",Lawrence,Public Affairs,14,KS,KS
