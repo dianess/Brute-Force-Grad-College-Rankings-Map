@@ -1,0 +1,141 @@
+,INSTNM,firstcity,Degree,Rank,CITY,STATE
+0,Massachusetts Institute of Technology,"Cambridge, MA",Biological Sciences,1,Cambridge,MA
+1,University of California-Berkeley,"Berkeley, CA",Biological Sciences,1,Berkeley,CA
+2,Harvard University,"Boston, MA",Biological Sciences,4,Boston,MA
+3,Princeton University,"Princeton, NJ",Biological Sciences,6,Princeton,NJ
+4,Yale University,"New Haven, CT",Biological Sciences,6,New Haven,CT
+5,Duke University,"Durham, NC",Biological Sciences,10,Durham,NC
+6,Rockefeller University,"New York, NY",Biological Sciences,13,New York,NY
+7,Washington University in St. Louis,"St. Louis, MO",Biological Sciences,13,St. Louis,MO
+8,University of California-San Diego,"La Jolla, CA",Biological Sciences,16,La Jolla,CA
+9,University of California-Davis,"Davis, CA",Biological Sciences,18,Davis,CA
+10,Stanford University,"Stanford, CA",Biological Sciences,1,Stanford,CA
+11,California Institute of Technology,"Pasadena, CA",Biological Sciences,4,Pasadena,CA
+12,Johns Hopkins University,"Baltimore, MD",Biological Sciences,6,Baltimore,MD
+13,University of California-San Francisco,"San Francisco, CA",Biological Sciences,6,San Francisco,CA
+14,Cornell University,"Ithaca, NY",Biological Sciences,10,Ithaca,NY
+15,The Scripps Research Institute,"La Jolla, CA",Biological Sciences,10,La Jolla,CA
+16,University of Chicago,"Chicago, IL",Biological Sciences,13,Chicago,IL
+17,Cold Spring Harbor Laboratory,"Cold Spring Harbor, NY",Biological Sciences,16,Cold Spring Harbor,NY
+18,Columbia University,"New York, NY",Biological Sciences,18,New York,NY
+19,University of California-Los Angeles,"Los Angeles, CA",Biological Sciences,18,Los Angeles,CA
+20,California Institute of Technology,"Pasadena, CA",Chemistry,1,Pasadena,CA
+21,Massachusetts Institute of Technology,"Cambridge, MA",Chemistry,2,Cambridge,MA
+22,University of California-Berkeley,"Berkeley, CA",Chemistry,2,Berkeley,CA
+23,The Scripps Research Institute,"La Jolla, CA",Chemistry,6,La Jolla,CA
+24,Columbia University,"New York, NY",Chemistry,9,New York,NY
+25,Princeton University,"Princeton, NJ",Chemistry,9,Princeton,NJ
+26,Yale University,"New Haven, CT",Chemistry,9,New Haven,CT
+27,University of California-Los Angeles,"Los Angeles, CA",Chemistry,15,Los Angeles,CA
+28,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chemistry,15,Chapel Hill,NC
+29,University of Pennsylvania,"Philadelphia, PA",Chemistry,19,Philadelphia,PA
+30,Harvard University,"Cambridge, MA",Chemistry,2,Cambridge,MA
+31,Stanford University,"Stanford, CA",Chemistry,2,Stanford,CA
+32,Northwestern University,"Evanston, IL",Chemistry,6,Evanston,IL
+33,University of Illinois at Urbana-Champaign,"Urbana, IL",Chemistry,6,Urbana,IL
+34,Cornell University,"Ithaca, NY",Chemistry,9,Ithaca,NY
+35,University of Wisconsin-Madison,"Madison, WI",Chemistry,9,Madison,WI
+36,University of Chicago,"Chicago, IL",Chemistry,14,Chicago,IL
+37,University of Michigan-Ann Arbor,"Ann Arbor, MI",Chemistry,15,Ann Arbor,MI
+38,The University of Texas at Austin,"Austin, TX",Chemistry,15,Austin,TX
+39,Georgia Institute of Technology,"Atlanta, GA",Chemistry,20,Atlanta,GA
+40,Carnegie Mellon University,"Pittsburgh, PA",Computer Sciences,1,Pittsburgh,PA
+41,Stanford University,"Stanford, CA",Computer Sciences,1,Stanford,CA
+42,University of Illinois at Urbana-Champaign,"Urbana, IL",Computer Sciences,5,Urbana,IL
+43,University of Washington,"Seattle, WA",Computer Sciences,6,Seattle,WA
+44,Princeton University,"Princeton, NJ",Computer Sciences,8,Princeton,NJ
+45,California Institute of Technology,"Pasadena, CA",Computer Sciences,11,Pasadena,CA
+46,Columbia University,"New York, NY",Computer Sciences,13,New York,NY
+47,University of Wisconsin-Madison,"Madison, WI",Computer Sciences,13,Madison,WI
+48,University of California-San Diego,"La Jolla, CA",Computer Sciences,16,La Jolla,CA
+49,University of Pennsylvania,"Philadelphia, PA",Computer Sciences,19,Philadelphia,PA
+50,Massachusetts Institute of Technology,"Cambridge, MA",Computer Sciences,1,Cambridge,MA
+51,University of California-Berkeley,"Berkeley, CA",Computer Sciences,1,Berkeley,CA
+52,Cornell University,"Ithaca, NY",Computer Sciences,6,Ithaca,NY
+53,Georgia Institute of Technology,"Atlanta, GA",Computer Sciences,8,Atlanta,GA
+54,The University of Texas at Austin,"Austin, TX",Computer Sciences,10,Austin,TX
+55,University of Michigan-Ann Arbor,"Ann Arbor, MI",Computer Sciences,11,Ann Arbor,MI
+56,University of California-Los Angeles,"Los Angeles, CA",Computer Sciences,13,Los Angeles,CA
+57,Harvard University,"Cambridge, MA",Computer Sciences,16,Cambridge,MA
+58,University of Maryland-College Park,"College Park, MD",Computer Sciences,16,College Park,MD
+59,Purdue University-West Lafayette,"West Lafayette, IN",Computer Sciences,20,West Lafayette,IN
+60,California Institute of Technology,"Pasadena, CA",Earth Sciences,1,Pasadena,CA
+61,Stanford University,"Stanford, CA",Earth Sciences,2,Stanford,CA
+62,Columbia University,"Palisades, NY",Earth Sciences,5,Palisades,NY
+63,The University of Texas at Austin,"Austin, TX",Earth Sciences,7,Austin,TX
+64,University of Arizona,"Tucson, AZ",Earth Sciences,8,Tucson,AZ
+65,University of Michigan-Ann Arbor,"Ann Arbor, MI",Earth Sciences,10,Ann Arbor,MI
+66,University of California-Los Angeles,"Los Angeles, CA",Earth Sciences,13,Los Angeles,CA
+67,Arizona State University,"Tempe, AZ",Earth Sciences,15,Tempe,AZ
+68,University of California-San Diego,"La Jolla, CA",Earth Sciences,15,La Jolla,CA
+69,Cornell University,"Ithaca, NY",Earth Sciences,19,Ithaca,NY
+70,Massachusetts Institute of Technology,"Cambridge, MA",Earth Sciences,2,Cambridge,MA
+71,University of California-Berkeley,"Berkeley, CA",Earth Sciences,2,Berkeley,CA
+72,Pennsylvania State University-Main Campus,"University Park, PA",Earth Sciences,5,University Park,PA
+73,Harvard University,"Cambridge, MA",Earth Sciences,8,Cambridge,MA
+74,Princeton University,"Princeton, NJ",Earth Sciences,10,Princeton,NJ
+75,University of Washington,"Seattle, WA",Earth Sciences,10,Seattle,WA
+76,Yale University,"New Haven, CT",Earth Sciences,13,New Haven,CT
+77,Brown University,"Providence, RI",Earth Sciences,15,Providence,RI
+78,University of Wisconsin-Madison,"Madison, WI",Earth Sciences,15,Madison,WI
+79,University of California-Santa Barbara,"Santa Barbara, CA",Earth Sciences,19,Santa Barbara,CA
+80,Princeton University,"Princeton, NJ",Mathematics,1,Princeton,NJ
+81,Massachusetts Institute of Technology,"Cambridge, MA",Mathematics,2,Cambridge,MA
+82,University of California-Berkeley,"Berkeley, CA",Mathematics,2,Berkeley,CA
+83,Columbia University,"New York, NY",Mathematics,7,New York,NY
+84,California Institute of Technology,"Pasadena, CA",Mathematics,9,Pasadena,CA
+85,Yale University,"New Haven, CT",Mathematics,9,New Haven,CT
+86,Cornell University,"Ithaca, NY",Mathematics,13,Ithaca,NY
+87,The University of Texas at Austin,"Austin, TX",Mathematics,14,Austin,TX
+88,University of Pennsylvania,"Philadelphia, PA",Mathematics,16,Philadelphia,PA
+89,University of California-San Diego,"La Jolla, CA",Mathematics,19,La Jolla,CA
+90,Harvard University,"Cambridge, MA",Mathematics,2,Cambridge,MA
+91,Stanford University,"Stanford, CA",Mathematics,2,Stanford,CA
+92,University of Chicago,"Chicago, IL",Mathematics,6,Chicago,IL
+93,University of California-Los Angeles,"Los Angeles, CA",Mathematics,7,Los Angeles,CA
+94,New York University,"New York, NY",Mathematics,9,New York,NY
+95,University of Michigan-Ann Arbor,"Ann Arbor, MI",Mathematics,12,Ann Arbor,MI
+96,Brown University,"Providence, RI",Mathematics,14,Providence,RI
+97,Duke University,"Durham, NC",Mathematics,16,Durham,NC
+98,University of Wisconsin-Madison,"Madison, WI",Mathematics,16,Madison,WI
+99,University of Illinois at Urbana-Champaign,"Urbana, IL",Mathematics,19,Urbana,IL
+100,Massachusetts Institute of Technology,"Cambridge, MA",Physics,1,Cambridge,MA
+101,California Institute of Technology,"Pasadena, CA",Physics,3,Pasadena,CA
+102,Princeton University,"Princeton, NJ",Physics,3,Princeton,NJ
+103,Cornell University,"Ithaca, NY",Physics,7,Ithaca,NY
+104,University of Illinois at Urbana-Champaign,"Urbana, IL",Physics,9,Urbana,IL
+105,University of California-Santa Barbara,"Santa Barbara, CA",Physics,10,Santa Barbara,CA
+106,University of Michigan-Ann Arbor,"Ann Arbor, MI",Physics,13,Ann Arbor,MI
+107,University of Maryland-College Park,"College Park, MD",Physics,14,College Park,MD
+108,Johns Hopkins University,"Baltimore, MD",Physics,17,Baltimore,MD
+109,University of California-San Diego,"La Jolla, CA",Physics,17,La Jolla,CA
+110,Stanford University,"Stanford, CA",Physics,1,Stanford,CA
+111,Harvard University,"Cambridge, MA",Physics,3,Cambridge,MA
+112,University of California-Berkeley,"Berkeley, CA",Physics,3,Berkeley,CA
+113,University of Chicago,"Chicago, IL",Physics,7,Chicago,IL
+114,Columbia University,"New York, NY",Physics,10,New York,NY
+115,Yale University,"New Haven, CT",Physics,12,New Haven,CT
+116,University of Colorado Boulder,"Boulder, CO",Physics,14,Boulder,CO
+117,University of Pennsylvania,"Philadelphia, PA",Physics,14,Philadelphia,PA
+118,University of California-Los Angeles,"Los Angeles, CA",Physics,17,Los Angeles,CA
+119,The University of Texas at Austin,"Austin, TX",Physics,17,Austin,TX
+120,Stanford University,"Stanford, CA",Statistics,1,Stanford,CA
+121,Harvard University,"Boston, MA",Statistics,3,Boston,MA
+122,University of Washington,"Seattle, WA",Statistics,3,Seattle,WA
+123,University of Chicago,"Chicago, IL",Statistics,6,Chicago,IL
+124,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Statistics,8,Chapel Hill,NC
+125,University of Michigan-Ann Arbor,"Ann Arbor, MI",Statistics,11,Ann Arbor,MI
+126,University of California-Berkeley,"Berkeley, CA",Statistics,12,Berkeley,CA
+127,University of Pennsylvania,"Philadelphia, PA",Statistics,12,Philadelphia,PA
+128,North Carolina State University,"Raleigh, NC",Statistics,16,Raleigh,NC
+129,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Statistics,19,Chapel Hill,NC
+130,University of California-Berkeley,"Berkeley, CA",Statistics,2,Berkeley,CA
+131,Johns Hopkins University,"Baltimore, MD",Statistics,3,Baltimore,MD
+132,Harvard University,"Cambridge, MA",Statistics,6,Cambridge,MA
+133,Carnegie Mellon University,"Pittsburgh, PA",Statistics,8,Pittsburgh,PA
+134,University of Washington,"Seattle, WA",Statistics,8,Seattle,WA
+135,Duke University,"Durham, NC",Statistics,12,Durham,NC
+136,University of Michigan-Ann Arbor,"Ann Arbor, MI",Statistics,12,Ann Arbor,MI
+137,Columbia University,"New York, NY",Statistics,16,New York,NY
+138,University of Wisconsin-Madison,"Madison, WI",Statistics,16,Madison,WI
+139,Cornell University,"Ithaca, NY",Statistics,20,Ithaca,NY

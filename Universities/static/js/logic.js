@@ -4,7 +4,7 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
   maxZoom: 18,
   id: "mapbox.light",
   accessToken: API_KEY
-});
+});  // ends var lightmap
 
 // Initialize all of the LayerGroups we'll be using
 var layers = {
@@ -18,7 +18,8 @@ var layers = {
   Library_Information_Studies: new L.LayerGroup(),
   Public_Affairs: new L.LayerGroup(),
   Science: new L.LayerGroup(),
-};
+  // All: new.L.LayerGroup(),
+};  // ends var layers
 
 // Create the map with our layers
 var map = L.map("map-id", {
@@ -35,8 +36,9 @@ var map = L.map("map-id", {
     layers.Library_Information_Studies,
     layers.Public_Affairs,
     layers.Science,
-  ]
-});
+    //layers.All,
+  ]  // ends layers bracket
+});  // ends var map
 
 // Add our 'lightmap' tile layer to the map
 lightmap.addTo(map);
@@ -53,6 +55,7 @@ var overlays = {
   "Library and Information Studies": layers.Library_Information_Studies,
   "Public Affairs": layers.Public_Affairs,
   "Science": layers.Science,
+  //"All": layers.All
 };
 
 // Create a control for our layers, add our overlay layers to it
@@ -135,13 +138,7 @@ var icons = {
     markerColor: "darkblue",  // graduation tassle color is golden yellow
     shape: "circle"
   })
-  // iAll: L.ExtraMarkers.icon({
-  //   icon: "ion-school",  // school (grad cap)
-  //   iconColor: "white",
-  //   markerColor: "green",
-  //   shape: "circle"
-  // })
-};
+}; // ends var icons
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
 //d3.json("data/Universities.geojson", function(collegeData) {
@@ -208,7 +205,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
         // Medicine   (Note that we're using the Primary Care program, not Research)
       if (gradProgram == "Medicine") {
         filteredMedicine = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-        L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicine: " + filteredMedicine)
+        L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicinehr>" + filteredMedicine)
       };  // ends filter for Medicine
 
         // Engineering

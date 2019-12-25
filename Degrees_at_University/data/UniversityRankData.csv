@@ -1,4 +1,4 @@
-,INSTNM,firstcity,CITY,Degree,Rank,STATE,S
+﻿,INSTNM,firstcity,CITY,Degree,Rank,STATE,S
 0,Yale University,"New Haven, CT",New Haven,Law,1,CT,CT
 1,Stanford University,"Stanford, CA",Stanford,Law,2,CA,CA
 2,Harvard University,"Cambridge, MA",Cambridge,Law,3,MA,MA
@@ -29,7 +29,7 @@
 27,University of California-Berkeley,"Berkeley, CA",Berkeley,Business,6,CA,CA
 28,Yale University,"New Haven, CT",New Haven,Business,9,CT,CT
 29,Duke University,"Durham, NC",Durham,Business,10,NC,NC
-30,University of Michigan--Ann Arbor,"Ann Arbor, MI",Ann Arbor,Business,10,MI,MI
+30,University of Michigan-Ann Arbor,"Ann Arbor, MI",Ann Arbor,Business,10,MI,MI
 31,Dartmouth College,"Hanover, NH",Hanover,Business,12,NH,NH
 32,New York University,"New York, NY",New York,Business,12,NY,NY
 33,University of Virginia,"Charlottesville, VA",Charlottesville,Business,12,VA,VA
@@ -73,7 +73,7 @@
 71,University of California-San Diego ,"La Jolla, CA",La Jolla,Engineering,11,CA,CA
 72,University of Texas at Austin ,"Austin, TX",Austin,Engineering,11,TX,TX
 73,Cornell University,"Ithaca, NY",Ithaca,Engineering,14,NY,NY
-74,Texas A&M University-College Station,"College Station, TX",College Station,Engineering,15,TX,TX
+74,Texas A & M University-College Station,"College Station, TX",College Station,Engineering,15,TX,TX
 75,University of California-Los Angeles,"Los Angeles, CA",Los Angeles,Engineering,16,CA,CA
 76,Johns Hopkins University,"Baltimore, MD",Baltimore,Engineering,17,MD,MD
 77,Princeton University,"Princeton, NJ",Princeton,Engineering,17,NJ,NJ

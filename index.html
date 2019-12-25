@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- This head section puts the title on the tab of the webpage, resets the css style
+so each browser responds to the bootstrap styles and the styles in my css file.
+The h1 header prints at the top of the screen. -->
+<head>
+    <meta charset="utf-08">
+    <title>Top-20 Graduate Schools</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css"> 
+    <h1>Top-20 Graduate Schools</h1>
+</head>
+
+<!-- Apply the bootstrap navbar and dropdown classes -->
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Universities/index.html">9 Graduate Programs</a>
+                </li>
+                <li>
+                    <a href="Universities_for_Science/index.html">7 Science Subcategories</a>
+                </li>
+                <li>
+                    <a href="Degrees_at_University/index.html">Top Graduate Programs at Each University</a>
+                </li>
+                
+            </ul>
+        </nav>
+    <!-- This section contains a summary of the project. -->
+    <section>
+        <h2>Project Summary</h2> 
+        <p> In this project, our team collected geoJSON data from Data.gov for Postsecondary Schools from 
+            the 2016-2017 school year. We also collected data from U.S. News & World Report for the
+            top 20 graduate schools in each of 9 categories (Business, Law, Medicine, Engineering, 
+            Nursing, Education, Fine_Arts, Library and Information Studies, and Public_Affairs)
+            and each of the 7 subcategories of science (Biological Sciences, Chemistry, Computer Science, 
+            Earth Sciences, Mathematics, Physics, and Statistics).
+        </p>
+        <p> Using our geoJSON file, we plotted the universities on a U.S. map.    
+        </p>
+        <p> 
+        </p>
+<!-- 
+        Dow Jones Industrial Average Index 100 years
+        <img class="img-fluid" src="WebVisualizations/Dow_Jones_Index_100_years.png" alt="Dow Jones 100 Years">
+        
+        <p>  
+        </p>
+
+        Dow Jones Industrial Average Index 20 years
+        <img class="img-fluid" src="WebVisualizations/Dow_Jones_Index_100_years.png" alt="Dow Jones 100 Years">
+
+        <p></p>  <!-- Adding a little space between the graph above and the text
+        <p> For details on the following charts, click on the corresponding chart title on the "Plots" link above.
+        </p>   
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <p> This is our version of the 20-year chart, color-coded by Presidential term.
+                </p>    
+                Daily Close
+        
+                <img class="img-fluid" src="WebVisualizations/Resources/assets:images/Presidential_term_Daily_Close.png" alt="Daily Close">
+                </div>  <!-- ending div for col-md-6 
+                
+                <div class="col-md-6">
+     
+                Daily Change
+            
+                <img class="img-fluid" src="WebVisualizations/Resources/assets:images/Presidential_term_Daily_Change.png" alt="Daily Change">
+                </div>   <!-- ending div for col-md-6            
+            </div>  <!-- ending div for row -->
+        </div>  <!-- ending div for this container
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                Dow Jones Daily Change from Election to Inauguration
+
+                <img class="img-fluid" src="WebVisualizations/Resources/assets:images/Election_to_Inauguration_boxplot.png" alt="Dow Jones Daily Change from Election to Inauguration">
+                </div>   <!-- ending div for col-md-6 
+
+                <div class="col-md-6">
+                Dow Jones Daily Change by Presidential Term
+
+                <img class="img-fluid" src="WebVisualizations/Resources/assets:images/Presidential_Term_boxplot.png" alt="Dow Jones Daily Change by Presidential Term">
+                </div>    <!-- ending div for col-md-6 -->
+            </div>  <!-- ending div for row -->
+        </div>   <!-- ending div for this container 
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                Percent Positive Close Days
+                <img class="img-fluid" src="WebVisualizations/Resources/assets:images/Percent_Positive_Close_Days.png" alt="Percent Positive Close Days">
+                </div>   <!-- ending div for col-md-6 -->
+            </div>  <!-- ending div for row -->
+        
+            <p> Conclusion: 
+                </p>           
+        </div>  <!-- ending div for this container -->
+    </section>  <!-- ending of section that starts before "Project Summary" -->
+
+    </div> <!-- Closes the container div at top, just below the body. -->
+</body> <!-- ending of the body -->
+
+</html>
