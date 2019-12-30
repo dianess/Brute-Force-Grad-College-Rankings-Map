@@ -8,6 +8,7 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
 
 // Initialize all of the LayerGroups we'll be using
 var layers = {
+  //All: new L.LayerGroup(),
   MBA_Business: new L.LayerGroup(),
   Law: new L.LayerGroup(),
   Medicine: new L.LayerGroup(),
@@ -17,8 +18,6 @@ var layers = {
   Fine_Arts: new L.LayerGroup(),
   Library_Information_Studies: new L.LayerGroup(),
   Public_Affairs: new L.LayerGroup(),
-  Science: new L.LayerGroup(),
-  // All: new.L.LayerGroup(),
 };  // ends var layers
 
 // Create the map with our layers
@@ -26,6 +25,7 @@ var map = L.map("map-id", {
   center: [38.8283, -96.5795], // Geographic Center of the U.S.
   zoom: 5,
   layers: [
+    //layers.All,
     layers.MBA_Business,
     layers.Law,
     layers.Medicine,
@@ -35,8 +35,6 @@ var map = L.map("map-id", {
     layers.Fine_Arts,
     layers.Library_Information_Studies,
     layers.Public_Affairs,
-    layers.Science,
-    //layers.All,
   ]  // ends layers bracket
 });  // ends var map
 
@@ -45,6 +43,7 @@ lightmap.addTo(map);
 
 // Create an overlays object to add to the layer control
 var overlays = {
+  //"All": layers.All,
   "MBA Business": layers.MBA_Business,
   "Law": layers.Law,
   "Medicine": layers.Medicine,
@@ -54,12 +53,16 @@ var overlays = {
   "Fine Arts": layers.Fine_Arts,
   "Library and Information Studies": layers.Library_Information_Studies,
   "Public Affairs": layers.Public_Affairs,
-  "Science": layers.Science,
-  //"All": layers.All
+};
+
+var options = {
+  // Show a checkbox next to non-exclusive group labels for toggling all
+  groupCheckboxes: true
 };
 
 // Create a control for our layers, add our overlay layers to it
 L.control.layers(null, overlays).addTo(map);
+//L.control.groupedLayers(lightmap, overlays, options).addTo(map);
 
 // Create a legend to display information about our map
 var info = L.control({
@@ -80,20 +83,20 @@ var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
     icon: "ion-stats-bars",  //want to use ion-stats
     iconColor: "black",
-    markerColor: "darkred",  // graduation tassle color is drab (light brown)
-    shape: "star"
+    markerColor: "blue-dark",  // graduation tassle color is drab (light brown)
+    //shape: "star"
   }),
   iLaw: L.ExtraMarkers.icon({
     icon: "ion-clipboard",
     iconColor: "black",
     markerColor: "purple", // graduation tassle color
-    shape: "circle"
+    //shape: "circle"
   }),
   iMedicine: L.ExtraMarkers.icon({
     icon: "ion-medkit",   // medkit
     iconColor: "black",
     markerColor: "green",  // graduation tassle color is kelly green
-    shape: "penta"
+    //shape: "penta"
   }),
   iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
@@ -131,12 +134,6 @@ var icons = {
     iconColor: "black",
     markerColor: "cadetblue",  // graduation tassle color is peacock blue
     shape: "circle"
-  }),
-  iScience: L.ExtraMarkers.icon({
-    icon: "ion-beaker",
-    iconColor: "black",
-    markerColor: "darkblue",  // graduation tassle color is golden yellow
-    shape: "circle"
   })
 }; // ends var icons
 
@@ -147,21 +144,6 @@ d3.json("data/test_data.geojson", function(collegeData) {
         //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
         // console.log(collegeInfo);
-
-    // ? Create an object to keep track of the number of markers in each layer
-    var gradSchoolCount = {
-      MBA_Business: 0,
-      Law: 0,
-      Medicine: 0,
-      Engineering: 0,
-      Nursing: 0,
-      Education: 0,
-      Fine_Arts: 0,
-      Library_Information_Studies: 0,
-      Public_Affairs: 0,
-      Science: 0
-    };
-    // console.log(gradSchoolCount.MBA_Business);  // returns 0 (zero)
 
     // Loop through the colleges and put key data into variables to be used later
     for (var i = 0; i < collegeInfo.length; i++) {
@@ -245,60 +227,5 @@ d3.json("data/test_data.geojson", function(collegeData) {
     L.marker([collegeLat, collegeLon], {icon: icons.iPublic_Affairs}).addTo(layers.Public_Affairs).bindPopup("Public Affairs<hr>" + filteredPublicAffairs)
     };  // ends filter for Public Affairs
 
-     // Science
-    if (gradProgram == "Science") {
-    filteredScience = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-    L.marker([collegeLat, collegeLon], {icon: icons.iScience}).addTo(layers.Science).bindPopup("Science<hr>" + filteredScience)
-    };  // ends filter for Science
-
     };  // ends for-loop
 });  // ends d3.json
-
-    //collegeFeatures(collegeData.features);
-
-      //function collegeFeatures(collegeList) {
-
-        // Define a function to run once for each feature in the features array
-        // Give each feature a pop-up box describing the name & address of each college
-        // function onEachFeature(feature, layer) {
-        //   layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
-        //     "<p>" + collegeCity + ", " + collegeState + "</p>" + "<p>" + collegeZip + "</p></div>");
-        //     console.log(collegeName);
-        // }  //ends function onEachFeature
-      
-      // Create a new marker with the appropriate icon and coordinates
-      // var newMarker = L.marker([collegeLat, collegeLon], {
-      //   icon: icons[gradSchoolCount]
-      // });  // ends newMarker
-      // console.log("added a new marker??");  //this line does not run in the code!!! I think because collegeFeatures is never called
-
-      // Add the new marker to the appropriate layer
-      // newMarker.addTo(layers[gradSchoolCount])   // throws error - Cannot read property 'addLayer' of undefined (ie fix gradSchoolcount)
-      // .bindPopup(collegeName + "Graduate Program: ");
-
-      // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      //newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
- 
-    //}      // ends collegeFeatures
-
-    // Call the updateLegend function, which will... update the legend!
-    // updateLegend(gradProgram);  // goes with section below
- 
-
-// // // Update the legend's innerHTML with the information for each grad program chosen
-// function updateLegend(gradProgram) {
-//   //console.log(gradProgram);  // undefined until we get the right data
-//   document.querySelector(".legend").innerHTML = [
-//     //"<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
-//     "<p class='business'>MBA Business: " + gradSchoolCount.MBA_business + "</p>",
-//     "<p class='law'>Law: " + gradSchoolCount.Law + "</p>",
-//     "<p class='medicine'>Medicine: " + gradSchoolCount.Medicine + "</p>",
-//     "<p class='engineering'>Engineering: " + gradSchoolCount.Engineering + "</p>",
-//     "<p class='nursing'>Nursing: " + gradSchoolCount.Nursing + "</p>",
-//     "<p class='education'>Education: " + gradSchoolCount.Education + "</p>",
-//     "<p class='fineArts'>Fine Arts: " + gradSchoolCount.Fine_Arts + "</p>",
-//     "<p class='information'>Library and Information Studies: " + gradSchoolCount.Library_Information_Studies + "</p>",
-//     "<p class='publicAffairs'>Public Affairs: " + gradSchoolCount.Public_Affairs + "</p>",
-//     "<p class='science'>Science: " + gradSchoolCount.Science + "</p>"
-//   ].join("");
-// }  // ends function updateLegend
