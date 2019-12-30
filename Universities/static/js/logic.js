@@ -83,13 +83,13 @@ var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
     icon: "ion-stats-bars",  //want to use ion-stats
     iconColor: "black",
-    markerColor: "blue-dark",  // graduation tassle color is drab (light brown)
+    markerColor: "blue",  // graduation tassle color is drab (light brown)
     shape: "star"
   }),
   iLaw: L.ExtraMarkers.icon({
     icon: "ion-clipboard",
     iconColor: "black",
-    markerColor: "purple", // graduation tassle color
+    markerColor: "yellow", // graduation tassle color
     shape: "circle"
   }),
   iMedicine: L.ExtraMarkers.icon({
@@ -98,7 +98,6 @@ var icons = {
     markerColor: "green",  // graduation tassle color is kelly green
     shape: "penta"
   }),
-  //iEngineering: new L.Marker.icon({
   iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
     iconColor: "black",
@@ -108,33 +107,33 @@ var icons = {
   iNursing: L.ExtraMarkers.icon({
     icon: "ion-thermometer",
     iconColor: "black",
-    markerColor: "red", // graduation tassle color
-    shape: "circle"
+    markerColor: "yellow", // graduation tassle color
+    shape: "penta"
   }),
   iEducation: L.ExtraMarkers.icon({
     icon: "ion-university",
     iconColor: "black",
     markerColor: 'blue', // graduation tassle color is light blue
-    shape: 'star'
+    shape: 'penta'
   }),
   iFine_Arts: L.ExtraMarkers.icon({
     icon: "ion-paintbrush",
     iconColor: "black",
-    markerColor: "darkpurple",  // graduation tassle color
-    shape: "circle"
+    markerColor: "red",  // graduation tassle color
+    shape: "star"
   }),
   iLibrary_Information_Studies: L.ExtraMarkers.icon({
     icon: "ion-information-circled",   // information symbol
     iconColor: "black",
-    markerColor: "darkgreen",   // graduation tassle color
+    markerColor: "green",   // graduation tassle color
     shape: "circle"
   }),
   iPublic_Affairs: L.ExtraMarkers.icon({
     icon: "ion-person-stalker",
     //icon: "ion-megaphone",    // megaphone
     iconColor: "black",
-    markerColor: "cadetblue",  // graduation tassle color is peacock blue
-    shape: "circle"
+    markerColor: "green",  // graduation tassle color is peacock blue
+    shape: "star"
   })
 }; // ends var icons
 
@@ -188,7 +187,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
         // Medicine   (Note that we're using the Primary Care program, not Research)
       if (gradProgram == "Medicine") {
         filteredMedicine = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-        L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicinehr>" + filteredMedicine)
+        L.marker([collegeLat, collegeLon], {icon: icons.iMedicine}).addTo(layers.Medicine).bindPopup("Medicine<hr>" + filteredMedicine)
       };  // ends filter for Medicine
 
         // Engineering
