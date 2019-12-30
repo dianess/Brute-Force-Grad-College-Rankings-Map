@@ -65,6 +65,12 @@ info.addTo(map);
 // ** Marker color is not working right now ** 12/20/19 4:30 PM
 // Initialize an object containing icons for each layer group
 var icons = {
+    // iAll: L.ExtraMarkers.icon({
+  //   icon: "ion-school",  // school (grad cap)
+  //   iconColor: "white",
+  //   markerColor: "green",
+  //   shape: "circle"
+  // }),
   iBiological: L.ExtraMarkers.icon({
     icon: "ion-stats-bars",  //want to use ion-stats
     iconColor: "black",
@@ -107,12 +113,6 @@ var icons = {
     markerColor: "darkpurple",  // graduation tassle color
     shape: "circle"
   })
-  // iAll: L.ExtraMarkers.icon({
-  //   icon: "ion-school",  // school (grad cap)
-  //   iconColor: "white",
-  //   markerColor: "green",
-  //   shape: "circle"
-  // })
 };
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
@@ -122,18 +122,6 @@ d3.json("data/test_data.geojson", function(collegeData) {
         //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
         // console.log(collegeInfo);
-
-    // ? Create an object to keep track of the number of markers in each layer
-    var gradScienceCount = {
-      Biological: 0,
-      Chemistry: 0,
-      Computer: 0,
-      Earth: 0,
-      Math: 0,
-      Physics: 0,
-      Statistics: 0
-    };
-    // console.log(gradSchoolCount.MBA_Business);  // returns 0 (zero)
 
     // Loop through the colleges and put key data into variables to be used later
     for (var i = 0; i < collegeInfo.length; i++) {
@@ -203,51 +191,3 @@ d3.json("data/test_data.geojson", function(collegeData) {
     };  // ends for-loop
 });  // ends d3.json
 
-    //collegeFeatures(collegeData.features);
-
-      //function collegeFeatures(collegeList) {
-
-        // Define a function to run once for each feature in the features array
-        // Give each feature a pop-up box describing the name & address of each college
-        // function onEachFeature(feature, layer) {
-        //   layer.bindPopup('<div align="center">' + "<h3>" + "College: "  + collegeName + "</h3><hr><p>" + collegeStreet + "</p>" +
-        //     "<p>" + collegeCity + ", " + collegeState + "</p>" + "<p>" + collegeZip + "</p></div>");
-        //     console.log(collegeName);
-        // }  //ends function onEachFeature
-      
-      // Create a new marker with the appropriate icon and coordinates
-      // var newMarker = L.marker([collegeLat, collegeLon], {
-      //   icon: icons[gradSchoolCount]
-      // });  // ends newMarker
-      // console.log("added a new marker??");  //this line does not run in the code!!! I think because collegeFeatures is never called
-
-      // Add the new marker to the appropriate layer
-      // newMarker.addTo(layers[gradSchoolCount])   // throws error - Cannot read property 'addLayer' of undefined (ie fix gradSchoolcount)
-      // .bindPopup(collegeName + "Graduate Program: ");
-
-      // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      //newMarker.bindPopup(collegeName + "Graduate Program: ");  // + station.capacity + "<br>" + station.num_bikes_available + " Bikes Available");
- 
-    //}      // ends collegeFeatures
-
-    // Call the updateLegend function, which will... update the legend!
-    // updateLegend(gradProgram);  // goes with section below
- 
-
-// // // Update the legend's innerHTML with the information for each grad program chosen
-// function updateLegend(gradProgram) {
-//   //console.log(gradProgram);  // undefined until we get the right data
-//   document.querySelector(".legend").innerHTML = [
-//     //"<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
-//     "<p class='business'>MBA Business: " + gradSchoolCount.MBA_business + "</p>",
-//     "<p class='law'>Law: " + gradSchoolCount.Law + "</p>",
-//     "<p class='medicine'>Medicine: " + gradSchoolCount.Medicine + "</p>",
-//     "<p class='engineering'>Engineering: " + gradSchoolCount.Engineering + "</p>",
-//     "<p class='nursing'>Nursing: " + gradSchoolCount.Nursing + "</p>",
-//     "<p class='education'>Education: " + gradSchoolCount.Education + "</p>",
-//     "<p class='fineArts'>Fine Arts: " + gradSchoolCount.Fine_Arts + "</p>",
-//     "<p class='information'>Library and Information Studies: " + gradSchoolCount.Library_Information_Studies + "</p>",
-//     "<p class='publicAffairs'>Public Affairs: " + gradSchoolCount.Public_Affairs + "</p>",
-//     "<p class='science'>Science: " + gradSchoolCount.Science + "</p>"
-//   ].join("");
-// }  // ends function updateLegend

@@ -84,20 +84,21 @@ var icons = {
     icon: "ion-stats-bars",  //want to use ion-stats
     iconColor: "black",
     markerColor: "blue-dark",  // graduation tassle color is drab (light brown)
-    //shape: "star"
+    shape: "star"
   }),
   iLaw: L.ExtraMarkers.icon({
     icon: "ion-clipboard",
     iconColor: "black",
     markerColor: "purple", // graduation tassle color
-    //shape: "circle"
+    shape: "circle"
   }),
   iMedicine: L.ExtraMarkers.icon({
     icon: "ion-medkit",   // medkit
     iconColor: "black",
     markerColor: "green",  // graduation tassle color is kelly green
-    //shape: "penta"
+    shape: "penta"
   }),
+  //iEngineering: new L.Marker.icon({
   iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
     iconColor: "black",
@@ -229,3 +230,4 @@ d3.json("data/test_data.geojson", function(collegeData) {
 
     };  // ends for-loop
 });  // ends d3.json
+
