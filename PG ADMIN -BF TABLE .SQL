@@ -94,3 +94,25 @@ TABLESPACE pg_default;
 
 ALTER TABLE public."ScienceRankData"
     OWNER to postgres;
+
+--3rd table
+-- Table: public.universityrankdata
+
+-- DROP TABLE public.universityrankdata;
+
+CREATE TABLE public.universityrankdata
+(
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" character varying COLLATE pg_catalog."default" NOT NULL,
+    firstcity character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL,
+    "DROP" character varying COLLATE pg_catalog."default" NOT NULL,
+    "S" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.universityrankdata
+    OWNER to postgres;
