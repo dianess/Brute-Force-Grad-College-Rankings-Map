@@ -75,3 +75,22 @@ CREATE TABLE "top_schools" (
     "SURVYEAR" INTEGER   NOT NULL
 );
     
+--table #2 science rank
+-- Table: public."ScienceRankData"
+
+-- DROP TABLE public."ScienceRankData";
+
+CREATE TABLE public."ScienceRankData"
+(
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" integer NOT NULL,
+    firstcity character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public."ScienceRankData"
+    OWNER to postgres;
