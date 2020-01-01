@@ -20,49 +20,78 @@ var layers = {
   Public_Affairs: new L.LayerGroup(),
 };  // ends var layers
 
-// Create the map with our layers
+// Create the map with 
 var map = L.map("map-id", {
-  center: [38.8283, -96.5795], // Geographic Center of the U.S.
+  center: [38.8283, -96.5795], // near Geographic Center of the U.S. but adjusted slightly for our purposes
   zoom: 5,
-  layers: [
-    //layers.All,
-    layers.MBA_Business,
-    layers.Law,
-    layers.Medicine,
-    layers.Engineering,
-    layers.Nursing,
-    layers.Education,
-    layers.Fine_Arts,
-    layers.Library_Information_Studies,
-    layers.Public_Affairs,
-  ]  // ends layers bracket
 });  // ends var map
 
 // Add our 'lightmap' tile layer to the map
 lightmap.addTo(map);
 
-// Create an overlays object to add to the layer control
-var overlays = {
-  //"All": layers.All,
-  "MBA Business": layers.MBA_Business,
-  "Law": layers.Law,
-  "Medicine": layers.Medicine,
-  "Engineering": layers.Engineering,
-  "Nursing": layers.Nursing,
-  "Education": layers.Education,
-  "Fine Arts": layers.Fine_Arts,
-  "Library and Information Studies": layers.Library_Information_Studies,
-  "Public Affairs": layers.Public_Affairs,
-};
+// Layer group visible when landing on page (in other words: addTo(map))
+var layerGroup1 = new L.LayerGroup([  
+  layers.MBA_Business,
+  layers.Law,
+  layers.Medicine,
+  layers.Engineering,
+  layers.Nursing,
+  layers.Education,
+  layers.Fine_Arts,
+  layers.Library_Information_Studies,
+  layers.Public_Affairs,
+]).addTo(map);
+
+// Layer groups that can be clicked on but are not "on" when landing on page
+var layerGroupBusiness = new L.LayerGroup([
+  layers.MBA_Business,
+])
+var layerGroupLaw = new L.LayerGroup([
+  layers.Law,
+])
+var layerGroupMedicine = new L.LayerGroup([
+  layers.Medicine,
+]) 
+var layerGroupEngineering = new L.LayerGroup([
+  layers.Engineering,
+])
+var layerGroupNursing = new L.LayerGroup([
+  layers.Nursing,
+])
+var layerGroupEducation = new L.LayerGroup([
+  layers.Education,
+])
+var layerGroupFine_Arts = new L.LayerGroup([
+  layers.Fine_Arts,
+])
+var layerGroupLibrary_Information_Studies = new L.LayerGroup([
+  layers.Library_Information_Studies,
+])
+var layerGroupPublic_Affairs = new L.LayerGroup([
+  layers.Public_Affairs,
+])
+
 
 var options = {
   // Show a checkbox next to non-exclusive group labels for toggling all
   groupCheckboxes: true
 };
 
-// Create a control for our layers, add our overlay layers to it
-L.control.layers(null, overlays).addTo(map);
-//L.control.groupedLayers(lightmap, overlays, options).addTo(map);
+// Create a control for the layers. This puts the name for each category on the map,
+// and attaches the name to it's appropriate layer of information as described above.
+
+var layerControl = new L.control.layers(null, {
+  "All": layerGroup1,
+  "MBA Business": layerGroupBusiness,
+  "Law": layerGroupLaw,
+  "Medicine": layerGroupMedicine,
+  "Engineering": layerGroupEngineering,
+  "Nursing": layerGroupNursing,
+  "Education": layerGroupEducation,
+  "Fine Arts": layerGroupFine_Arts,
+  "Library and Information Studies": layerGroupLibrary_Information_Studies,
+  "Public Affairs": layerGroupPublic_Affairs,
+}).addTo(map);
 
 // Create a legend to display information about our map
 var info = L.control({
