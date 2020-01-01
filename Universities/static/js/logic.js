@@ -6,9 +6,9 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
   accessToken: API_KEY
 });  // ends var lightmap
 
-// Initialize all of the LayerGroups we'll be using
+// Initialize all of the LayerGroups we'll be using. This is used below each time
+// the code shows "layers."
 var layers = {
-  //All: new L.LayerGroup(),
   MBA_Business: new L.LayerGroup(),
   Law: new L.LayerGroup(),
   Medicine: new L.LayerGroup(),
@@ -20,7 +20,8 @@ var layers = {
   Public_Affairs: new L.LayerGroup(),
 };  // ends var layers
 
-// Create the map with 
+// Create the map with starting center point and zoom level
+// to display the majority of the U.S. when landing on page.
 var map = L.map("map-id", {
   center: [38.8283, -96.5795], // near Geographic Center of the U.S. but adjusted slightly for our purposes
   zoom: 5,
@@ -30,6 +31,7 @@ var map = L.map("map-id", {
 lightmap.addTo(map);
 
 // Layer group visible when landing on page (in other words: addTo(map))
+// This puts all the markers and icons on the landing page.
 var layerGroup1 = new L.LayerGroup([  
   layers.MBA_Business,
   layers.Law,
@@ -42,7 +44,8 @@ var layerGroup1 = new L.LayerGroup([
   layers.Public_Affairs,
 ]).addTo(map);
 
-// Layer groups that can be clicked on but are not "on" when landing on page
+// Layer groups that can be clicked on but are not "on" when landing on page.
+// This allows us to control what's clicked "on" and "off".
 var layerGroupBusiness = new L.LayerGroup([
   layers.MBA_Business,
 ])
@@ -71,14 +74,8 @@ var layerGroupPublic_Affairs = new L.LayerGroup([
   layers.Public_Affairs,
 ])
 
-
-var options = {
-  // Show a checkbox next to non-exclusive group labels for toggling all
-  groupCheckboxes: true
-};
-
-// Create a control for the layers. This puts the name for each category on the map,
-// and attaches the name to it's appropriate layer of information as described above.
+// Create a control for the layers. This puts the name of each grad program on the map control
+// and attaches the name to it's appropriate layer of information as coded above.
 
 var layerControl = new L.control.layers(null, {
   "All": layerGroup1,
@@ -106,7 +103,6 @@ info.onAdd = function() {
 // Add the info legend to the map
 info.addTo(map);
 
-// ** Marker color is not working right now ** 12/20/19 4:30 PM
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
@@ -118,7 +114,7 @@ var icons = {
   iLaw: L.ExtraMarkers.icon({
     icon: "ion-clipboard",
     iconColor: "black",
-    markerColor: "yellow", // graduation tassle color
+    markerColor: "yellow", 
     shape: "circle"
   }),
   iMedicine: L.ExtraMarkers.icon({
@@ -130,13 +126,13 @@ var icons = {
   iEngineering: L.ExtraMarkers.icon({
     icon: "ion-calculator",  // calculator
     iconColor: "black",
-    markerColor: "orange",  // graduation tassle color
+    markerColor: "orange",  // graduation tassle color is orange
     shape: "circle"
   }),
   iNursing: L.ExtraMarkers.icon({
     icon: "ion-thermometer",
     iconColor: "black",
-    markerColor: "yellow", // graduation tassle color
+    markerColor: "yellow", // graduation tassle color is apricot
     shape: "penta"
   }),
   iEducation: L.ExtraMarkers.icon({
@@ -154,12 +150,11 @@ var icons = {
   iLibrary_Information_Studies: L.ExtraMarkers.icon({
     icon: "ion-information-circled",   // information symbol
     iconColor: "black",
-    markerColor: "green",   // graduation tassle color
+    markerColor: "green",
     shape: "circle"
   }),
   iPublic_Affairs: L.ExtraMarkers.icon({
     icon: "ion-person-stalker",
-    //icon: "ion-megaphone",    // megaphone
     iconColor: "black",
     markerColor: "green",  // graduation tassle color is peacock blue
     shape: "star"
@@ -167,10 +162,8 @@ var icons = {
 }; // ends var icons
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
-//d3.json("data/Universities.geojson", function(collegeData) {
 d3.json("data/test_data.geojson", function(collegeData) {  
     // Put data into a variable
-        //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
         // console.log(collegeInfo);
 
