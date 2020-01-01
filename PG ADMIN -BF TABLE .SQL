@@ -36,3 +36,83 @@ TABLESPACE pg_default;
 
 ALTER TABLE public."TOP GRAD SCHOOLS"
     OWNER to postgres;
+    
+    
+    
+ --new table
+ -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/LX1YaP
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+-- Created table here instead of in postgresql
+
+CREATE TABLE "top_schools" (
+    "X" NUMERIC   NOT NULL,
+    "Y" NUMERIC   NOT NULL,
+    "OBJECTID" INTEGER   NOT NULL,
+    "UNITID" INTEGER   NOT NULL,
+    "INSTNM" VARCHAR   NOT NULL,
+    "STREET" VARCHAR   NOT NULL,
+    "CITY" VARCHAR   NOT NULL,
+    "STATE" VARCHAR   NOT NULL,
+    "ZIP" VARCHAR   NOT NULL,
+    "STFIP" INTEGER   NOT NULL,
+    "CNTY" INTEGER   NOT NULL,
+    "NMCNTY" INTEGER   NOT NULL,
+    "LOCALE" INTEGER   NOT NULL,
+    "LAT" NUMERIC   NOT NULL,
+    "LON" NUMERIC   NOT NULL,
+    "CBSA" VARCHAR   NOT NULL,
+    "NMCBSA" VARCHAR   NOT NULL,
+    "CBSATYPE" VARCHAR   NOT NULL,
+    "CSA" VARCHAR   NOT NULL,
+    "NMCSA" VARCHAR   NOT NULL,
+    "NECTA" VARCHAR   NOT NULL,
+    "NMNECTA" VARCHAR   NOT NULL,
+    "CD" INTEGER   NOT NULL,
+    "SLDL" INTEGER   NOT NULL,
+    "SLDU" INTEGER   NOT NULL,
+    "SURVYEAR" INTEGER   NOT NULL
+);
+    
+--table #2 science rank
+-- Table: public."ScienceRankData"
+
+-- DROP TABLE public."ScienceRankData";
+
+CREATE TABLE public."ScienceRankData"
+(
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" integer NOT NULL,
+    firstcity character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public."ScienceRankData"
+    OWNER to postgres;
+
+--3rd table
+-- Table: public.universityrankdata
+
+-- DROP TABLE public.universityrankdata;
+
+CREATE TABLE public.universityrankdata
+(
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" character varying COLLATE pg_catalog."default" NOT NULL,
+    firstcity character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL,
+    "DROP" character varying COLLATE pg_catalog."default" NOT NULL,
+    "S" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.universityrankdata
+    OWNER to postgres;
