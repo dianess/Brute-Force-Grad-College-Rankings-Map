@@ -38,12 +38,6 @@ body {
   height:auto;
 }
 
-/* Spins the graph when the page loads */
-.graph-spin {
-  transform: rotate(360deg);
-  transition: transform 0.5s ease-in;
-}
-
 /* Add font family, size, and weight for the h1 and h2 elements plus space around then */
 h1 {
   font-family: "Times New Roman", Times, serif;
@@ -67,7 +61,7 @@ h2 {
 }
 
 /* Center the h1 tag inside our header, give it a little padding, remove its margin */
-.header h1 {
+.header h1 h2 {
   padding: 60px;
   margin: 0;
   color: #000;

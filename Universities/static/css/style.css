@@ -67,7 +67,7 @@ h2 {
 }
 
 /* Center the h1 tag inside our header, give it a little padding, remove its margin */
-.header h1 {
+.header h1 h2 {
   padding: 60px;
   margin: 0;
   color: #000;

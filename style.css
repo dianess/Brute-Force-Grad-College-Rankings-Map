@@ -108,14 +108,6 @@ img.resize {
   font-weight: bold;
 }
 
-/* Graph titles font style
-.png-titles {
-  padding 5px;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: bold;
-} */
-
 /* Font type for data table column headers */
 .table-head {
   font-family: 'Times New Roman', Times, serif;
