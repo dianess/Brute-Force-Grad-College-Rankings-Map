@@ -68,7 +68,7 @@ var layerGroupStatistics = new L.LayerGroup([
 
 var layerControl = new L.control.layers(null, {
   "All Science": layerGroup1,
-  'Biological Sciences  <i class="ion-usb"></i>': layerGroupBiological,
+  'Biological Sciences  <i class="ion-usb" color="red"></i>': layerGroupBiological,
   'Chemistry  <i class="ion-paintbucket"></i>': layerGroupChemistry,
   'Computer Science  <i class="ion-monitor"></i>': layerGroupComputer,
   'Earth Sciences  <i class="ion-planet"></i>': layerGroupEarth,
