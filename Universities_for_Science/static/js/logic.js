@@ -93,45 +93,45 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
   iBiological: L.ExtraMarkers.icon({
-    icon: "ion-stats-bars",  
+    icon: "ion-usb",  
     iconColor: "black",
-    markerColor: "darkred",  
+    markerColor: "red",  
     shape: "star"
   }),
   iChemistry: L.ExtraMarkers.icon({
-    icon: "ion-clipboard",
+    icon: "ion-paintbucket",
     iconColor: "black",
-    markerColor: "purple",
+    markerColor: "green",
     shape: "circle"
   }),
   iComputer: L.ExtraMarkers.icon({
-    icon: "ion-medkit",   
+    icon: "ion-monitor",   
     iconColor: "black",
     markerColor: "green",  
     shape: "penta"
   }),
   iEarth: L.ExtraMarkers.icon({
-    icon: "ion-calculator",  
+    icon: "ion-planet",  
     iconColor: "black",
     markerColor: "orange",  
     shape: "circle"
   }),
   iMath: L.ExtraMarkers.icon({
-    icon: "ion-thermometer",
+    icon: "ion-connection-bars",
     iconColor: "black",
-    markerColor: "red", 
+    markerColor: "blue", 
     shape: "circle"
   }),
   iPhysics: L.ExtraMarkers.icon({
-    icon: "ion-university",
+    icon: "ion-nuclear",
     iconColor: "black",
     markerColor: 'blue', 
     shape: 'star'
   }),
   iStatistics: L.ExtraMarkers.icon({
-    icon: "ion-paintbrush",
+    icon: "ion-stats-bars",
     iconColor: "black",
-    markerColor: "darkpurple",  
+    markerColor: "yellow",  
     shape: "circle"
   })
 };
