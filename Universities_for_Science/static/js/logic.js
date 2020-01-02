@@ -68,27 +68,14 @@ var layerGroupStatistics = new L.LayerGroup([
 
 var layerControl = new L.control.layers(null, {
   "All Science": layerGroup1,
-  "Biological Sciences": layerGroupBiological,
-  "Chemistry": layerGroupChemistry,
-  "Computer Science": layerGroupComputer,
-  "Earth Sciences": layerGroupEarth,
-  "Mathematics": layerGroupMath,
-  "Physics": layerGroupPhysics,
-  "Statistics": layerGroupStatistics,
+  'Biological Sciences  <i class="ion-usb"></i>': layerGroupBiological,
+  'Chemistry  <i class="ion-paintbucket"></i>': layerGroupChemistry,
+  'Computer Science  <i class="ion-monitor"></i>': layerGroupComputer,
+  'Earth Sciences  <i class="ion-planet"></i>': layerGroupEarth,
+  'Mathematics  <i class="ion-connection-bars"></i>': layerGroupMath,
+  'Physics  <i class="ion-nuclear"></i>': layerGroupPhysics,
+  'Statistics  <i class="ion-stats-bars"></i>': layerGroupStatistics,
 }).addTo(map);
-
-// Create a legend to display information about our map
-var info = L.control({
-  position: "bottomright"
-});
-
-// When the layer control is added, insert a div with the class of "legend"
-info.onAdd = function() {
-  var div = L.DomUtil.create("div", "legend");
-  return div;
-};
-// Add the info legend to the map
-info.addTo(map);
 
 // Initialize an object containing icons for each layer group
 var icons = {
