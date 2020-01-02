@@ -138,7 +138,7 @@ var icons = {
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
 //d3.json("data/Universities.geojson", function(collegeData) {
-d3.json("data/test_data.geojson", function(collegeData) {  
+d3.json("data/fake_data_test_scienc.geojson", function(collegeData) {  
     // Put data into a variable
         //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
@@ -176,13 +176,13 @@ d3.json("data/test_data.geojson", function(collegeData) {
         // Chemistry
         if (gradProgram == "Chemistry") {
         filteredChemistry = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-        L.marker([collegeLat, collegeLon], {icon: icons.iChemistry}).addTo(layers.Chemistry).bindPopup("Chemistryhr>" + filteredChemistry)
+        L.marker([collegeLat, collegeLon], {icon: icons.iChemistry}).addTo(layers.Chemistry).bindPopup("Chemistry<hr>" + filteredChemistry)
       };  // ends filter for Chemistry
 
         // Computer Science
       if (gradProgram == "Computer Sciences") {
         filteredComputer = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-        L.marker([collegeLat, collegeLon], {icon: icons.iComputer}).addTo(layers.Computer).bindPopup("Computer Sciencehr>" + filteredComputer)
+        L.marker([collegeLat, collegeLon], {icon: icons.iComputer}).addTo(layers.Computer).bindPopup("Computer Science<hr>" + filteredComputer)
       };  // ends filter for Computer Science
 
         // Earth Sciences
@@ -200,7 +200,7 @@ d3.json("data/test_data.geojson", function(collegeData) {
         // Physics
       if (gradProgram == "Physics") {
         filteredPhysics = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-        L.marker([collegeLat, collegeLon], {icon: icons.iPhysics}).addTo(layers.Physics).bindPopup("EPhysics<hr>" + filteredPhysics)
+        L.marker([collegeLat, collegeLon], {icon: icons.iPhysics}).addTo(layers.Physics).bindPopup("Physics<hr>" + filteredPhysics)
       };  // ends filter for Physics
 
         // Statistics
