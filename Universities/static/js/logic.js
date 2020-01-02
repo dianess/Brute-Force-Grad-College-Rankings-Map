@@ -79,29 +79,16 @@ var layerGroupPublic_Affairs = new L.LayerGroup([
 
 var layerControl = new L.control.layers(null, {
   "All": layerGroup1,
-  "MBA Business": layerGroupBusiness,
-  "Law": layerGroupLaw,
-  "Medicine": layerGroupMedicine,
-  "Engineering": layerGroupEngineering,
-  "Nursing": layerGroupNursing,
-  "Education": layerGroupEducation,
-  "Fine Arts": layerGroupFine_Arts,
-  "Library and Information Studies": layerGroupLibrary_Information_Studies,
-  "Public Affairs": layerGroupPublic_Affairs,
+  'MBA Business  <i class="ion-stats-bars"></i>': layerGroupBusiness,
+  'Law  <i class="ion-clipboard"></i>': layerGroupLaw,
+  'Medicine  <i class="ion-medkit"></i>': layerGroupMedicine,
+  'Engineering  <i class="ion-calculator"></i>': layerGroupEngineering,
+  'Nursing  <i class="ion-thermometer"></i>': layerGroupNursing,
+  'Education  <i class="ion-university"></i>': layerGroupEducation,
+  'Fine Arts  <i class="ion-paintbrush"></i>': layerGroupFine_Arts,
+  'Library and Information Studies  <i class="ion-information-circled"></i>': layerGroupLibrary_Information_Studies,
+  'Public Affairs  <i class="ion-person-stalker"></i>': layerGroupPublic_Affairs,
 }).addTo(map);
-
-// Create a legend to display information about our map
-var info = L.control({
-  position: "bottomright"
-});
-
-// When the layer control is added, insert a div with the class of "legend"
-info.onAdd = function() {
-  var div = L.DomUtil.create("div", "legend");
-  return div;
-};
-// Add the info legend to the map
-info.addTo(map);
 
 // Initialize an object containing icons for each layer group
 var icons = {
