@@ -31,12 +31,6 @@ body {
   height:auto;
 }
 
-/* Spins the graph when the page loads */
-.graph-spin {
-  transform: rotate(360deg);
-  transition: transform 0.5s ease-in;
-}
-
 /* Add font family, size, and weight for the h1 and h2 elements plus space around then */
 h1 {
   font-family: "Times New Roman", Times, serif;
@@ -60,7 +54,7 @@ h2 {
 }
 
 /* Center the h1 tag inside our header, give it a little padding, remove its margin */
-.header h1 {
+.header h1 h2 {
   padding: 60px;
   margin: 0;
   color: #000;
@@ -114,13 +108,13 @@ img.resize {
   font-weight: bold;
 }
 
-/* Graph titles font style */
+/* Graph titles font style
 .png-titles {
   padding 5px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: bold;
-}
+} */
 
 /* Font type for data table column headers */
 .table-head {
@@ -129,15 +123,15 @@ img.resize {
 
 /* Add media queries to the drop-down menu on the plots tab */
 
-/* Dropdown Button */
+/* Dropdown Button
 .dropbtn {
   background-color: white;
   color: white;
   border: none;
   float: right;
-}
+} */
 
-/* The container <div> - needed to position the dropdown content */
+/* The container <div> - needed to position the dropdown content
 .dropdown {
   position: relative;
   display: inline-block;
@@ -151,15 +145,15 @@ img.resize {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-}
+} */
 
-/* Links inside the dropdown */
+/* Links inside the dropdown
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
+} */
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
@@ -167,7 +161,7 @@ img.resize {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* For large devices, increase the size of the nav bar white boxes and the padding */
+/* For large devices, increase the size of the nav bar white boxes and the padding
 @media only screen and (min-width: 992px) {
   .container row col {
     padding:10px;
@@ -176,4 +170,4 @@ img.resize {
   .navbar li {
     padding: 20px;
   }
-}
+} */
