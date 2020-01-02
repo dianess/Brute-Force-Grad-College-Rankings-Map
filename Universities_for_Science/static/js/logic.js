@@ -4,7 +4,7 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
   maxZoom: 18,
   id: "mapbox.light",
   accessToken: API_KEY
-});
+});  // ends var lightmap
 
 // Initialize all of the LayerGroups we'll be using
 var layers = {
@@ -17,37 +17,65 @@ var layers = {
   Statistics: new L.LayerGroup(),
 };
 
-// Create the map with our layers
+// // Create the map with starting center point and zoom level
+// to display the majority of the U.S. when landing on page.
 var map = L.map("map-id", {
   center: [38.8283, -96.5795], // Geographic Center of the U.S.
   zoom: 5,
-  layers: [
-    layers.Biological,
-    layers.Chemistry,
-    layers.Computer,
-    layers.Earth,
-    layers.Math,
-    layers.Physics,
-    layers.Statistics,
-  ]
 });
 
 // Add our 'lightmap' tile layer to the map
 lightmap.addTo(map);
 
-// Create an overlays object to add to the layer control
-var overlays = {
-  "Biological Sciences": layers.Biological,
-  "Chemistry": layers.Chemistry,
-  "Computer Science": layers.Computer,
-  "Earth Sciences": layers.Earth,
-  "Mathematics": layers.Math,
-  "Physics": layers.Physics,
-  "Statistics": layers.Statistics,
-};
+// Layer group visible when landing on page (in other words: addTo(map))
+// This puts all the markers and icons on the landing page.
+var layerGroup1 = new L.LayerGroup([  
+  layers.Biological,
+  layers.Chemistry,
+  layers.Computer,
+  layers.Earth,
+  layers.Math,
+  layers.Physics,
+  layers.Statistics,
+]).addTo(map);
 
-// Create a control for our layers, add our overlay layers to it
-L.control.layers(null, overlays).addTo(map);
+// Layer groups that can be clicked on but are not "on" when landing on page.
+// This allows us to control what's clicked "on" and "off".
+var layerGroupBiological = new L.LayerGroup([
+  layers.Biological,
+])
+var layerGroupChemistry = new L.LayerGroup([
+  layers.Chemistry,
+])
+var layerGroupComputer = new L.LayerGroup([
+  layers.Computer,
+]) 
+var layerGroupEarth = new L.LayerGroup([
+  layers.Earth,
+])
+var layerGroupMath = new L.LayerGroup([
+  layers.Math,
+])
+var layerGroupPhysics = new L.LayerGroup([
+  layers.Physics,
+])
+var layerGroupStatistics = new L.LayerGroup([
+  layers.Statistics,
+])
+
+// Create a control for the layers. This puts the name of each grad program on the map control
+// and attaches the name to it's appropriate layer of information as coded above.
+
+var layerControl = new L.control.layers(null, {
+  "All Science": layerGroup1,
+  "Biological Sciences": layerGroupBiological,
+  "Chemistry": layerGroupChemistry,
+  "Computer Science": layerGroupComputer,
+  "Earth Sciences": layerGroupEarth,
+  "Mathematics": layerGroupMath,
+  "Physics": layerGroupPhysics,
+  "Statistics": layerGroupStatistics,
+}).addTo(map);
 
 // Create a legend to display information about our map
 var info = L.control({
@@ -62,55 +90,48 @@ info.onAdd = function() {
 // Add the info legend to the map
 info.addTo(map);
 
-// ** Marker color is not working right now ** 12/20/19 4:30 PM
 // Initialize an object containing icons for each layer group
 var icons = {
-    // iAll: L.ExtraMarkers.icon({
-  //   icon: "ion-school",  // school (grad cap)
-  //   iconColor: "white",
-  //   markerColor: "green",
-  //   shape: "circle"
-  // }),
   iBiological: L.ExtraMarkers.icon({
-    icon: "ion-stats-bars",  //want to use ion-stats
+    icon: "ion-stats-bars",  
     iconColor: "black",
-    markerColor: "darkred",  // graduation tassle color is drab (light brown)
+    markerColor: "darkred",  
     shape: "star"
   }),
   iChemistry: L.ExtraMarkers.icon({
     icon: "ion-clipboard",
     iconColor: "black",
-    markerColor: "purple", // graduation tassle color
+    markerColor: "purple",
     shape: "circle"
   }),
   iComputer: L.ExtraMarkers.icon({
-    icon: "ion-medkit",   // medkit
+    icon: "ion-medkit",   
     iconColor: "black",
-    markerColor: "green",  // graduation tassle color is kelly green
+    markerColor: "green",  
     shape: "penta"
   }),
   iEarth: L.ExtraMarkers.icon({
-    icon: "ion-calculator",  // calculator
+    icon: "ion-calculator",  
     iconColor: "black",
-    markerColor: "orange",  // graduation tassle color
+    markerColor: "orange",  
     shape: "circle"
   }),
   iMath: L.ExtraMarkers.icon({
     icon: "ion-thermometer",
     iconColor: "black",
-    markerColor: "red", // graduation tassle color
+    markerColor: "red", 
     shape: "circle"
   }),
   iPhysics: L.ExtraMarkers.icon({
     icon: "ion-university",
     iconColor: "black",
-    markerColor: 'blue', // graduation tassle color is light blue
+    markerColor: 'blue', 
     shape: 'star'
   }),
   iStatistics: L.ExtraMarkers.icon({
     icon: "ion-paintbrush",
     iconColor: "black",
-    markerColor: "darkpurple",  // graduation tassle color
+    markerColor: "darkpurple",  
     shape: "circle"
   })
 };

@@ -106,7 +106,7 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
   iMBA_Business: L.ExtraMarkers.icon({
-    icon: "ion-stats-bars",  //want to use ion-stats
+    icon: "ion-stats-bars",  
     iconColor: "black",
     markerColor: "blue",  // graduation tassle color is drab (light brown)
     shape: "star"
