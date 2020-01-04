@@ -125,7 +125,7 @@ var icons = {
 
 // Read data from saved file (Source: https://catalog.data.gov/dataset/postsecondary-school-location-2016-17)
 //d3.json("data/Universities.geojson", function(collegeData) {
-d3.json("data/fake_data_test_scienc.geojson", function(collegeData) {  
+d3.json("data/scienceranking.geojson", function(collegeData) {  
     // Put data into a variable
         //collegeFeatures(collegeData.features);
     var collegeInfo = collegeData.features;
