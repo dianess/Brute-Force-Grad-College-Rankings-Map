@@ -19,6 +19,8 @@ University of Chicago,-87.60120173,41.78917784,Chicago,IL,University of Chicago,
 Cold Spring Harbor Laboratory,-73.466782,40.857761,Cold Spring Harbor,NY,Cold Spring Harbor Laboratory,Biological Sciences,16,-73.466782,40.857761
 Columbia University in the City of New York,-73.96188644,40.80829428,Columbia,NY,Columbia University in the City of New York,Biological Sciences,18,-73.96188644,40.80829428
 University of California-Los Angeles,-118.4439132,34.06889685,Los Angeles,CA,University of California-Los Angeles,Biological Sciences,18,-118.4439132,34.06889685
+University of Texas Southwestern Medical Center,-96.84116354,32.81231274,Dallas,TX,,Biological Sciences,18,-96.84116354,32.81231274
+University of Wisconsin-Madison,-89.4053624,43.07386595,Madison,WI,,Biological Sciences,18,-89.4053624,43.07386595
 California Institute of Technology,-118.1257522,34.13927987,Pasadena,CA,California Institute of Technology,Chemistry,1,-118.1257522,34.13927987
 Massachusetts Institute of Technology,-71.0921156,42.36010367,Cambridge,MA,Massachusetts Institute of Technology,Chemistry,2,-71.0921156,42.36010367
 University of California-Berkeley,-122.2604762,37.87192296,Berkeley,CA,University of California-Berkeley,Chemistry,2,-122.2604762,37.87192296
@@ -39,6 +41,9 @@ University of Chicago,-87.60120173,41.78917784,Chicago,IL,University of Chicago,
 University of Michigan-Ann Arbor,-83.74277362,42.27592913,Ann Arbor,MI,University of Michigan-Ann Arbor,Chemistry,15,-83.74277362,42.27592913
 The University of Texas at Austin,-97.73929863,30.28609522,Austin,TX,The University of Texas at Austin,Chemistry,15,-97.73929863,30.28609522
 Georgia Institute of Technology-Main Campus,-84.39483621,33.77242644,Atlanta,GA,Georgia Institute of Technology-Main Campus,Chemistry,20,-84.39483621,33.77242644
+Pennsylvania State University-Main Campus,-77.86164668,40.80074013,University Park,PA,,Chemistry,20,-77.86164668,40.80074013
+University of California-Irvine,-117.8412601,33.64843883,Irvine,CA,,Chemistry,20,-117.8412601,33.64843883
+University of California-San Diego,-117.2378049,32.87660278,La Jolla,CA,,Chemistry,20,-117.2378049,32.87660278
 Carnegie Mellon University,-79.9429173,40.44462397,Pittsburgh,PA,Carnegie Mellon University,Computer Sciences,1,-79.9429173,40.44462397
 Stanford University,-122.1644471,37.42953693,Stanford,CA,Stanford University,Computer Sciences,1,-122.1644471,37.42953693
 University of Illinois at Urbana-Champaign,-88.23031476,40.10887151,Champaign,IL,University of Illinois at Urbana-Champaign,Computer Sciences,5,-88.23031476,40.10887151
@@ -59,6 +64,10 @@ University of California-Los Angeles,-118.4439132,34.06889685,Los Angeles,CA,Uni
 Harvard University,-71.11831361,42.37447967,Cambridge,MA,Harvard University,Computer Sciences,16,-71.11831361,42.37447967
 University of Maryland-College Park,-76.94472327,38.98818581,College Park,MD,University of Maryland-College Park,Computer Sciences,16,-76.94472327,38.98818581
 Purdue University-Main Campus,-86.9144404,40.42821364,West Lafayette,IN,Purdue University-Main Campus,Computer Sciences,20,-86.9144404,40.42821364
+Rice University,-95.40204201,29.71790219,Houston,TX,,Computer Sciences,20,-95.40204201,29.71790219
+University of Massachusetts-Amherst,-72.52672907,42.38600763,Amherst,MA,,Computer Sciences,20,-72.52672907,42.38600763
+University of Southern California,-118.2841812,34.02128585,Los Angeles,CA,,Computer Sciences,20,-118.2841812,34.02128585
+Yale University,-72.92668914,41.31116641,New Haven,CT,,Computer Sciences,20,-72.92668914,41.31116641
 California Institute of Technology,-118.1257522,34.13927987,Pasadena,CA,California Institute of Technology,Earth Sciences,1,-118.1257522,34.13927987
 Stanford University,-122.1644471,37.42953693,Stanford,CA,Stanford University,Earth Sciences,2,-122.1644471,37.42953693
 Columbia University in the City of New York,-73.96188644,40.80829428,New York,NY,Columbia University in the City of New York,Earth Sciences,5,-73.96188644,40.80829428
@@ -79,6 +88,9 @@ Yale University,-72.92668914,41.31116641,New Haven,CT,Yale University,Earth Scie
 Brown University,-71.40385067,41.82617856,Providence,RI,Brown University,Earth Sciences,15,-71.40385067,41.82617856
 University of Wisconsin-Madison,-89.4053624,43.07386595,Madison,WI,University of Wisconsin-Madison,Earth Sciences,15,-89.4053624,43.07386595
 University of California-Santa Barbara,-119.8464385,34.4163018,Santa Barbara,CA,University of California-Santa Barbara,Earth Sciences,19,-119.8464385,34.4163018
+University of California-Santa Cruz,-122.0588141,36.9955889,Santa Cruz,CA,,Earth Sciences,19,-122.0588141,36.9955889
+University of Chicago,-87.60120173,41.78917784,Chicago,IL,,Earth Sciences,19,-87.60120173,41.78917784
+University of Colorado Boulder,-105.2708332,40.00878744,Boulder,CO,,Earth Sciences,19,-105.2708332,40.00878744
 Princeton University,-74.65936664,40.34874016,Princeton,NJ,Princeton University,Mathematics,1,-74.65936664,40.34874016
 Massachusetts Institute of Technology,-71.0921156,42.36010367,Cambridge,MA,Massachusetts Institute of Technology,Mathematics,2,-71.0921156,42.36010367
 University of California-Berkeley,-122.2604762,37.87192296,Berkeley,CA,University of California-Berkeley,Mathematics,2,-122.2604762,37.87192296
@@ -99,6 +111,7 @@ Brown University,-71.40385067,41.82617856,Providence,RI,Brown University,Mathema
 Duke University,-78.93762671,36.00114212,Durham,NC,Duke University,Mathematics,16,-78.93762671,36.00114212
 University of Wisconsin-Madison,-89.4053624,43.07386595,Madison,WI,University of Wisconsin-Madison,Mathematics,16,-89.4053624,43.07386595
 University of Illinois at Urbana-Champaign,-88.23031476,40.10887151,Champaign,IL,University of Illinois at Urbana-Champaign,Mathematics,19,-88.23031476,40.10887151
+University of Minnesota-Twin Cities,-93.23535974,44.977894,Minneapolis,MN,,Mathematics,19,-93.23535974,44.977894
 Massachusetts Institute of Technology,-71.0921156,42.36010367,Cambridge,MA,Massachusetts Institute of Technology,Physics,1,-71.0921156,42.36010367
 California Institute of Technology,-118.1257522,34.13927987,Pasadena,CA,California Institute of Technology,Physics,3,-118.1257522,34.13927987
 Princeton University,-74.65936664,40.34874016,Princeton,NJ,Princeton University,Physics,3,-74.65936664,40.34874016
@@ -119,6 +132,7 @@ University of Colorado Boulder,-105.2708332,40.00878744,Boulder,CO,University of
 University of Pennsylvania,-75.19391178,39.95093706,Philadelphia,PA,University of Pennsylvania,Physics,14,-75.19391178,39.95093706
 University of California-Los Angeles,-118.4439132,34.06889685,Los Angeles,CA,University of California-Los Angeles,Physics,17,-118.4439132,34.06889685
 The University of Texas at Austin,-97.73929863,30.28609522,Austin,TX,The University of Texas at Austin,Physics,17,-97.73929863,30.28609522
+University of Wisconsin-Madison,-89.4053624,43.07386595,Madison,WI,,Physics,17,-89.4053624,43.07386595
 Stanford University,-122.1644471,37.42953693,Stanford,CA,Stanford University,Statistics,1,-122.1644471,37.42953693
 Harvard University (Biostatistics),-71.11831361,42.37447967,Cambridge,MA,Harvard University,Statistics,3,-71.11831361,42.37447967
 University of Washington-Seattle Campus (Biostatistics),-122.3131299,47.65621862,Seattle,WA,University of Washington-Seattle Campus,Statistics,3,-122.3131299,47.65621862
