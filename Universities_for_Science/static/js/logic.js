@@ -14,7 +14,6 @@ var layers = {
   Earth: new L.LayerGroup(),
   Math: new L.LayerGroup(),
   Physics: new L.LayerGroup(),
-  Statistics: new L.LayerGroup(),
 };
 
 // // Create the map with starting center point and zoom level
@@ -36,7 +35,6 @@ var layerGroup1 = new L.LayerGroup([
   layers.Earth,
   layers.Math,
   layers.Physics,
-  layers.Statistics,
 ]).addTo(map);
 
 // Layer groups that can be clicked on but are not "on" when landing on page.
@@ -59,9 +57,6 @@ var layerGroupMath = new L.LayerGroup([
 var layerGroupPhysics = new L.LayerGroup([
   layers.Physics,
 ])
-var layerGroupStatistics = new L.LayerGroup([
-  layers.Statistics,
-])
 
 // Create a control for the layers. This puts the name of each grad program on the map control
 // and attaches the name to it's appropriate layer of information as coded above.
@@ -74,7 +69,6 @@ var layerControl = new L.control.layers(null, {
   'Earth Sciences  <i class="ion-planet"></i>': layerGroupEarth,
   'Mathematics  <i class="ion-connection-bars"></i>': layerGroupMath,
   'Physics  <i class="ion-nuclear"></i>': layerGroupPhysics,
-  'Statistics  <i class="ion-stats-bars"></i>': layerGroupStatistics,
 }).addTo(map);
 
 // Initialize an object containing icons for each layer group
@@ -114,12 +108,6 @@ var icons = {
     iconColor: "black",
     markerColor: 'blue', 
     shape: 'star'
-  }),
-  iStatistics: L.ExtraMarkers.icon({
-    icon: "ion-stats-bars",
-    iconColor: "black",
-    markerColor: "yellow",  
-    shape: "circle"
   })
 };
 
@@ -189,12 +177,6 @@ d3.json("data/scienceranking.geojson", function(collegeData) {
         filteredPhysics = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
         L.marker([collegeLat, collegeLon], {icon: icons.iPhysics}).addTo(layers.Physics).bindPopup("Physics<hr>" + filteredPhysics)
       };  // ends filter for Physics
-
-        // Statistics
-      if (gradProgram == "Statistics") {
-      filteredStatistics = [collegeName + "<p>Ranked: " + degreeRank + "</p>"]
-      L.marker([collegeLat, collegeLon], {icon: icons.iStatistics}).addTo(layers.Statistics).bindPopup("Statistics<hr>" + filteredStatistics)
-    };  // ends filter for Statistics
 
     };  // ends for-loop
 });  // ends d3.json
