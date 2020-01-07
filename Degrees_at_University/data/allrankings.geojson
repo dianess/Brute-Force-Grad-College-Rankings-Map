@@ -1,0 +1,5462 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Law",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Law",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Law",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Law",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Law",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Law",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Law",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.5034307,38.03567256 ]
+    },
+    "properties": {
+    "INSTNM":"University of Virginia-Main Campus",
+    "X":-78.5034307,
+    "Y":38.03567256,
+    "CITY":"Charlottesville",
+    "STATE":"VA",
+    "INSTNM-2":"University of Virginia-Main Campus",
+    "Degree":"Law",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Law",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.93762671,36.00114212 ]
+    },
+    "properties": {
+    "INSTNM":"Duke University",
+    "X":-78.93762671,
+    "Y":36.00114212,
+    "CITY":"Durham",
+    "STATE":"NC",
+    "INSTNM-2":"Duke University",
+    "Degree":"Law",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.67986378,42.05036388 ]
+    },
+    "properties": {
+    "INSTNM":"Northwestern University",
+    "X":-87.67986378,
+    "Y":42.05036388,
+    "CITY":"Evanston",
+    "STATE":"IL",
+    "INSTNM-2":"Northwestern University",
+    "Degree":"Law",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Law",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Law",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.07346531,38.90881679 ]
+    },
+    "properties": {
+    "INSTNM":"Georgetown University",
+    "X":-77.07346531,
+    "Y":38.90881679,
+    "CITY":"Washington",
+    "STATE":"DC",
+    "INSTNM-2":"Georgetown University",
+    "Degree":"Law",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Law",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Law",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of Southern California",
+    "Degree":"Law",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.80337404,36.14659683 ]
+    },
+    "properties": {
+    "INSTNM":"Vanderbilt University",
+    "X":-86.80337404,
+    "Y":36.14659683,
+    "CITY":"Nashville",
+    "STATE":"TN",
+    "INSTNM-2":"Vanderbilt University",
+    "Degree":"Law",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.31061022,38.64793614 ]
+    },
+    "properties": {
+    "INSTNM":"Washington University in St Louis",
+    "X":-90.31061022,
+    "Y":38.64793614,
+    "CITY":"Saint Louis",
+    "STATE":"MO",
+    "INSTNM-2":"Washington University in St Louis",
+    "Degree":"Law",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.23535974,44.977894 ]
+    },
+    "properties": {
+    "INSTNM":"University of Minnesota-Twin Cities",
+    "X":-93.23535974,
+    "Y":44.977894,
+    "CITY":"Minneapolis",
+    "STATE":"MN",
+    "INSTNM-2":"University of Minnesota-Twin Cities",
+    "Degree":"Law",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Business",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Business",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Business",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Business",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Business",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Business",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.67986378,42.05036388 ]
+    },
+    "properties": {
+    "INSTNM":"Northwestern University",
+    "X":-87.67986378,
+    "Y":42.05036388,
+    "CITY":"Evanston",
+    "STATE":"IL",
+    "INSTNM-2":"Northwestern University",
+    "Degree":"Business",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Business",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Business",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.93762671,36.00114212 ]
+    },
+    "properties": {
+    "INSTNM":"Duke University",
+    "X":-78.93762671,
+    "Y":36.00114212,
+    "CITY":"Durham",
+    "STATE":"NC",
+    "INSTNM-2":"Duke University",
+    "Degree":"Business",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Business",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.28995008,43.70412388 ]
+    },
+    "properties": {
+    "INSTNM":"Dartmouth College",
+    "X":-72.28995008,
+    "Y":43.70412388,
+    "CITY":"Hanover",
+    "STATE":"NH",
+    "INSTNM-2":"Dartmouth College",
+    "Degree":"Business",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Business",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.5034307,38.03567256 ]
+    },
+    "properties": {
+    "INSTNM":"University of Virginia-Main Campus",
+    "X":-78.5034307,
+    "Y":38.03567256,
+    "CITY":"Charlottesville",
+    "STATE":"VA",
+    "INSTNM-2":"University of Virginia-Main Campus",
+    "Degree":"Business",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Business",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Business",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9429173,40.44462397 ]
+    },
+    "properties": {
+    "INSTNM":"Carnegie Mellon University",
+    "X":-79.9429173,
+    "Y":40.44462397,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"Carnegie Mellon University",
+    "Degree":"Business",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of Southern California",
+    "Degree":"Business",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.05097174,35.91177609 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Carolina at Chapel Hill",
+    "X":-79.05097174,
+    "Y":35.91177609,
+    "CITY":"Chapel Hill",
+    "STATE":"NC",
+    "INSTNM-2":"University of North Carolina at Chapel Hill",
+    "Degree":"Business",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"NULL",
+    "STATE":"NULL",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Business",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Education",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Education",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Education",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Education",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Education",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.80337404,36.14659683 ]
+    },
+    "properties": {
+    "INSTNM":"Vanderbilt University",
+    "X":-86.80337404,
+    "Y":36.14659683,
+    "CITY":"Nashville",
+    "STATE":"TN",
+    "INSTNM-2":"Vanderbilt University",
+    "Degree":"Education",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62159719,39.32898489 ]
+    },
+    "properties": {
+    "INSTNM":"Johns Hopkins University",
+    "X":-76.62159719,
+    "Y":39.32898489,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Johns Hopkins University",
+    "Degree":"Education",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Education",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Education",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.67986378,42.05036388 ]
+    },
+    "properties": {
+    "INSTNM":"Northwestern University",
+    "X":-87.67986378,
+    "Y":42.05036388,
+    "CITY":"Evanston",
+    "STATE":"IL",
+    "INSTNM-2":"Northwestern University",
+    "Degree":"Education",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Education",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of Southern California",
+    "Degree":"Education",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Education",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0758063,44.04515134 ]
+    },
+    "properties": {
+    "INSTNM":"University of Oregon",
+    "X":-123.0758063,
+    "Y":44.04515134,
+    "CITY":"Eugene",
+    "STATE":"OR",
+    "INSTNM-2":"University of Oregon",
+    "Degree":"Education",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Education",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.073232,33.45343512 ]
+    },
+    "properties": {
+    "INSTNM":"Arizona State University-Downtown Phoenix",
+    "X":-112.073232,
+    "Y":33.45343512,
+    "CITY":"Phoenix",
+    "STATE":"AZ",
+    "INSTNM-2":"Arizona State University-Downtown Phoenix",
+    "Degree":"Education",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.5034307,38.03567256 ]
+    },
+    "properties": {
+    "INSTNM":"University of Virginia-Main Campus",
+    "X":-78.5034307,
+    "Y":38.03567256,
+    "CITY":"Charlottesville",
+    "STATE":"VA",
+    "INSTNM-2":"University of Virginia-Main Campus",
+    "Degree":"Education",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Education",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.2475746,38.95855592 ]
+    },
+    "properties": {
+    "INSTNM":"University of Kansas",
+    "X":-95.2475746,
+    "Y":38.95855592,
+    "CITY":"Lawrence",
+    "STATE":"KS",
+    "INSTNM-2":"University of Kansas",
+    "Degree":"Education",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.45359934,37.54763849 ]
+    },
+    "properties": {
+    "INSTNM":"Virginia Commonwealth University",
+    "X":-77.45359934,
+    "Y":37.54763849,
+    "CITY":"Richmond",
+    "STATE":"VA",
+    "INSTNM-2":"Virginia Commonwealth University",
+    "Degree":"Education",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Engineering",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Engineering",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Engineering",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9429173,40.44462397 ]
+    },
+    "properties": {
+    "INSTNM":"Carnegie Mellon University",
+    "X":-79.9429173,
+    "Y":40.44462397,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"Carnegie Mellon University",
+    "Degree":"Engineering",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Engineering",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Engineering",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.39483621,33.77242644 ]
+    },
+    "properties": {
+    "INSTNM":"Georgia Institute of Technology-Main Campus",
+    "X":-84.39483621,
+    "Y":33.77242644,
+    "CITY":"Atlanta",
+    "STATE":"GA",
+    "INSTNM-2":"Georgia Institute of Technology-Main Campus",
+    "Degree":"Engineering",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.9144404,40.42821364 ]
+    },
+    "properties": {
+    "INSTNM":"Purdue University-Main Campus",
+    "X":-86.9144404,
+    "Y":40.42821364,
+    "CITY":"West Lafayette",
+    "STATE":"IN",
+    "INSTNM-2":"Purdue University-Main Campus",
+    "Degree":"Engineering",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of Southern California",
+    "Degree":"Engineering",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Engineering",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Engineering",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Engineering",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Engineering",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Engineering",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.33648229,30.61873134 ]
+    },
+    "properties": {
+    "INSTNM":"Texas A & M University-College Station",
+    "X":-96.33648229,
+    "Y":30.61873134,
+    "CITY":"College Station",
+    "STATE":"TX",
+    "INSTNM-2":"Texas A & M University-College Station",
+    "Degree":"Engineering",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Engineering",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62159719,39.32898489 ]
+    },
+    "properties": {
+    "INSTNM":"Johns Hopkins University",
+    "X":-76.62159719,
+    "Y":39.32898489,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Johns Hopkins University",
+    "Degree":"Engineering",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Engineering",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Engineering",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.67986378,42.05036388 ]
+    },
+    "properties": {
+    "INSTNM":"Northwestern University",
+    "X":-87.67986378,
+    "Y":42.05036388,
+    "CITY":"Evanston",
+    "STATE":"IL",
+    "INSTNM-2":"Northwestern University",
+    "Degree":"Engineering",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.05097174,35.91177609 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Carolina at Chapel Hill",
+    "X":-79.05097174,
+    "Y":35.91177609,
+    "CITY":"Chapel Hill",
+    "STATE":"NC",
+    "INSTNM-2":"University of North Carolina at Chapel Hill",
+    "Degree":"Medicine",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Medicine",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4580622,37.76274094 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Francisco",
+    "X":-122.4580622,
+    "Y":37.76274094,
+    "CITY":"San Francisco",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Francisco",
+    "Degree":"Medicine",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.39575001,29.71060519 ]
+    },
+    "properties": {
+    "INSTNM":"Baylor College of Medicine",
+    "X":-95.39575001,
+    "Y":29.71060519,
+    "CITY":"Houston",
+    "STATE":"TX",
+    "INSTNM-2":"Baylor College of Medicine",
+    "Degree":"Medicine",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Medicine",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.6861105,45.49877746 ]
+    },
+    "properties": {
+    "INSTNM":"Oregon Health & Science University",
+    "X":-122.6861105,
+    "Y":45.49877746,
+    "CITY":"Portland",
+    "STATE":"OR",
+    "INSTNM-2":"Oregon Health & Science University",
+    "Degree":"Medicine",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Medicine",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.97397403,41.25631925 ]
+    },
+    "properties": {
+    "INSTNM":"University of Nebraska Medical Center",
+    "X":-95.97397403,
+    "Y":41.25631925,
+    "CITY":"Omaha",
+    "STATE":"NE",
+    "INSTNM-2":"University of Nebraska Medical Center",
+    "Degree":"Medicine",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.7519712,38.53990006 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Davis",
+    "X":-121.7519712,
+    "Y":38.53990006,
+    "CITY":"Davis",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Davis",
+    "Degree":"Medicine",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.23535974,44.977894 ]
+    },
+    "properties": {
+    "INSTNM":"University of Minnesota-Twin Cities",
+    "X":-93.23535974,
+    "Y":44.977894,
+    "CITY":"Minneapolis",
+    "STATE":"MN",
+    "INSTNM-2":"University of Minnesota-Twin Cities",
+    "Degree":"Medicine",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Medicine",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.837002,39.742394 ]
+    },
+    "properties": {
+    "INSTNM":"University of Colorado",
+    "X":-104.837002,
+    "Y":39.742394,
+    "CITY":"Aurora",
+    "STATE":"CO",
+    "INSTNM-2":"University of Colorado",
+    "Degree":"Medicine",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.31061022,38.64793614 ]
+    },
+    "properties": {
+    "INSTNM":"Washington University in St Louis",
+    "X":-90.31061022,
+    "Y":38.64793614,
+    "CITY":"Saint Louis",
+    "STATE":"MO",
+    "INSTNM-2":"Washington University in St Louis",
+    "Degree":"Medicine",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9546953,40.44450997 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pittsburgh-Pittsburgh Campus",
+    "X":-79.9546953,
+    "Y":40.44450997,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pittsburgh-Pittsburgh Campus",
+    "Degree":"Medicine",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.76068982,42.27759763 ]
+    },
+    "properties": {
+    "INSTNM":"University of Massachusetts Medical School Worcester",
+    "X":-71.76068982,
+    "Y":42.27759763,
+    "CITY":"Worcester",
+    "STATE":"MA",
+    "INSTNM-2":"University of Massachusetts Medical School Worcester",
+    "Degree":"Medicine",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Medicine",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Medicine",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.28995008,43.70412388 ]
+    },
+    "properties": {
+    "INSTNM":"Dartmouth College",
+    "X":-72.28995008,
+    "Y":43.70412388,
+    "CITY":"Hanover",
+    "STATE":"NH",
+    "INSTNM-2":"Dartmouth College",
+    "Degree":"Medicine",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Medicine",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.84116354,32.81231274 ]
+    },
+    "properties": {
+    "INSTNM":"University of Texas Southwestern Medical Center",
+    "X":-96.84116354,
+    "Y":32.81231274,
+    "CITY":"Dallas",
+    "STATE":"TX",
+    "INSTNM-2":"University of Texas Southwestern Medical Center",
+    "Degree":"Medicine",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62159719,39.32898489 ]
+    },
+    "properties": {
+    "INSTNM":"Johns Hopkins University",
+    "X":-76.62159719,
+    "Y":39.32898489,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Johns Hopkins University",
+    "Degree":"Nursing",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.93762671,36.00114212 ]
+    },
+    "properties": {
+    "INSTNM":"Duke University",
+    "X":-78.93762671,
+    "Y":36.00114212,
+    "CITY":"Durham",
+    "STATE":"NC",
+    "INSTNM-2":"Duke University",
+    "Degree":"Nursing",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Nursing",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.32551619,33.79018945 ]
+    },
+    "properties": {
+    "INSTNM":"Emory University",
+    "X":-84.32551619,
+    "Y":33.79018945,
+    "CITY":"Atlanta",
+    "STATE":"GA",
+    "INSTNM-2":"Emory University",
+    "Degree":"Nursing",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Nursing",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.05097174,35.91177609 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Carolina at Chapel Hill",
+    "X":-79.05097174,
+    "Y":35.91177609,
+    "CITY":"Chapel Hill",
+    "STATE":"NC",
+    "INSTNM-2":"University of North Carolina at Chapel Hill",
+    "Degree":"Nursing",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Nursing",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0090052,39.99839675 ]
+    },
+    "properties": {
+    "INSTNM":"Ohio State University-Main Campus",
+    "X":-83.0090052,
+    "Y":39.99839675,
+    "CITY":"Columbus",
+    "STATE":"OH",
+    "INSTNM-2":"Ohio State University-Main Campus",
+    "Degree":"Nursing",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.66750376,41.87491885 ]
+    },
+    "properties": {
+    "INSTNM":"Rush University",
+    "X":-87.66750376,
+    "Y":41.87491885,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"Rush University",
+    "Degree":"Nursing",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Nursing",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.80337404,36.14659683 ]
+    },
+    "properties": {
+    "INSTNM":"Vanderbilt University",
+    "X":-86.80337404,
+    "Y":36.14659683,
+    "CITY":"Nashville",
+    "STATE":"TN",
+    "INSTNM-2":"Vanderbilt University",
+    "Degree":"Nursing",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Nursing",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62498319,39.29173788 ]
+    },
+    "properties": {
+    "INSTNM":"University of Maryland, Baltimore",
+    "X":-76.62498319,
+    "Y":39.29173788,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"University of Maryland, Baltimore",
+    "Degree":"Nursing",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9546953,40.44450997 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pittsburgh-Pittsburgh Campus",
+    "X":-79.9546953,
+    "Y":40.44450997,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pittsburgh-Pittsburgh Campus",
+    "Degree":"Nursing",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Nursing",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6057729,41.50082009 ]
+    },
+    "properties": {
+    "INSTNM":"Case Western Reserve University",
+    "X":-81.6057729,
+    "Y":41.50082009,
+    "CITY":"Cleveland",
+    "STATE":"OH",
+    "INSTNM-2":"Case Western Reserve University",
+    "Degree":"Nursing",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.65115076,41.87265885 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Chicago",
+    "X":-87.65115076,
+    "Y":41.87265885,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Chicago",
+    "Degree":"Nursing",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.79934988,33.50570329 ]
+    },
+    "properties": {
+    "INSTNM":"University of Alabama at Birmingham",
+    "X":-86.79934988,
+    "Y":33.50570329,
+    "CITY":"Birmingham",
+    "STATE":"AL",
+    "INSTNM-2":"University of Alabama at Birmingham",
+    "Degree":"Nursing",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4580622,37.76274094 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Francisco",
+    "X":-122.4580622,
+    "Y":37.76274094,
+    "CITY":"San Francisco",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Francisco",
+    "Degree":"Nursing",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Nursing",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Fine Arts",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.45359934,37.54763849 ]
+    },
+    "properties": {
+    "INSTNM":"Virginia Commonwealth University",
+    "X":-77.45359934,
+    "Y":37.54763849,
+    "CITY":"Richmond",
+    "STATE":"VA",
+    "INSTNM-2":"Virginia Commonwealth University",
+    "Degree":"Fine Arts",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.62141675,41.87965385 ]
+    },
+    "properties": {
+    "INSTNM":"School of the Art Institute of Chicago",
+    "X":-87.62141675,
+    "Y":41.87965385,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"School of the Art Institute of Chicago",
+    "Degree":"Fine Arts",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Fine Arts",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.78810876,42.2544844 ]
+    },
+    "properties": {
+    "INSTNM":"Alfred University",
+    "X":-77.78810876,
+    "Y":42.2544844,
+    "CITY":"Alfred",
+    "STATE":"NY",
+    "INSTNM-2":"Alfred University",
+    "Degree":"Fine Arts",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62103519,39.30879988 ]
+    },
+    "properties": {
+    "INSTNM":"Maryland Institute College of Art",
+    "X":-76.62103519,
+    "Y":39.30879988,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Maryland Institute College of Art",
+    "Degree":"Fine Arts",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9099285,42.02039451 ]
+    },
+    "properties": {
+    "INSTNM":"Bard College",
+    "X":-73.9099285,
+    "Y":42.02039451,
+    "CITY":"Annandale-On-Hudson",
+    "STATE":"NY",
+    "INSTNM-2":"Bard College",
+    "Degree":"Fine Arts",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3994642,37.76748994 ]
+    },
+    "properties": {
+    "INSTNM":"California College of the Arts",
+    "X":-122.3994642,
+    "Y":37.76748994,
+    "CITY":"San Francisco",
+    "STATE":"CA",
+    "INSTNM-2":"California College of the Arts",
+    "Degree":"Fine Arts",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Fine Arts",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Fine Arts",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Fine Arts",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.40769267,41.82594356 ]
+    },
+    "properties": {
+    "INSTNM":"Rhode Island School of Design",
+    "X":-71.40769267,
+    "Y":41.82594356,
+    "CITY":"Providence",
+    "STATE":"RI",
+    "INSTNM-2":"Rhode Island School of Design",
+    "Degree":"Fine Arts",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9429173,40.44462397 ]
+    },
+    "properties": {
+    "INSTNM":"Carnegie Mellon University",
+    "X":-79.9429173,
+    "Y":40.44462397,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"Carnegie Mellon University",
+    "Degree":"Fine Arts",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.2512445,42.56872421 ]
+    },
+    "properties": {
+    "INSTNM":"Cranbrook Academy of Art",
+    "X":-83.2512445,
+    "Y":42.56872421,
+    "CITY":"Bloomfield Hills",
+    "STATE":"MI",
+    "INSTNM-2":"Cranbrook Academy of Art",
+    "Degree":"Fine Arts",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.5673153,34.39334187 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of the Arts",
+    "X":-118.5673153,
+    "Y":34.39334187,
+    "CITY":"Valencia",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of the Arts",
+    "Degree":"Fine Arts",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.31061022,38.64793614 ]
+    },
+    "properties": {
+    "INSTNM":"Washington University in St Louis",
+    "X":-90.31061022,
+    "Y":38.64793614,
+    "CITY":"Saint Louis",
+    "STATE":"MO",
+    "INSTNM-2":"Washington University in St Louis",
+    "Degree":"Fine Arts",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Fine Arts",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96215043,40.69116225 ]
+    },
+    "properties": {
+    "INSTNM":"Pratt Institute-Main",
+    "X":-73.96215043,
+    "Y":40.69116225,
+    "CITY":"Brooklyn",
+    "STATE":"NY",
+    "INSTNM-2":"Pratt Institute-Main",
+    "Degree":"Fine Arts",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15826877,39.98095107 ]
+    },
+    "properties": {
+    "INSTNM":"Temple University",
+    "X":-75.15826877,
+    "Y":39.98095107,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"Temple University",
+    "Degree":"Fine Arts",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.934394,33.41772612 ]
+    },
+    "properties": {
+    "INSTNM":"Arizona State University-Tempe",
+    "X":-111.934394,
+    "Y":33.41772612,
+    "CITY":"Tempe",
+    "STATE":"AZ",
+    "INSTNM-2":"Arizona State University-Tempe",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1869132,34.17084887 ]
+    },
+    "properties": {
+    "INSTNM":"Art Center College of Design",
+    "X":-118.1869132,
+    "Y":34.17084887,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96479644,40.76867727 ]
+    },
+    "properties": {
+    "INSTNM":"CUNY Hunter College",
+    "X":-73.96479644,
+    "Y":40.76867727,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.44625258,40.4987772 ]
+    },
+    "properties": {
+    "INSTNM":"Rutgers University-New Brunswick",
+    "X":-74.44625258,
+    "Y":40.4987772,
+    "CITY":"New Brunswick",
+    "STATE":"NJ",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98224144,40.73875026 ]
+    },
+    "properties": {
+    "INSTNM":"School of Visual Arts",
+    "X":-73.98224144,
+    "Y":40.73875026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"",
+    "Degree":"Fine Arts",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Library and Information Studies",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.05097174,35.91177609 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Carolina at Chapel Hill",
+    "X":-79.05097174,
+    "Y":35.91177609,
+    "CITY":"Chapel Hill",
+    "STATE":"NC",
+    "INSTNM-2":"University of North Carolina at Chapel Hill",
+    "Degree":"Library and Information Studies",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Library and Information Studies",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.44625258,40.4987772 ]
+    },
+    "properties": {
+    "INSTNM":"Rutgers University-New Brunswick",
+    "X":-74.44625258,
+    "Y":40.4987772,
+    "CITY":"New Brunswick",
+    "STATE":"NJ",
+    "INSTNM-2":"Rutgers University-New Brunswick",
+    "Degree":"Library and Information Studies",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.52690918,39.16639043 ]
+    },
+    "properties": {
+    "INSTNM":"Indiana University-Bloomington",
+    "X":-86.52690918,
+    "Y":39.16639043,
+    "CITY":"Bloomington",
+    "STATE":"IN",
+    "INSTNM-2":"Indiana University-Bloomington",
+    "Degree":"Library and Information Studies",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18874678,39.95486307 ]
+    },
+    "properties": {
+    "INSTNM":"Drexel University",
+    "X":-75.18874678,
+    "Y":39.95486307,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"Drexel University",
+    "Degree":"Library and Information Studies",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0999676,42.33930867 ]
+    },
+    "properties": {
+    "INSTNM":"Simmons College",
+    "X":-71.0999676,
+    "Y":42.33930867,
+    "CITY":"Boston",
+    "STATE":"MA",
+    "INSTNM-2":"Simmons College",
+    "Degree":"Library and Information Studies",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Library and Information Studies",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.92585619,35.95208891 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Tennessee-Knoxville",
+    "X":-83.92585619,
+    "Y":35.95208891,
+    "CITY":"Knoxville",
+    "STATE":"TN",
+    "INSTNM-2":"The University of Tennessee-Knoxville",
+    "Degree":"Library and Information Studies",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.34253679,41.14666104 ]
+    },
+    "properties": {
+    "INSTNM":"Kent State University at Kent",
+    "X":-81.34253679,
+    "Y":41.14666104,
+    "CITY":"Kent",
+    "STATE":"OH",
+    "INSTNM-2":"Kent State University at Kent",
+    "Degree":"Library and Information Studies",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Library and Information Studies",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.13697729,43.04018462 ]
+    },
+    "properties": {
+    "INSTNM":"Syracuse University",
+    "X":-76.13697729,
+    "Y":43.04018462,
+    "CITY":"Syracuse",
+    "STATE":"NY",
+    "INSTNM-2":"Syracuse University",
+    "Degree":"Library and Information Studies",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Library and Information Studies",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.94472327,38.98818581 ]
+    },
+    "properties": {
+    "INSTNM":"University of Maryland-College Park",
+    "X":-76.94472327,
+    "Y":38.98818581,
+    "CITY":"College Park",
+    "STATE":"MD",
+    "INSTNM-2":"University of Maryland-College Park",
+    "Degree":"Library and Information Studies",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9546953,40.44450997 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pittsburgh-Pittsburgh Campus",
+    "X":-79.9546953,
+    "Y":40.44450997,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pittsburgh-Pittsburgh Campus",
+    "Degree":"Library and Information Studies",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.29192502,30.44076171 ]
+    },
+    "properties": {
+    "INSTNM":"Florida State University",
+    "X":-84.29192502,
+    "Y":30.44076171,
+    "CITY":"Tallahassee",
+    "STATE":"FL",
+    "INSTNM-2":"Florida State University",
+    "Degree":"Library and Information Studies",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Library and Information Studies",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.88049395,43.07685604 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Milwaukee",
+    "X":-87.88049395,
+    "Y":43.07685604,
+    "CITY":"Milwaukee",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Milwaukee",
+    "Degree":"Library and Information Studies",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.02693823,33.99679461 ]
+    },
+    "properties": {
+    "INSTNM":"University of South Carolina-Columbia",
+    "X":-81.02693823,
+    "Y":33.99679461,
+    "CITY":"Columbia",
+    "STATE":"SC",
+    "INSTNM-2":"University of South Carolina-Columbia",
+    "Degree":"Library and Information Studies",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5047515,38.03891831 ]
+    },
+    "properties": {
+    "INSTNM":"University of Kentucky",
+    "X":-84.5047515,
+    "Y":38.03891831,
+    "CITY":"Lexington",
+    "STATE":"KY",
+    "INSTNM-2":"University of Kentucky",
+    "Degree":"Library and Information Studies",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.14842964,33.2111838 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Texas",
+    "X":-97.14842964,
+    "Y":33.2111838,
+    "CITY":"Denton",
+    "STATE":"TX",
+    "INSTNM-2":"",
+    "Degree":"Library and Information Studies",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.52690918,39.16639043 ]
+    },
+    "properties": {
+    "INSTNM":"Indiana University-Bloomington",
+    "X":-86.52690918,
+    "Y":39.16639043,
+    "CITY":"Bloomington",
+    "STATE":"IN",
+    "INSTNM-2":"Indiana University-Bloomington",
+    "Degree":"Public Affairs",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Public Affairs",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.37404292,33.95626852 ]
+    },
+    "properties": {
+    "INSTNM":"University of Georgia",
+    "X":-83.37404292,
+    "Y":33.95626852,
+    "CITY":"Athens",
+    "STATE":"GA",
+    "INSTNM-2":"University of Georgia",
+    "Degree":"Public Affairs",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Public Affairs",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Public Affairs",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Public Affairs",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Public Affairs",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.073232,33.45343512 ]
+    },
+    "properties": {
+    "INSTNM":"Arizona State University-Downtown Phoenix",
+    "X":-112.073232,
+    "Y":33.45343512,
+    "CITY":"Phoenix",
+    "STATE":"AZ",
+    "INSTNM-2":"Arizona State University-Downtown Phoenix",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0478733,38.89865779 ]
+    },
+    "properties": {
+    "INSTNM":"George Washington University",
+    "X":-77.0478733,
+    "Y":38.89865779,
+    "CITY":"Washington",
+    "STATE":"DC",
+    "INSTNM-2":"George Washington University",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.13697729,43.04018462 ]
+    },
+    "properties": {
+    "INSTNM":"Syracuse University",
+    "X":-76.13697729,
+    "Y":43.04018462,
+    "CITY":"Syracuse",
+    "STATE":"NY",
+    "INSTNM-2":"Syracuse University",
+    "Degree":"Public Affairs",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of Southern California",
+    "Degree":"Public Affairs",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Public Affairs",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Public Affairs",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Public Affairs",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.23535974,44.977894 ]
+    },
+    "properties": {
+    "INSTNM":"University of Minnesota-Twin Cities",
+    "X":-93.23535974,
+    "Y":44.977894,
+    "CITY":"Minneapolis",
+    "STATE":"MN",
+    "INSTNM-2":"University of Minnesota-Twin Cities",
+    "Degree":"Public Affairs",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.09010831,38.93780979 ]
+    },
+    "properties": {
+    "INSTNM":"American University",
+    "X":-77.09010831,
+    "Y":38.93780979,
+    "CITY":"Washington",
+    "STATE":"DC",
+    "INSTNM-2":"American University",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9429173,40.44462397 ]
+    },
+    "properties": {
+    "INSTNM":"Carnegie Mellon University",
+    "X":-79.9429173,
+    "Y":40.44462397,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"Carnegie Mellon University",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0090052,39.99839675 ]
+    },
+    "properties": {
+    "INSTNM":"Ohio State University-Main Campus",
+    "X":-83.0090052,
+    "Y":39.99839675,
+    "CITY":"Columbus",
+    "STATE":"OH",
+    "INSTNM-2":"Ohio State University-Main Campus",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.2475746,38.95855592 ]
+    },
+    "properties": {
+    "INSTNM":"University of Kansas",
+    "X":-95.2475746,
+    "Y":38.95855592,
+    "CITY":"Lawrence",
+    "STATE":"KS",
+    "INSTNM-2":"University of Kansas",
+    "Degree":"Public Affairs",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Biological Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Biological Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Biological Sciences",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Biological Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Biological Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.93762671,36.00114212 ]
+    },
+    "properties": {
+    "INSTNM":"Duke University",
+    "X":-78.93762671,
+    "Y":36.00114212,
+    "CITY":"Durham",
+    "STATE":"NC",
+    "INSTNM-2":"Duke University",
+    "Degree":"Biological Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95491344,40.76293527 ]
+    },
+    "properties": {
+    "INSTNM":"Rockefeller University",
+    "X":-73.95491344,
+    "Y":40.76293527,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Rockefeller University",
+    "Degree":"Biological Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.31061022,38.64793614 ]
+    },
+    "properties": {
+    "INSTNM":"Washington University in St. Louis",
+    "X":-90.31061022,
+    "Y":38.64793614,
+    "CITY":"Saint Louis",
+    "STATE":"MO",
+    "INSTNM-2":"Washington University in St. Louis",
+    "Degree":"Biological Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Biological Sciences",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.7519712,38.53990006 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Davis",
+    "X":-121.7519712,
+    "Y":38.53990006,
+    "CITY":"Davis",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Davis",
+    "Degree":"Biological Sciences",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Biological Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Biological Sciences",
+    "Rank":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62159719,39.32898489 ]
+    },
+    "properties": {
+    "INSTNM":"Johns Hopkins University",
+    "X":-76.62159719,
+    "Y":39.32898489,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Johns Hopkins University",
+    "Degree":"Biological Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4580622,37.76274094 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Francisco",
+    "X":-122.4580622,
+    "Y":37.76274094,
+    "CITY":"San Francisco",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Francisco",
+    "Degree":"Biological Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Biological Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.242234,32.897998 ]
+    },
+    "properties": {
+    "INSTNM":"The Scripps Research Institute",
+    "X":-117.242234,
+    "Y":32.897998,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"The Scripps Research Institute",
+    "Degree":"Biological Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Biological Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.466782,40.857761 ]
+    },
+    "properties": {
+    "INSTNM":"Cold Spring Harbor Laboratory",
+    "X":-73.466782,
+    "Y":40.857761,
+    "CITY":"Cold Spring Harbor",
+    "STATE":"NY",
+    "INSTNM-2":"Cold Spring Harbor Laboratory",
+    "Degree":"Biological Sciences",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"Columbia",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Biological Sciences",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Biological Sciences",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.84116354,32.81231274 ]
+    },
+    "properties": {
+    "INSTNM":"University of Texas Southwestern Medical Center",
+    "X":-96.84116354,
+    "Y":32.81231274,
+    "CITY":"Dallas",
+    "STATE":"TX",
+    "INSTNM-2":"",
+    "Degree":"Biological Sciences",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"",
+    "Degree":"Biological Sciences",
+    "Rank":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Chemistry",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Chemistry",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Chemistry",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.242234,32.897998 ]
+    },
+    "properties": {
+    "INSTNM":"The Scripps Research Institute",
+    "X":-117.242234,
+    "Y":32.897998,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"The Scripps Research Institute",
+    "Degree":"Chemistry",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"Columbia",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Chemistry",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Chemistry",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Chemistry",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Chemistry",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.05097174,35.91177609 ]
+    },
+    "properties": {
+    "INSTNM":"University of North Carolina at Chapel Hill",
+    "X":-79.05097174,
+    "Y":35.91177609,
+    "CITY":"Chapel Hill",
+    "STATE":"NC",
+    "INSTNM-2":"University of North Carolina at Chapel Hill",
+    "Degree":"Chemistry",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Chemistry",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Chemistry",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Chemistry",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.67986378,42.05036388 ]
+    },
+    "properties": {
+    "INSTNM":"Northwestern University",
+    "X":-87.67986378,
+    "Y":42.05036388,
+    "CITY":"Evanston",
+    "STATE":"IL",
+    "INSTNM-2":"Northwestern University",
+    "Degree":"Chemistry",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Chemistry",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Chemistry",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Chemistry",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Chemistry",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Chemistry",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Chemistry",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.39483621,33.77242644 ]
+    },
+    "properties": {
+    "INSTNM":"Georgia Institute of Technology-Main Campus",
+    "X":-84.39483621,
+    "Y":33.77242644,
+    "CITY":"Atlanta",
+    "STATE":"GA",
+    "INSTNM-2":"Georgia Institute of Technology-Main Campus",
+    "Degree":"Chemistry",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.86164668,40.80074013 ]
+    },
+    "properties": {
+    "INSTNM":"Pennsylvania State University-Main Campus",
+    "X":-77.86164668,
+    "Y":40.80074013,
+    "CITY":"University Park",
+    "STATE":"PA",
+    "INSTNM-2":"",
+    "Degree":"Chemistry",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.8412601,33.64843883 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Irvine",
+    "X":-117.8412601,
+    "Y":33.64843883,
+    "CITY":"Irvine",
+    "STATE":"CA",
+    "INSTNM-2":"",
+    "Degree":"Chemistry",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"",
+    "Degree":"Chemistry",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9429173,40.44462397 ]
+    },
+    "properties": {
+    "INSTNM":"Carnegie Mellon University",
+    "X":-79.9429173,
+    "Y":40.44462397,
+    "CITY":"Pittsburgh",
+    "STATE":"PA",
+    "INSTNM-2":"Carnegie Mellon University",
+    "Degree":"Computer Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Computer Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Computer Sciences",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Computer Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Computer Sciences",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Computer Sciences",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"Columbia",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Computer Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Computer Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Computer Sciences",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Computer Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Computer Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Computer Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Computer Sciences",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.39483621,33.77242644 ]
+    },
+    "properties": {
+    "INSTNM":"Georgia Institute of Technology-Main Campus",
+    "X":-84.39483621,
+    "Y":33.77242644,
+    "CITY":"Atlanta",
+    "STATE":"GA",
+    "INSTNM-2":"Georgia Institute of Technology-Main Campus",
+    "Degree":"Computer Sciences",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Computer Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Computer Sciences",
+    "Rank":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Computer Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Computer Sciences",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.94472327,38.98818581 ]
+    },
+    "properties": {
+    "INSTNM":"University of Maryland-College Park",
+    "X":-76.94472327,
+    "Y":38.98818581,
+    "CITY":"College Park",
+    "STATE":"MD",
+    "INSTNM-2":"University of Maryland-College Park",
+    "Degree":"Computer Sciences",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.9144404,40.42821364 ]
+    },
+    "properties": {
+    "INSTNM":"Purdue University-Main Campus",
+    "X":-86.9144404,
+    "Y":40.42821364,
+    "CITY":"West Lafayette",
+    "STATE":"IN",
+    "INSTNM-2":"Purdue University-Main Campus",
+    "Degree":"Computer Sciences",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.40204201,29.71790219 ]
+    },
+    "properties": {
+    "INSTNM":"Rice University",
+    "X":-95.40204201,
+    "Y":29.71790219,
+    "CITY":"Houston",
+    "STATE":"TX",
+    "INSTNM-2":"",
+    "Degree":"Computer Sciences",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.52672907,42.38600763 ]
+    },
+    "properties": {
+    "INSTNM":"University of Massachusetts-Amherst",
+    "X":-72.52672907,
+    "Y":42.38600763,
+    "CITY":"Amherst",
+    "STATE":"MA",
+    "INSTNM-2":"",
+    "Degree":"Computer Sciences",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2841812,34.02128585 ]
+    },
+    "properties": {
+    "INSTNM":"University of Southern California",
+    "X":-118.2841812,
+    "Y":34.02128585,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"",
+    "Degree":"Computer Sciences",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"",
+    "Degree":"Computer Sciences",
+    "Rank":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Earth Sciences",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Earth Sciences",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Earth Sciences",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Earth Sciences",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.9508257,32.232677 ]
+    },
+    "properties": {
+    "INSTNM":"University of Arizona",
+    "X":-110.9508257,
+    "Y":32.232677,
+    "CITY":"Tucson",
+    "STATE":"AZ",
+    "INSTNM-2":"University of Arizona",
+    "Degree":"Earth Sciences",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Earth Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Earth Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.934394,33.41772612 ]
+    },
+    "properties": {
+    "INSTNM":"Arizona State University-Tempe",
+    "X":-111.934394,
+    "Y":33.41772612,
+    "CITY":"Tempe",
+    "STATE":"AZ",
+    "INSTNM-2":"Arizona State University-Tempe",
+    "Degree":"Earth Sciences",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Earth Sciences",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Earth Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Earth Sciences",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Earth Sciences",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.86164668,40.80074013 ]
+    },
+    "properties": {
+    "INSTNM":"Pennsylvania State University-Main Campus",
+    "X":-77.86164668,
+    "Y":40.80074013,
+    "CITY":"University Park",
+    "STATE":"PA",
+    "INSTNM-2":"Pennsylvania State University-Main Campus",
+    "Degree":"Earth Sciences",
+    "Rank":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Earth Sciences",
+    "Rank":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Earth Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3131299,47.65621862 ]
+    },
+    "properties": {
+    "INSTNM":"University of Washington-Seattle Campus",
+    "X":-122.3131299,
+    "Y":47.65621862,
+    "CITY":"Seattle",
+    "STATE":"WA",
+    "INSTNM-2":"University of Washington-Seattle Campus",
+    "Degree":"Earth Sciences",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Earth Sciences",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.40385067,41.82617856 ]
+    },
+    "properties": {
+    "INSTNM":"Brown University",
+    "X":-71.40385067,
+    "Y":41.82617856,
+    "CITY":"Providence",
+    "STATE":"RI",
+    "INSTNM-2":"Brown University",
+    "Degree":"Earth Sciences",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Earth Sciences",
+    "Rank":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.8464385,34.4163018 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Santa Barbara",
+    "X":-119.8464385,
+    "Y":34.4163018,
+    "CITY":"Santa Barbara",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Santa Barbara",
+    "Degree":"Earth Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.0588141,36.9955889 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Santa Cruz",
+    "X":-122.0588141,
+    "Y":36.9955889,
+    "CITY":"Santa Cruz",
+    "STATE":"CA",
+    "INSTNM-2":"",
+    "Degree":"Earth Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"",
+    "Degree":"Earth Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2708332,40.00878744 ]
+    },
+    "properties": {
+    "INSTNM":"University of Colorado Boulder",
+    "X":-105.2708332,
+    "Y":40.00878744,
+    "CITY":"Boulder",
+    "STATE":"CO",
+    "INSTNM-2":"",
+    "Degree":"Earth Sciences",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Mathematics",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Mathematics",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Mathematics",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Mathematics",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Mathematics",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Mathematics",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Mathematics",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Mathematics",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Mathematics",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Mathematics",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Mathematics",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Mathematics",
+    "Rank":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Mathematics",
+    "Rank":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Mathematics",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99726545,40.72946026 ]
+    },
+    "properties": {
+    "INSTNM":"New York University",
+    "X":-73.99726545,
+    "Y":40.72946026,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"New York University",
+    "Degree":"Mathematics",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Mathematics",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.40385067,41.82617856 ]
+    },
+    "properties": {
+    "INSTNM":"Brown University",
+    "X":-71.40385067,
+    "Y":41.82617856,
+    "CITY":"Providence",
+    "STATE":"RI",
+    "INSTNM-2":"Brown University",
+    "Degree":"Mathematics",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.93762671,36.00114212 ]
+    },
+    "properties": {
+    "INSTNM":"Duke University",
+    "X":-78.93762671,
+    "Y":36.00114212,
+    "CITY":"Durham",
+    "STATE":"NC",
+    "INSTNM-2":"Duke University",
+    "Degree":"Mathematics",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"University of Wisconsin-Madison",
+    "Degree":"Mathematics",
+    "Rank":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Mathematics",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.23535974,44.977894 ]
+    },
+    "properties": {
+    "INSTNM":"University of Minnesota-Twin Cities",
+    "X":-93.23535974,
+    "Y":44.977894,
+    "CITY":"Minneapolis",
+    "STATE":"MN",
+    "INSTNM-2":"",
+    "Degree":"Mathematics",
+    "Rank":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0921156,42.36010367 ]
+    },
+    "properties": {
+    "INSTNM":"Massachusetts Institute of Technology",
+    "X":-71.0921156,
+    "Y":42.36010367,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Massachusetts Institute of Technology",
+    "Degree":"Physics",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1257522,34.13927987 ]
+    },
+    "properties": {
+    "INSTNM":"California Institute of Technology",
+    "X":-118.1257522,
+    "Y":34.13927987,
+    "CITY":"Pasadena",
+    "STATE":"CA",
+    "INSTNM-2":"California Institute of Technology",
+    "Degree":"Physics",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.65936664,40.34874016 ]
+    },
+    "properties": {
+    "INSTNM":"Princeton University",
+    "X":-74.65936664,
+    "Y":40.34874016,
+    "CITY":"Princeton",
+    "STATE":"NJ",
+    "INSTNM-2":"Princeton University",
+    "Degree":"Physics",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.48308636,42.44720849 ]
+    },
+    "properties": {
+    "INSTNM":"Cornell University",
+    "X":-76.48308636,
+    "Y":42.44720849,
+    "CITY":"Ithaca",
+    "STATE":"NY",
+    "INSTNM-2":"Cornell University",
+    "Degree":"Physics",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.23031476,40.10887151 ]
+    },
+    "properties": {
+    "INSTNM":"University of Illinois at Urbana-Champaign",
+    "X":-88.23031476,
+    "Y":40.10887151,
+    "CITY":"Champaign",
+    "STATE":"IL",
+    "INSTNM-2":"University of Illinois at Urbana-Champaign",
+    "Degree":"Physics",
+    "Rank":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.8464385,34.4163018 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Santa Barbara",
+    "X":-119.8464385,
+    "Y":34.4163018,
+    "CITY":"Santa Barbara",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Santa Barbara",
+    "Degree":"Physics",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.74277362,42.27592913 ]
+    },
+    "properties": {
+    "INSTNM":"University of Michigan-Ann Arbor",
+    "X":-83.74277362,
+    "Y":42.27592913,
+    "CITY":"Ann Arbor",
+    "STATE":"MI",
+    "INSTNM-2":"University of Michigan-Ann Arbor",
+    "Degree":"Physics",
+    "Rank":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.94472327,38.98818581 ]
+    },
+    "properties": {
+    "INSTNM":"University of Maryland-College Park",
+    "X":-76.94472327,
+    "Y":38.98818581,
+    "CITY":"College Park",
+    "STATE":"MD",
+    "INSTNM-2":"University of Maryland-College Park",
+    "Degree":"Physics",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.62159719,39.32898489 ]
+    },
+    "properties": {
+    "INSTNM":"Johns Hopkins University",
+    "X":-76.62159719,
+    "Y":39.32898489,
+    "CITY":"Baltimore",
+    "STATE":"MD",
+    "INSTNM-2":"Johns Hopkins University",
+    "Degree":"Physics",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2378049,32.87660278 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-San Diego",
+    "X":-117.2378049,
+    "Y":32.87660278,
+    "CITY":"La Jolla",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-San Diego",
+    "Degree":"Physics",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1644471,37.42953693 ]
+    },
+    "properties": {
+    "INSTNM":"Stanford University",
+    "X":-122.1644471,
+    "Y":37.42953693,
+    "CITY":"Stanford",
+    "STATE":"CA",
+    "INSTNM-2":"Stanford University",
+    "Degree":"Physics",
+    "Rank":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.11831361,42.37447967 ]
+    },
+    "properties": {
+    "INSTNM":"Harvard University",
+    "X":-71.11831361,
+    "Y":42.37447967,
+    "CITY":"Cambridge",
+    "STATE":"MA",
+    "INSTNM-2":"Harvard University",
+    "Degree":"Physics",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2604762,37.87192296 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Berkeley",
+    "X":-122.2604762,
+    "Y":37.87192296,
+    "CITY":"Berkeley",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Berkeley",
+    "Degree":"Physics",
+    "Rank":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.60120173,41.78917784 ]
+    },
+    "properties": {
+    "INSTNM":"University of Chicago",
+    "X":-87.60120173,
+    "Y":41.78917784,
+    "CITY":"Chicago",
+    "STATE":"IL",
+    "INSTNM-2":"University of Chicago",
+    "Degree":"Physics",
+    "Rank":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96188644,40.80829428 ]
+    },
+    "properties": {
+    "INSTNM":"Columbia University in the City of New York",
+    "X":-73.96188644,
+    "Y":40.80829428,
+    "CITY":"New York",
+    "STATE":"NY",
+    "INSTNM-2":"Columbia University in the City of New York",
+    "Degree":"Physics",
+    "Rank":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.92668914,41.31116641 ]
+    },
+    "properties": {
+    "INSTNM":"Yale University",
+    "X":-72.92668914,
+    "Y":41.31116641,
+    "CITY":"New Haven",
+    "STATE":"CT",
+    "INSTNM-2":"Yale University",
+    "Degree":"Physics",
+    "Rank":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2708332,40.00878744 ]
+    },
+    "properties": {
+    "INSTNM":"University of Colorado Boulder",
+    "X":-105.2708332,
+    "Y":40.00878744,
+    "CITY":"Boulder",
+    "STATE":"CO",
+    "INSTNM-2":"University of Colorado Boulder",
+    "Degree":"Physics",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19391178,39.95093706 ]
+    },
+    "properties": {
+    "INSTNM":"University of Pennsylvania",
+    "X":-75.19391178,
+    "Y":39.95093706,
+    "CITY":"Philadelphia",
+    "STATE":"PA",
+    "INSTNM-2":"University of Pennsylvania",
+    "Degree":"Physics",
+    "Rank":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4439132,34.06889685 ]
+    },
+    "properties": {
+    "INSTNM":"University of California-Los Angeles",
+    "X":-118.4439132,
+    "Y":34.06889685,
+    "CITY":"Los Angeles",
+    "STATE":"CA",
+    "INSTNM-2":"University of California-Los Angeles",
+    "Degree":"Physics",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.73929863,30.28609522 ]
+    },
+    "properties": {
+    "INSTNM":"The University of Texas at Austin",
+    "X":-97.73929863,
+    "Y":30.28609522,
+    "CITY":"Austin",
+    "STATE":"TX",
+    "INSTNM-2":"The University of Texas at Austin",
+    "Degree":"Physics",
+    "Rank":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4053624,43.07386595 ]
+    },
+    "properties": {
+    "INSTNM":"University of Wisconsin-Madison",
+    "X":-89.4053624,
+    "Y":43.07386595,
+    "CITY":"Madison",
+    "STATE":"WI",
+    "INSTNM-2":"",
+    "Degree":"Physics",
+    "Rank":17
+    }
+  }
+]
+}
