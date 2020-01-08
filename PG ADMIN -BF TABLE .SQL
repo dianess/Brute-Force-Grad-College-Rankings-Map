@@ -116,3 +116,75 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.universityrankdata
     OWNER to postgres;
+    
+    
+--latest gradschools table 1/7/20
+-- Table: public.gradschools
+
+-- DROP TABLE public.gradschools;
+
+CREATE TABLE public.gradschools
+(
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL,
+    "LAT" numeric NOT NULL,
+    "LON" numeric NOT NULL,
+    "X" numeric NOT NULL,
+    "Y" numeric NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.gradschools
+    OWNER to postgres;
+    
+  --uni rank table 1/7/20
+  
+  -- Table: public.unirkt
+
+-- DROP TABLE public.unirkt;
+
+CREATE TABLE public.unirkt
+(
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" numeric NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.unirkt
+    OWNER to postgres;
+-- 1/7/20
+-- Table: public.scirank
+
+-- DROP TABLE public.scirank;
+
+CREATE TABLE public.scirank
+(
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" numeric NOT NULL,
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.scirank
+    OWNER to postgres;
+
+--joins we did to create the CSV's used to convert to geojson
+
+SELECT g."INSTNM", g."X", g."Y", g."CITY", g."STATE", u."INSTNM", u."Degree", u."Rank"
+FROM gradschools as g
+RIGHT JOIN unirkt as u
+ON u."INSTNM" = g."INSTNM";
+
+SELECT g."INSTNM", g."X", g."Y", g."CITY", g."STATE", u."INSTNM", u."Degree", u."Rank"
+FROM gradschools as g
+RIGHT JOIN scirank as u
+ON u."INSTNM" = g."INSTNM";
