@@ -176,3 +176,15 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.scirank
     OWNER to postgres;
+
+--joins we did to create the CSV's used to convert to geojson
+
+SELECT g."INSTNM", g."X", g."Y", g."CITY", g."STATE", u."INSTNM", u."Degree", u."Rank"
+FROM gradschools as g
+RIGHT JOIN unirkt as u
+ON u."INSTNM" = g."INSTNM";
+
+SELECT g."INSTNM", g."X", g."Y", g."CITY", g."STATE", u."INSTNM", u."Degree", u."Rank"
+FROM gradschools as g
+RIGHT JOIN scirank as u
+ON u."INSTNM" = g."INSTNM";
