@@ -138,3 +138,41 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.gradschools
     OWNER to postgres;
+    
+  --uni rank table 1/7/20
+  
+  -- Table: public.unirkt
+
+-- DROP TABLE public.unirkt;
+
+CREATE TABLE public.unirkt
+(
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" numeric NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.unirkt
+    OWNER to postgres;
+-- 1/7/20
+-- Table: public.scirank
+
+-- DROP TABLE public.scirank;
+
+CREATE TABLE public.scirank
+(
+    "INSTNM" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Degree" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Rank" numeric NOT NULL,
+    "CITY" character varying COLLATE pg_catalog."default" NOT NULL,
+    "STATE" character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.scirank
+    OWNER to postgres;
