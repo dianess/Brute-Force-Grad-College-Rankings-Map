@@ -19,7 +19,7 @@ var layers = {
 // // Create the map with starting center point and zoom level
 // to display the majority of the U.S. when landing on page.
 var map = L.map("map-id", {
-  center: [38.8283, -96.5795], // Geographic Center of the U.S.
+  center: [34.8283, -96.5795], // near Geographic Center of the U.S., adjusted slightly for best display
   zoom: 5,
 });
 

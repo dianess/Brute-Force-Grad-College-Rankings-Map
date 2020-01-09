@@ -1,6 +1,6 @@
 // Creating map object
 var myMap = L.map("map", {
-  center: [38.8283, -96.5795],
+  center: [34.8283, -96.5795], // near geographic center of U.S., adjusted for best display
   zoom: 5
 });
 
