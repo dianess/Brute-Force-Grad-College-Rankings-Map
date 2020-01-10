@@ -11,31 +11,14 @@ body {
   background: #f1f1f1;
 }
 
-/* Use this class for graphs, to put them next to each other on large screens */
-.col-md-6 {
-  display: inline-block;
-  padding: 10px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
 /* Main container for the pages */
 .container {
   margin-top: 10px;
 }
 
-.container img {
-    display: inline-block;
-}
-
 /* Give the .dataframe bold titles */
 .dataframe thead th {
   font-weight: bold;
-}
-
-/* For autosizing the graphs as the screen size changes */
-.full-width {
-  width:100%;
-  height:auto;
 }
 
 /* Add font family, size, and weight for the h1 and h2 elements plus space around then */
@@ -80,12 +63,6 @@ h4 {
   margin: 0;
   color: #000;
   text-align: center;
-}
-
-/* Auto sizing the height of images */
-img.resize {
-  width:200px;
-  height:auto;
 }
 
 .landing page {
