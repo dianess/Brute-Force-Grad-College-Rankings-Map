@@ -37,13 +37,13 @@
         </nav>
     <!-- This section contains a summary of the project. -->
     <section>
-        <h2>What Can I Find On This Website?</h2> 
-        <p> Click on the tab "<strong>9 Graduate Programs</strong>" to see a map of the top 20 graduate schools 
+        <h3>What Can I Find On This Website?</h3> 
+        <p> Click on the tab "<strong>9 Graduate Programs</strong>" to see a map of the top-20 graduate schools 
             in each of these 9 categories:
             <b><em>Business, Law, Medicine, Engineering, Nursing, Education, Fine Arts, 
             Library and Information Studies,</em></b> and <b><em>Public Affairs</em></b>.
         </p>    
-        <p> Click on the tab "<strong>6 Science Subcategories</strong>" to see a map of the top 20 graduate schools 
+        <p> Click on the tab "<strong>6 Science Subcategories</strong>" to see a map of the top-20 graduate schools 
             in each of these 6 subcategories of science: <b><em>Biological Sciences, Chemistry, Computer Science, 
             Earth Sciences, Mathematics,</em></b> and <b><em>Physics</em></b>.
         </p> 
@@ -59,6 +59,19 @@
         </p>
         <p> Click on the "<strong>Data</strong>" tab to see the data used for the map pages.
         </p>
+        <p> Alternatively, you can type your interest below, and click the link that appears, which will take you
+            directly to the page.
+        </p>
+        <div class="questionBlock">
+            <h4>According to your interest, type in: "science", "non-science", "all degrees" or "data", click "Submit"
+                 and then press on the "Click here" link that appears:</h4>
+                <form id="my-form">
+                    <p><input id="my-input" type="text"></p>
+                    <p><input type="submit"></p>
+                    <p id="target"></p>
+                </form>
+        </div>
+
         <p> <strong>Data Sources:</strong> 
         </p> 
         <p> U.S. News and World Report: https://www.usnews.com/best-graduate-schools/search
@@ -70,6 +83,8 @@
     </section>  <!-- ending of section that starts before "Project Summary" -->
 
     </div> <!-- Closes the container div at top, just below the body. -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="script.js"></script>
 </body> <!-- ending of the body -->
 
 </html>

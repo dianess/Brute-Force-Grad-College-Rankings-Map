@@ -1,4 +1,4 @@
-﻿INSTNM,CITY,STATE,Degree,Rank,LAT,LON
+﻿Institution Name,City,State,Degree,Rank,Latitude,Longitude
 Yale University,New Haven,CT,Law,1,41.31116641,-72.92668914
 Stanford University,Stanford,CA,Law,2,37.42953693,-122.1644471
 Harvard University,Cambridge,MA,Law,3,42.37447967,-71.11831361
@@ -121,21 +121,21 @@ University of California-San Francisco,San Francisco,CA,Nursing,18,37.76274094,-
 University of California-Los Angeles,Los Angeles,CA,Nursing,20,34.06889685,-118.4439132
 Yale University,New Haven,CT,Fine Arts,1,41.31116641,-72.92668914
 Virginia Commonwealth University,Richmond,VA,Fine Arts,2,37.54763849,-77.45359934
+University of California-Los Angeles,Los Angeles,CA,Fine Arts,2,34.06889685,-118.4439132
 School of the Art Institute of Chicago,Chicago,IL,Fine Arts,4,41.87965385,-87.62141675
+Rhode Island School of Design,Providence,RI,Fine Arts,4,41.82594356,-71.40769267
 Columbia University in the City of New York,New York,NY,Fine Arts,6,40.80829428,-73.96188644
+Carnegie Mellon University,Pittsburgh,PA,Fine Arts,6,40.44462397,-79.9429173
+Cranbrook Academy of Art,Bloomfield Hills,MI,Fine Arts,6,42.56872421,-83.2512445
 Alfred University,Alfred,NY,Fine Arts,9,42.2544844,-77.78810876
 Maryland Institute College of Art,Baltimore,MD,Fine Arts,9,39.30879988,-76.62103519
+California Institute of the Arts,Valencia,CA,Fine Arts,9,34.39334187,-118.5673153
+Washington University in St Louis,Saint Louis,MO,Fine Arts,12,38.64793614,-90.31061022
 Bard College,Annandale-On-Hudson,NY,Fine Arts,13,42.02039451,-73.9099285
+University of California-San Diego,La Jolla,CA,Fine Arts,13,32.87660278,-117.2378049
 California College of the Arts,San Francisco,CA,Fine Arts,15,37.76748994,-122.3994642
 Stanford University,Stanford,CA,Fine Arts,15,37.42953693,-122.1644471
 University of Wisconsin-Madison,Madison,WI,Fine Arts,15,43.07386595,-89.4053624
-University of California-Los Angeles,Los Angeles,CA,Fine Arts,2,34.06889685,-118.4439132
-Rhode Island School of Design,Providence,RI,Fine Arts,4,41.82594356,-71.40769267
-Carnegie Mellon University,Pittsburgh,PA,Fine Arts,6,40.44462397,-79.9429173
-Cranbrook Academy of Art,Bloomfield Hills,MI,Fine Arts,6,42.56872421,-83.2512445
-California Institute of the Arts,Valencia,CA,Fine Arts,9,34.39334187,-118.5673153
-Washington University in St Louis,Saint Louis,MO,Fine Arts,12,38.64793614,-90.31061022
-University of California-San Diego,La Jolla,CA,Fine Arts,13,32.87660278,-117.2378049
 Pratt Institute-Main,Brooklyn,NY,Fine Arts,15,40.69116225,-73.96215043
 Temple University,Philadelphia,PA,Fine Arts,15,39.98095107,-75.15826877
 Arizona State University-Tempe,Tempe,AZ,Fine Arts,20,33.41772612,-111.934394
@@ -146,64 +146,64 @@ School of Visual Arts,New York,NY,Fine Arts,20,40.73875026,-73.98224144
 University of Michigan-Ann Arbor,Ann Arbor,MI,Fine Arts,20,42.27592913,-83.74277362
 University of Washington-Seattle Campus,Seattle,WA,Fine Arts,20,47.65621862,-122.3131299
 University of Illinois at Urbana-Champaign,Champaign,IL,Library and Information Studies,1,40.10887151,-88.23031476
+University of Washington-Seattle Campus,Seattle,WA,Library and Information Studies,2,47.65621862,-122.3131299
 University of North Carolina at Chapel Hill,Chapel Hill,NC,Library and Information Studies,3,35.91177609,-79.05097174
+Syracuse University,Syracuse,NY,Library and Information Studies,4,43.04018462,-76.13697729
 University of Michigan-Ann Arbor,Ann Arbor,MI,Library and Information Studies,5,42.27592913,-83.74277362
+The University of Texas at Austin,Austin,TX,Library and Information Studies,5,30.28609522,-97.73929863
 Rutgers University-New Brunswick,New Brunswick,NJ,Library and Information Studies,7,40.4987772,-74.44625258
+University of Maryland-College Park,College Park,MD,Library and Information Studies,8,38.98818581,-76.94472327
 Indiana University-Bloomington,Bloomington,IN,Library and Information Studies,9,39.16639043,-86.52690918
+University of Pittsburgh-Pittsburgh Campus,Pittsburgh,PA,Library and Information Studies,10,40.44450997,-79.9546953
 Drexel University,Philadelphia,PA,Library and Information Studies,11,39.95486307,-75.18874678
 Simmons College,Boston,MA,Library and Information Studies,12,42.33930867,-71.0999676
-University of Wisconsin-Madison,Madison,WI,Library and Information Studies,14,43.07386595,-89.4053624
-The University of Tennessee-Knoxville,Knoxville,TN,Library and Information Studies,17,35.95208891,-83.92585619
-Kent State University at Kent,Kent,OH,Library and Information Studies,19,41.14666104,-81.34253679
-University of Washington-Seattle Campus,Seattle,WA,Library and Information Studies,2,47.65621862,-122.3131299
-Syracuse University,Syracuse,NY,Library and Information Studies,4,43.04018462,-76.13697729
-The University of Texas at Austin,Austin,TX,Library and Information Studies,5,30.28609522,-97.73929863
-University of Maryland-College Park,College Park,MD,Library and Information Studies,8,38.98818581,-76.94472327
-University of Pittsburgh-Pittsburgh Campus,Pittsburgh,PA,Library and Information Studies,10,40.44450997,-79.9546953
 Florida State University,Tallahassee,FL,Library and Information Studies,12,30.44076171,-84.29192502
+University of Wisconsin-Madison,Madison,WI,Library and Information Studies,14,43.07386595,-89.4053624
 University of California-Los Angeles,Los Angeles,CA,Library and Information Studies,14,34.06889685,-118.4439132
 University of Wisconsin-Milwaukee,Milwaukee,WI,Library and Information Studies,14,43.07685604,-87.88049395
+The University of Tennessee-Knoxville,Knoxville,TN,Library and Information Studies,17,35.95208891,-83.92585619
 University of South Carolina-Columbia,Columbia,SC,Library and Information Studies,18,33.99679461,-81.02693823
+Kent State University at Kent,Kent,OH,Library and Information Studies,19,41.14666104,-81.34253679
 University of Kentucky,Lexington,KY,Library and Information Studies,20,38.03891831,-84.5047515
 University of North Texas,Denton,TX,Library and Information Studies,20,33.2111838,-97.14842964
 Indiana University-Bloomington,Bloomington,IN,Public Affairs,1,39.16639043,-86.52690918
+Syracuse University,Syracuse,NY,Public Affairs,1,43.04018462,-76.13697729
 Harvard University,Cambridge,MA,Public Affairs,3,42.37447967,-71.11831361
+University of Southern California,Los Angeles,CA,Public Affairs,3,34.02128585,-118.2841812
 University of Georgia,Athens,GA,Public Affairs,5,33.95626852,-83.37404292
+University of Washington-Seattle Campus,Seattle,WA,Public Affairs,5,47.65621862,-122.3131299
 New York University,New York,NY,Public Affairs,7,40.72946026,-73.99726545
 University of Michigan-Ann Arbor,Ann Arbor,MI,Public Affairs,7,42.27592913,-83.74277362
+University of California-Berkeley,Berkeley,CA,Public Affairs,7,37.87192296,-122.2604762
 University of Chicago,Chicago,IL,Public Affairs,10,41.78917784,-87.60120173
 The University of Texas at Austin,Austin,TX,Public Affairs,10,30.28609522,-97.73929863
+Princeton University,Princeton,NJ,Public Affairs,10,40.34874016,-74.65936664
+University of Minnesota-Twin Cities,Minneapolis,MN,Public Affairs,10,44.977894,-93.23535974
 Arizona State University-Downtown Phoenix,Phoenix,AZ,Public Affairs,14,33.45343512,-112.073232
 George Washington University,Washington,DC,Public Affairs,14,38.89865779,-77.0478733
 University of California-Los Angeles,Los Angeles,CA,Public Affairs,14,34.06889685,-118.4439132
-Syracuse University,Syracuse,NY,Public Affairs,1,43.04018462,-76.13697729
-University of Southern California,Los Angeles,CA,Public Affairs,3,34.02128585,-118.2841812
-University of Washington-Seattle Campus,Seattle,WA,Public Affairs,5,47.65621862,-122.3131299
-University of California-Berkeley,Berkeley,CA,Public Affairs,7,37.87192296,-122.2604762
-Princeton University,Princeton,NJ,Public Affairs,10,40.34874016,-74.65936664
-University of Minnesota-Twin Cities,Minneapolis,MN,Public Affairs,10,44.977894,-93.23535974
 American University,Washington,DC,Public Affairs,14,38.93780979,-77.09010831
 Carnegie Mellon University,Pittsburgh,PA,Public Affairs,14,40.44462397,-79.9429173
 Ohio State University-Main Campus,Columbus,OH,Public Affairs,14,39.99839675,-83.0090052
 University of Kansas,Lawrence,KS,Public Affairs,14,38.95855592,-95.2475746
 Massachusetts Institute of Technology,Cambridge,MA,Biological Sciences,1,42.36010367,-71.0921156
 University of California-Berkeley,Berkeley,CA,Biological Sciences,1,37.87192296,-122.2604762
+Stanford University,Stanford,CA,Biological Sciences,1,37.42953693,-122.1644471
 Harvard University,Cambridge,MA,Biological Sciences,4,42.37447967,-71.11831361
+California Institute of Technology,Pasadena,CA,Biological Sciences,4,34.13927987,-118.1257522
 Princeton University,Princeton,NJ,Biological Sciences,6,40.34874016,-74.65936664
 Yale University,New Haven,CT,Biological Sciences,6,41.31116641,-72.92668914
-Duke University,Durham,NC,Biological Sciences,10,36.00114212,-78.93762671
-Rockefeller University,New York,NY,Biological Sciences,13,40.76293527,-73.95491344
-Washington University in St. Louis,Saint Louis,MO,Biological Sciences,13,38.64793614,-90.31061022
-University of California-San Diego,La Jolla,CA,Biological Sciences,16,32.87660278,-117.2378049
-University of California-Davis,Davis,CA,Biological Sciences,18,38.53990006,-121.7519712
-Stanford University,Stanford,CA,Biological Sciences,1,37.42953693,-122.1644471
-California Institute of Technology,Pasadena,CA,Biological Sciences,4,34.13927987,-118.1257522
 Johns Hopkins University,Baltimore,MD,Biological Sciences,6,39.32898489,-76.62159719
 University of California-San Francisco,San Francisco,CA,Biological Sciences,6,37.76274094,-122.4580622
+Duke University,Durham,NC,Biological Sciences,10,36.00114212,-78.93762671
 Cornell University,Ithaca,NY,Biological Sciences,10,42.44720849,-76.48308636
 The Scripps Research Institute,La Jolla,CA,Biological Sciences,10,32.897998,-117.242234
+Rockefeller University,New York,NY,Biological Sciences,13,40.76293527,-73.95491344
+Washington University in St. Louis,Saint Louis,MO,Biological Sciences,13,38.64793614,-90.31061022
 University of Chicago,Chicago,IL,Biological Sciences,13,41.78917784,-87.60120173
+University of California-San Diego,La Jolla,CA,Biological Sciences,16,32.87660278,-117.2378049
 Cold Spring Harbor Laboratory,Cold Spring Harbor,NY,Biological Sciences,16,40.857761,-73.466782
+University of California-Davis,Davis,CA,Biological Sciences,18,38.53990006,-121.7519712
 Columbia University in the City of New York,Columbia,NY,Biological Sciences,18,40.80829428,-73.96188644
 University of California-Los Angeles,Los Angeles,CA,Biological Sciences,18,34.06889685,-118.4439132
 University of Texas Southwestern Medical Center,Dallas,TX,Biological Sciences,18,32.81231274,-96.84116354
@@ -211,45 +211,45 @@ University of Wisconsin-Madison,Madison,WI,Biological Sciences,18,43.07386595,-8
 California Institute of Technology,Pasadena,CA,Chemistry,1,34.13927987,-118.1257522
 Massachusetts Institute of Technology,Cambridge,MA,Chemistry,2,42.36010367,-71.0921156
 University of California-Berkeley,Berkeley,CA,Chemistry,2,37.87192296,-122.2604762
+Harvard University,Cambridge,MA,Chemistry,2,42.37447967,-71.11831361
+Stanford University,Stanford,CA,Chemistry,2,37.42953693,-122.1644471
 The Scripps Research Institute,La Jolla,CA,Chemistry,6,32.897998,-117.242234
+Northwestern University,Evanston,IL,Chemistry,6,42.05036388,-87.67986378
+University of Illinois at Urbana-Champaign,Champaign,IL,Chemistry,6,40.10887151,-88.23031476
 Columbia University in the City of New York,Columbia,NY,Chemistry,9,40.80829428,-73.96188644
 Princeton University,Princeton,NJ,Chemistry,9,40.34874016,-74.65936664
 Yale University,New Haven,CT,Chemistry,9,41.31116641,-72.92668914
-University of California-Los Angeles,Los Angeles,CA,Chemistry,15,34.06889685,-118.4439132
-University of North Carolina at Chapel Hill,Chapel Hill,NC,Chemistry,15,35.91177609,-79.05097174
-University of Pennsylvania,Philadelphia,PA,Chemistry,19,39.95093706,-75.19391178
-Harvard University,Cambridge,MA,Chemistry,2,42.37447967,-71.11831361
-Stanford University,Stanford,CA,Chemistry,2,37.42953693,-122.1644471
-Northwestern University,Evanston,IL,Chemistry,6,42.05036388,-87.67986378
-University of Illinois at Urbana-Champaign,Champaign,IL,Chemistry,6,40.10887151,-88.23031476
 Cornell University,Ithaca,NY,Chemistry,9,42.44720849,-76.48308636
 University of Wisconsin-Madison,Madison,WI,Chemistry,9,43.07386595,-89.4053624
 University of Chicago,Chicago,IL,Chemistry,14,41.78917784,-87.60120173
+University of California-Los Angeles,Los Angeles,CA,Chemistry,15,34.06889685,-118.4439132
+University of North Carolina at Chapel Hill,Chapel Hill,NC,Chemistry,15,35.91177609,-79.05097174
 University of Michigan-Ann Arbor,Ann Arbor,MI,Chemistry,15,42.27592913,-83.74277362
 The University of Texas at Austin,Austin,TX,Chemistry,15,30.28609522,-97.73929863
+University of Pennsylvania,Philadelphia,PA,Chemistry,19,39.95093706,-75.19391178
 Georgia Institute of Technology-Main Campus,Atlanta,GA,Chemistry,20,33.77242644,-84.39483621
 Pennsylvania State University-Main Campus,University Park,PA,Chemistry,20,40.80074013,-77.86164668
 University of California-Irvine,Irvine,CA,Chemistry,20,33.64843883,-117.8412601
 University of California-San Diego,La Jolla,CA,Chemistry,20,32.87660278,-117.2378049
 Carnegie Mellon University,Pittsburgh,PA,Computer Sciences,1,40.44462397,-79.9429173
 Stanford University,Stanford,CA,Computer Sciences,1,37.42953693,-122.1644471
-University of Illinois at Urbana-Champaign,Champaign,IL,Computer Sciences,5,40.10887151,-88.23031476
-University of Washington-Seattle Campus,Seattle,WA,Computer Sciences,6,47.65621862,-122.3131299
-Princeton University,Princeton,NJ,Computer Sciences,8,40.34874016,-74.65936664
-California Institute of Technology,Pasadena,CA,Computer Sciences,11,34.13927987,-118.1257522
-Columbia University in the City of New York,Columbia,NY,Computer Sciences,13,40.80829428,-73.96188644
-University of Wisconsin-Madison,Madison,WI,Computer Sciences,13,43.07386595,-89.4053624
-University of California-San Diego,La Jolla,CA,Computer Sciences,16,32.87660278,-117.2378049
-University of Pennsylvania,Philadelphia,PA,Computer Sciences,19,39.95093706,-75.19391178
 Massachusetts Institute of Technology,Cambridge,MA,Computer Sciences,1,42.36010367,-71.0921156
 University of California-Berkeley,Berkeley,CA,Computer Sciences,1,37.87192296,-122.2604762
+University of Illinois at Urbana-Champaign,Champaign,IL,Computer Sciences,5,40.10887151,-88.23031476
+University of Washington-Seattle Campus,Seattle,WA,Computer Sciences,6,47.65621862,-122.3131299
 Cornell University,Ithaca,NY,Computer Sciences,6,42.44720849,-76.48308636
+Princeton University,Princeton,NJ,Computer Sciences,8,40.34874016,-74.65936664
 Georgia Institute of Technology-Main Campus,Atlanta,GA,Computer Sciences,8,33.77242644,-84.39483621
 The University of Texas at Austin,Austin,TX,Computer Sciences,10,30.28609522,-97.73929863
+California Institute of Technology,Pasadena,CA,Computer Sciences,11,34.13927987,-118.1257522
 University of Michigan-Ann Arbor,Ann Arbor,MI,Computer Sciences,11,42.27592913,-83.74277362
+Columbia University in the City of New York,Columbia,NY,Computer Sciences,13,40.80829428,-73.96188644
+University of Wisconsin-Madison,Madison,WI,Computer Sciences,13,43.07386595,-89.4053624
 University of California-Los Angeles,Los Angeles,CA,Computer Sciences,13,34.06889685,-118.4439132
+University of California-San Diego,La Jolla,CA,Computer Sciences,16,32.87660278,-117.2378049
 Harvard University,Cambridge,MA,Computer Sciences,16,42.37447967,-71.11831361
 University of Maryland-College Park,College Park,MD,Computer Sciences,16,38.98818581,-76.94472327
+University of Pennsylvania,Philadelphia,PA,Computer Sciences,19,39.95093706,-75.19391178
 Purdue University-Main Campus,West Lafayette,IN,Computer Sciences,20,40.42821364,-86.9144404
 Rice University,Houston,TX,Computer Sciences,20,29.71790219,-95.40204201
 University of Massachusetts-Amherst,Amherst,MA,Computer Sciences,20,42.38600763,-72.52672907
@@ -257,23 +257,23 @@ University of Southern California,Los Angeles,CA,Computer Sciences,20,34.0212858
 Yale University,New Haven,CT,Computer Sciences,20,41.31116641,-72.92668914
 California Institute of Technology,Pasadena,CA,Earth Sciences,1,34.13927987,-118.1257522
 Stanford University,Stanford,CA,Earth Sciences,2,37.42953693,-122.1644471
-Columbia University in the City of New York,New York,NY,Earth Sciences,5,40.80829428,-73.96188644
-The University of Texas at Austin,Austin,TX,Earth Sciences,7,30.28609522,-97.73929863
-University of Arizona,Tucson,AZ,Earth Sciences,8,32.232677,-110.9508257
-University of Michigan-Ann Arbor,Ann Arbor,MI,Earth Sciences,10,42.27592913,-83.74277362
-University of California-Los Angeles,Los Angeles,CA,Earth Sciences,13,34.06889685,-118.4439132
-Arizona State University-Tempe,Tempe,AZ,Earth Sciences,15,33.41772612,-111.934394
-University of California-San Diego,La Jolla,CA,Earth Sciences,15,32.87660278,-117.2378049
-Cornell University,Ithaca,NY,Earth Sciences,19,42.44720849,-76.48308636
 Massachusetts Institute of Technology,Cambridge,MA,Earth Sciences,2,42.36010367,-71.0921156
 University of California-Berkeley,Berkeley,CA,Earth Sciences,2,37.87192296,-122.2604762
+Columbia University in the City of New York,New York,NY,Earth Sciences,5,40.80829428,-73.96188644
 Pennsylvania State University-Main Campus,University Park,PA,Earth Sciences,5,40.80074013,-77.86164668
+The University of Texas at Austin,Austin,TX,Earth Sciences,7,30.28609522,-97.73929863
+University of Arizona,Tucson,AZ,Earth Sciences,8,32.232677,-110.9508257
 Harvard University,Cambridge,MA,Earth Sciences,8,42.37447967,-71.11831361
+University of Michigan-Ann Arbor,Ann Arbor,MI,Earth Sciences,10,42.27592913,-83.74277362
 Princeton University,Princeton,NJ,Earth Sciences,10,40.34874016,-74.65936664
 University of Washington-Seattle Campus,Seattle,WA,Earth Sciences,10,47.65621862,-122.3131299
+University of California-Los Angeles,Los Angeles,CA,Earth Sciences,13,34.06889685,-118.4439132
 Yale University,New Haven,CT,Earth Sciences,13,41.31116641,-72.92668914
+Arizona State University-Tempe,Tempe,AZ,Earth Sciences,15,33.41772612,-111.934394
+University of California-San Diego,La Jolla,CA,Earth Sciences,15,32.87660278,-117.2378049
 Brown University,Providence,RI,Earth Sciences,15,41.82617856,-71.40385067
 University of Wisconsin-Madison,Madison,WI,Earth Sciences,15,43.07386595,-89.4053624
+Cornell University,Ithaca,NY,Earth Sciences,19,42.44720849,-76.48308636
 University of California-Santa Barbara,Santa Barbara,CA,Earth Sciences,19,34.4163018,-119.8464385
 University of California-Santa Cruz,Santa Cruz,CA,Earth Sciences,19,36.9955889,-122.0588141
 University of Chicago,Chicago,IL,Earth Sciences,19,41.78917784,-87.60120173
@@ -281,42 +281,42 @@ University of Colorado Boulder,Boulder,CO,Earth Sciences,19,40.00878744,-105.270
 Princeton University,Princeton,NJ,Mathematics,1,40.34874016,-74.65936664
 Massachusetts Institute of Technology,Cambridge,MA,Mathematics,2,42.36010367,-71.0921156
 University of California-Berkeley,Berkeley,CA,Mathematics,2,37.87192296,-122.2604762
-Columbia University in the City of New York,New York,NY,Mathematics,7,40.80829428,-73.96188644
-California Institute of Technology,Pasadena,CA,Mathematics,9,34.13927987,-118.1257522
-Yale University,New Haven,CT,Mathematics,9,41.31116641,-72.92668914
-Cornell University,Ithaca,NY,Mathematics,13,42.44720849,-76.48308636
-The University of Texas at Austin,Austin,TX,Mathematics,14,30.28609522,-97.73929863
-University of Pennsylvania,Philadelphia,PA,Mathematics,16,39.95093706,-75.19391178
-University of California-San Diego,La Jolla,CA,Mathematics,19,32.87660278,-117.2378049
 Harvard University,Cambridge,MA,Mathematics,2,42.37447967,-71.11831361
 Stanford University,Stanford,CA,Mathematics,2,37.42953693,-122.1644471
 University of Chicago,Chicago,IL,Mathematics,6,41.78917784,-87.60120173
+Columbia University in the City of New York,New York,NY,Mathematics,7,40.80829428,-73.96188644
 University of California-Los Angeles,Los Angeles,CA,Mathematics,7,34.06889685,-118.4439132
+California Institute of Technology,Pasadena,CA,Mathematics,9,34.13927987,-118.1257522
+Yale University,New Haven,CT,Mathematics,9,41.31116641,-72.92668914
 New York University,New York,NY,Mathematics,9,40.72946026,-73.99726545
 University of Michigan-Ann Arbor,Ann Arbor,MI,Mathematics,12,42.27592913,-83.74277362
+Cornell University,Ithaca,NY,Mathematics,13,42.44720849,-76.48308636
+The University of Texas at Austin,Austin,TX,Mathematics,14,30.28609522,-97.73929863
 Brown University,Providence,RI,Mathematics,14,41.82617856,-71.40385067
+University of Pennsylvania,Philadelphia,PA,Mathematics,16,39.95093706,-75.19391178
 Duke University,Durham,NC,Mathematics,16,36.00114212,-78.93762671
 University of Wisconsin-Madison,Madison,WI,Mathematics,16,43.07386595,-89.4053624
+University of California-San Diego,La Jolla,CA,Mathematics,19,32.87660278,-117.2378049
 University of Illinois at Urbana-Champaign,Champaign,IL,Mathematics,19,40.10887151,-88.23031476
 University of Minnesota-Twin Cities,Minneapolis,MN,Mathematics,19,44.977894,-93.23535974
 Massachusetts Institute of Technology,Cambridge,MA,Physics,1,42.36010367,-71.0921156
+Stanford University,Stanford,CA,Physics,1,37.42953693,-122.1644471
 California Institute of Technology,Pasadena,CA,Physics,3,34.13927987,-118.1257522
 Princeton University,Princeton,NJ,Physics,3,40.34874016,-74.65936664
-Cornell University,Ithaca,NY,Physics,7,42.44720849,-76.48308636
-University of Illinois at Urbana-Champaign,Champaign,IL,Physics,9,40.10887151,-88.23031476
-University of California-Santa Barbara,Santa Barbara,CA,Physics,10,34.4163018,-119.8464385
-University of Michigan-Ann Arbor,Ann Arbor,MI,Physics,13,42.27592913,-83.74277362
-University of Maryland-College Park,College Park,MD,Physics,14,38.98818581,-76.94472327
-Johns Hopkins University,Baltimore,MD,Physics,17,39.32898489,-76.62159719
-University of California-San Diego,La Jolla,CA,Physics,17,32.87660278,-117.2378049
-Stanford University,Stanford,CA,Physics,1,37.42953693,-122.1644471
 Harvard University,Cambridge,MA,Physics,3,42.37447967,-71.11831361
 University of California-Berkeley,Berkeley,CA,Physics,3,37.87192296,-122.2604762
+Cornell University,Ithaca,NY,Physics,7,42.44720849,-76.48308636
 University of Chicago,Chicago,IL,Physics,7,41.78917784,-87.60120173
+University of Illinois at Urbana-Champaign,Champaign,IL,Physics,9,40.10887151,-88.23031476
+University of California-Santa Barbara,Santa Barbara,CA,Physics,10,34.4163018,-119.8464385
 Columbia University in the City of New York,New York,NY,Physics,10,40.80829428,-73.96188644
 Yale University,New Haven,CT,Physics,12,41.31116641,-72.92668914
+University of Michigan-Ann Arbor,Ann Arbor,MI,Physics,13,42.27592913,-83.74277362
+University of Maryland-College Park,College Park,MD,Physics,14,38.98818581,-76.94472327
 University of Colorado Boulder,Boulder,CO,Physics,14,40.00878744,-105.2708332
 University of Pennsylvania,Philadelphia,PA,Physics,14,39.95093706,-75.19391178
+Johns Hopkins University,Baltimore,MD,Physics,17,39.32898489,-76.62159719
+University of California-San Diego,La Jolla,CA,Physics,17,32.87660278,-117.2378049
 University of California-Los Angeles,Los Angeles,CA,Physics,17,34.06889685,-118.4439132
 The University of Texas at Austin,Austin,TX,Physics,17,30.28609522,-97.73929863
 University of Wisconsin-Madison,Madison,WI,Physics,17,43.07386595,-89.4053624

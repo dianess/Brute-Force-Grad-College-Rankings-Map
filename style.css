@@ -53,6 +53,20 @@ h2 {
   padding: 10px;
 }
 
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
 /* Style the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
